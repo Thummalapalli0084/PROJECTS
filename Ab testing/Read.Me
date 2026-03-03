@@ -1,0 +1,192 @@
+# A/B Testing & Conversion Funnel Analysis
+### E-Commerce Checkout UI Experiment
+
+
+## 📌 Project Overview
+
+This project simulates a real-world **A/B test** on an e-commerce platform to evaluate whether a **new checkout UI** improves user conversion rates. Built entirely in Python, the analysis covers:
+
+- Simulating a **5,200-user** experiment dataset from scratch using `NumPy`
+- Running a **two-proportion z-test** using `SciPy` for statistical significance
+- Building a **4-stage conversion funnel** → Visit → Add to Cart → Checkout → Purchase
+- Performing **cohort analysis** by user acquisition week
+- Generating **4 stakeholder-ready visualizations** using `Matplotlib` and `Seaborn`
+
+---
+
+## ❓ Business Problem
+
+> *"Does the new checkout UI lead to more purchases — or is the difference just luck?"*
+
+| Group | Experience |
+|---|---|
+| **Control (A)** | Existing checkout UI |
+| **Treatment (B)** | New checkout UI |
+
+---
+
+## 🔬 Hypothesis
+
+| | Statement |
+|---|---|
+| **H₀ (Null)** | New UI has NO effect on conversion rate |
+| **H₁ (Alternative)** | New UI INCREASES conversion rate |
+| **Significance Level** | α = 0.05 |
+
+---
+
+## 📁 Project Structure
+```
+ab-testing-conversion-analysis/
+│
+├── ab_testing_project.py            # Full Python script
+├── AB_Testing_Funnel_Analysis.ipynb # Jupyter Notebook (step-by-step)
+├── ab_test_data.csv                 # Auto-generated dataset (5,200 users)
+├── ab_testing_analysis.png          # Output — 4 visualization charts
+└── README.md
+```
+
+---
+
+## 🗂️ Dataset
+
+Auto-generated using `NumPy` with `seed=42` for reproducibility. No external download needed.
+
+| Column | Description |
+|---|---|
+| `user_id` | Unique ID (1–5200) |
+| `group` | Control or Treatment (50/50 split) |
+| `acquisition_week` | Week user joined (Week 1–6) |
+| `visited` | Always 1 — all users visited |
+| `add_to_cart` | 1 if added to cart, else 0 |
+| `checkout` | 1 if reached checkout, else 0 |
+| `purchased` | 1 if completed purchase, else 0 |
+
+**Simulation probabilities:**
+
+| Stage | Control | Treatment |
+|---|---|---|
+| Add to Cart | 60% | 65% |
+| Checkout (if cart) | 50% | 50% |
+| Purchase (if checkout) | 55% | 62% |
+
+---
+
+## 🔢 Code Walkthrough
+
+### Step 1 — Import Libraries
+`pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy.stats`
+
+### Step 2 — Generate Dataset
+5,200 users simulated using `np.random.binomial()` with group assignment and acquisition week
+
+### Step 3 — EDA
+Group distribution, users per week, null check, overall conversion summary
+
+### Step 4 — Hypothesis Testing
+```python
+p_pool  = (conv_control + conv_treatment) / (n_control + n_treatment)
+se      = np.sqrt(p_pool * (1 - p_pool) * (1/n_control + 1/n_treatment))
+z_stat  = (rate_treatment - rate_control) / se
+p_value = 2 * (1 - stats.norm.cdf(abs(z_stat)))
+lift    = ((rate_treatment - rate_control) / rate_control) * 100
+```
+
+### Step 5 — Funnel Analysis
+Conversion % at each stage + drop-off rates between stages
+
+### Step 6 — Cohort Analysis
+`groupby('acquisition_week').agg()` to get conversion rate per cohort
+
+### Step 7 — Visualizations
+2×2 chart grid: bar chart, grouped bar, line chart, horizontal bar
+
+### Step 8 — Insights
+5 business recommendations from the analysis
+
+---
+
+## 📊 Results
+
+| Metric | Value |
+|---|---|
+| Control Conversion Rate | 16.17% |
+| Treatment Conversion Rate | 19.90% |
+| **Lift** | **+23.1%** |
+| Z-Statistic | 3.5002 |
+| P-Value | 0.0005 |
+| **Decision** | ✅ Reject H₀ — Statistically Significant |
+
+### Funnel
+| Stage | Control | Treatment |
+|---|---|---|
+| Visited | 100.0% | 100.0% |
+| Add to Cart | 58.6% | 63.7% |
+| Checkout | 29.8% | 31.8% |
+| **Purchased** | **16.2%** | **19.9%** |
+
+**Biggest drop-off:** Visited → Add to Cart **(−41.4%)**
+
+### Cohorts
+| Week | Users | Converted | Rate |
+|---|---|---|---|
+| Week 1 | 1,071 | 204 | 19.0% |
+| Week 2 | 928 | 159 | 17.1% |
+| Week 3 | 861 | 162 | 18.8% |
+| Week 4 | 906 | 157 | 17.3% |
+| Week 5 | 770 | 135 | 17.5% |
+| Week 6 | 664 | 118 | 17.8% |
+
+---
+
+## 📈 Visualizations
+
+![A/B Testing Analysis](ab_testing_analysis.png)
+
+---
+
+## 💡 Key Insights
+
+1. **Deploy the new UI** — +23.1% lift is statistically proven (p = 0.0005)
+2. **Fix Add-to-Cart drop** — 40% leave before adding; improve product CTAs
+3. **Re-engage later cohorts** — Week 4–6 users convert slightly less
+4. **Monitor post-launch** — Track cohorts after full rollout
+5. **Next experiment** — A/B test the product listing page
+
+---
+
+## ▶️ How to Run
+```bash
+# Clone
+git clone https://github.com/YOUR_USERNAME/ab-testing-conversion-analysis.git
+cd ab-testing-conversion-analysis
+
+# Install
+pip install pandas numpy scipy matplotlib seaborn
+
+# Run
+python ab_testing_project.py
+
+# Or notebook
+jupyter notebook AB_Testing_Funnel_Analysis.ipynb
+```
+
+> ⚠️ Dataset is auto-generated on run — no external file needed.
+
+---
+
+## 🛠️ Tech Stack
+
+| Library | Usage |
+|---|---|
+| Pandas | Data manipulation, groupby, aggregation |
+| NumPy | Random simulation, array operations |
+| SciPy | Two-proportion z-test (`stats.norm.cdf`) |
+| Matplotlib | Chart grid — bar, line, horizontal bar |
+| Seaborn | Theme styling (`whitegrid`) |
+
+---
+
+
+---
+*Part of my data analytics portfolio — A/B testing · Statistical hypothesis testing · Funnel analysis · Cohort segmentation · Python visualization*
