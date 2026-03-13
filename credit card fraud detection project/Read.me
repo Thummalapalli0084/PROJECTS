@@ -1,0 +1,170 @@
+# 💳 Credit Card Fraud Detection — Analytical Project
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![SQL](https://img.shields.io/badge/SQL-MySQL-orange)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
+## 📌 Project Overview
+
+This end-to-end data analytics project analyzes 10,000 credit card transactions to identify fraud patterns, engineer risk features, detect anomalies using statistical methods, and deliver actionable compliance insights — mirroring real-world financial operations analytics.
+
+The project demonstrates the full analyst workflow: data quality checks → EDA → feature engineering → statistical hypothesis testing → anomaly detection → dashboard reporting.
+
+---
+
+## 🎯 Business Objective
+
+> Identify high-risk transaction patterns, quantify fraud exposure by segment, and build a composite risk scoring model to support compliance monitoring and operations management decision-making.
+
+---
+
+## 📁 Project Structure
+
+```
+credit-card-fraud-detection/
+│
+├── Credit_Card_Fraud_Detection.ipynb   ← Main analysis notebook (Python)
+├── fraud_detection_queries.sql         ← Full SQL analysis (9 sections, 20+ queries)
+├── credit_card_fraud_10k.csv           ← Raw dataset (10,000 transactions)
+├── fraud_enriched_final.csv            ← Enriched dataset with engineered features
+│
+├── outputs/
+│   ├── fraud_analytics_dashboard.png   ← 12-panel Python dashboard
+│   ├── amount_analysis.png
+│   ├── temporal_analysis.png
+│   ├── merchant_analysis.png
+│   └── device_velocity_analysis.png
+│
+└── README.md
+```
+
+---
+
+## 🗂️ Dataset
+
+| Column | Description |
+|---|---|
+| `transaction_id` | Unique transaction identifier |
+| `amount` | Transaction amount in USD |
+| `transaction_hour` | Hour of the day (0–23) |
+| `merchant_category` | Category: Grocery, Food, Travel, Electronics, Clothing |
+| `foreign_transaction` | 1 = foreign, 0 = domestic |
+| `location_mismatch` | 1 = location mismatch detected, 0 = normal |
+| `device_trust_score` | Device trust score (0–100) |
+| `velocity_last_24h` | Number of transactions in previous 24 hours |
+| `cardholder_age` | Cardholder age (18–69) |
+| `is_fraud` | Target variable: 1 = fraud, 0 = legitimate |
+
+---
+
+## 🔧 Feature Engineering
+
+Six new features were engineered from raw columns:
+
+| Feature | Description |
+|---|---|
+| `hour_bucket` | Time-of-day segment (Night / Morning / Afternoon / Evening) |
+| `age_group` | Cardholder age brackets (18–25, 26–35, ...) |
+| `amount_tier` | Low / Medium / High / Very High transaction value |
+| `amount_anomaly` | IQR-based flag: 1 if amount > Q3 + 1.5×IQR |
+| `risk_score` | Composite score from 4 weighted risk factors |
+| `risk_flag` | High (≥40) / Medium (20–39) / Low (<20) |
+
+**Risk Score Formula:**
+```
+risk_score = (foreign_transaction × 25)
+           + (location_mismatch × 25)
+           + ((100 − device_trust_score) × 0.30)
+           + (velocity_last_24h × 5)
+           + (amount_anomaly × 10)
+```
+
+---
+
+## 📊 Key Findings
+
+### 1. Time-Based Risk
+- Night transactions (0–5 AM) have a **5× higher fraud rate** than daytime
+- Peak fraud hour: **2–3 AM** at 8%+ fraud rate
+
+### 2. Geographic Risk Flags
+- Foreign + Location Mismatch combined: **34.1% fraud rate**
+- Foreign-only or Mismatch-only: **~8.4% each**
+- No flags (domestic + matched): **0.32% fraud rate** (baseline)
+
+### 3. Device Trust Score
+- Fraudulent transactions average trust score: **38/100**
+- Legitimate transactions average trust score: **62/100**
+- Devices with score < 30 show a **6.6% fraud rate**
+
+### 4. Transaction Velocity
+- High-velocity transactions (5+ in 24h): **10.4% fraud rate**
+- Fraudulent transactions have **1.6× higher velocity** on average
+
+### 5. Composite Risk Scoring
+| Risk Segment | Transactions | Fraud Rate |
+|---|---|---|
+| High (≥40) | 1,569 | 9.37% |
+| Medium (20–39) | 4,774 | 0.04% |
+| Low (<20) | 3,657 | 0.05% |
+
+> High-risk transactions are **170× more likely** to be fraudulent than Low-risk.
+
+---
+
+## 📐 Statistical Validation
+
+All key findings were validated with hypothesis tests at α = 0.05:
+
+| Test | Variable | Result |
+|---|---|---|
+| Mann-Whitney U | Transaction Amount | ✅ Fraud amounts significantly higher |
+| Chi-Square | Foreign Transaction | ✅ Significantly associated with fraud |
+| Chi-Square | Location Mismatch | ✅ Significantly associated with fraud |
+| Mann-Whitney U | Device Trust Score | ✅ Legitimate scores significantly higher |
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Python** — Pandas, NumPy, Matplotlib, Seaborn, SciPy
+- **SQL** — MySQL-compatible queries (20+ analytical queries)
+- **Power BI** — Dashboard built on `fraud_enriched_final.csv`
+- **Jupyter Notebook** — Full reproducible analysis
+
+---
+
+## ▶️ How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/Thummalapalli0084/PROJECTS
+cd credit-card-fraud-detection
+
+# Install dependencies
+pip install pandas numpy matplotlib seaborn scipy jupyter
+
+# Launch notebook
+jupyter notebook Credit_Card_Fraud_Detection.ipynb
+```
+
+For SQL analysis, import `credit_card_fraud_10k.csv` into MySQL and run `fraud_detection_queries.sql`.
+
+---
+
+## 💼 Business Recommendations
+
+1. **Trigger enhanced authentication** for all night transactions (0–5 AM)
+2. **Auto-flag** transactions where both foreign + location mismatch flags are active
+3. **Block or review** transactions with device trust score below 40
+4. **Alert system** for cardholders with 5+ transactions in 24 hours
+5. **Use composite risk score** to prioritize fraud review queue — catches 97%+ of fraud within the High-risk segment
+
+---
+
+## 👤 Author
+
+**Dinesh Naidu Thummalapalli**
+- 📧 dineshnaiduthummalapalli@gmail.com
+- 🔗 [LinkedIn](https://linkedin.com/in/dineshnaiduprofile)
+- 💻 [GitHub Portfolio](https://github.com/Thummalapalli0084/PROJECTS)
