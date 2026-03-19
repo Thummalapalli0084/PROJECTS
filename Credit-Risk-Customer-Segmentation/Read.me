@@ -1,0 +1,89 @@
+# Credit Risk & Customer Segmentation for Home Equity Loans
+
+## Project Overview
+Predictive analysis on 5,960 home equity loan records to identify 
+default risk and segment customers into risk categories using 
+Machine Learning techniques.
+
+## Business Problem
+Mortgage lenders face significant financial losses due to loan 
+defaults. This project helps identify high-risk borrowers before 
+approving home equity loans — enabling smarter lending decisions 
+and reducing financial risk.
+
+## Dataset
+- **Source:** HMEQ Dataset (Kaggle)
+- **Records:** 5,960 home equity loans
+- **Features:** 13 variables
+- **Target Variable:** BAD (1 = Defaulted, 0 = Repaid)
+
+## Technologies Used
+- **Language:** Python 3
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Environment:** Jupyter Notebook
+
+## ML Techniques Applied
+| Technique | Type | Purpose |
+|---|---|---|
+| Logistic Regression | Supervised | Default Probability |
+| Decision Tree | Supervised | Risk Classification |
+| K-Means Clustering | Unsupervised | Customer Segmentation |
+
+## Project Structure
+```
+Credit-Risk-Customer-Segmentation/
+│
+├── credit_risk_segmentation.ipynb  
+├── hmeq.csv                        
+├── README.md                       
+└── requirements.txt                
+```
+
+## Key Steps
+1. **Data Cleaning** — Missing value treatment using median/mode imputation
+2. **EDA** — Visual analysis of loan patterns and default behavior
+3. **Feature Engineering** — Created Loan-to-Value ratio, Equity, Risk Score
+4. **Logistic Regression** — Predicted default probability per customer
+5. **Decision Tree** — Identified top risk factors with visual flowchart
+6. **K-Means Clustering** — Segmented customers into 3 risk groups
+7. **Business Insights** — Actionable recommendations for lenders
+
+## Key Findings
+- High debt-to-income ratio is strongest predictor of loan default
+- Customers with 2+ derogatory reports show significantly higher default rates
+- K-Means identified 3 distinct borrower segments:
+  - **Cluster 0:** Low risk — stable income, low debt ratio
+  - **Cluster 1:** Medium risk — moderate debt, few delinquencies
+  - **Cluster 2:** High risk — high debt ratio, multiple derogatory reports
+
+## Model Performance
+| Model | Accuracy | Precision | Recall |
+|---|---|---|---|
+| Logistic Regression | XX% | XX% | XX% |
+| Decision Tree | XX% | XX% | XX% |
+
+## Business Recommendation
+> Borrowers in Cluster 2 with debt-to-income ratio above 0.4 
+> and 2+ delinquencies represent highest default risk — 
+> mortgage lenders should apply stricter approval criteria 
+> for this segment.
+
+## How to Run
+1. Clone this repository
+```bash
+git clone https://github.com/Thummalapalli0084/Credit-Risk-Customer-Segmentation.git
+```
+2. Install requirements
+```bash
+pip install -r requirements.txt
+```
+3. Open Jupyter Notebook
+```bash
+jupyter notebook credit_risk_segmentation.ipynb
+```
+
+## Author
+**Dinesh Naidu T**  
+Data Analyst | Python | SQL | Power BI  
+[LinkedIn](https://linkedin.com/in/dineshnaiduprofile) | 
+[GitHub](https://github.com/Thummalapalli0084/PROJECTS)
