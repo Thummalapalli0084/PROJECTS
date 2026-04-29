@@ -1,0 +1,80 @@
+Hotel Booking Cancellation Analysis
+Revenue Leakage Detection using Python EDA
+
+Problem Statement
+A hotel chain operating two property types — City Hotel and Resort Hotel — recorded a 37% booking cancellation rate across 119,390 bookings from 2015 to 2017. Every last-minute cancellation results in an empty room and zero revenue for that night.
+Business Goal: Identify the root causes of cancellations, quantify the revenue impact, and recommend data-driven policy changes to reduce the cancellation rate by at least 10%.
+Key Business Questions:
+
+Which booking channels drive the most cancellations?
+Does booking lead time affect cancellation likelihood?
+How much revenue is being lost due to cancellations?
+Which customer segments need policy intervention?
+
+
+Situation — Action — Result
+SituationHotel chain facing 37% cancellation rate causing €16.7M in estimated revenue loss across 2015–2017, with no data-driven policy in place to address it.ActionPerformed end-to-end EDA on 119,390 booking records using Python (Pandas, Matplotlib). Analyzed cancellation patterns across lead time, booking channel, deposit type, customer segment, and seasonality.ResultIdentified that lead time >120 days drives 52% cancellation rate and OTA channel cancels at 2.4× the rate of direct bookings. Delivered 6 actionable policy recommendations with quantified business impact.
+
+Key Findings
+MetricValueTotal Bookings Analyzed119,390Overall Cancellation Rate37.0%Cancellation Rate — Lead Time >120 Days52.2%Cancellation Rate — OTA Channel36.7%Cancellation Rate — Direct Channel15.3%Cancellation Rate — No Deposit28.4%Cancellation Rate — Repeat Guests14.2%Estimated Total Revenue Lost€16.7 Million
+
+Dashboard Pages
+Page 1 — Overview
+Show Image
+Cancellation rate broken down by hotel type, market segment, and deposit type. City Hotel shows significantly higher cancellation rate than Resort Hotel. Groups segment and Online TA are the highest-risk channels.
+
+Page 2 — Lead Time & Seasonality
+Show Image
+Cancellation rate rises sharply with lead time — bookings made more than 120 days in advance cancel at 52%. Peak cancellation months align with peak booking season (July–August), suggesting a waitlist opportunity. Repeat guests cancel at 3× lower rate than new guests.
+
+Page 3 — Revenue Leakage & Recommendations
+Show Image
+Transient customer segment accounts for the largest share of revenue loss. Portugal (PRT) leads cancellations by country. Guests with zero special requests cancel at the highest rate — low engagement signals low commitment.
+
+Business Recommendations
+#RecommendationInsight Behind It1Implement non-refundable deposit for bookings made >90 days in advanceLead time >120 days = 52% cancel rate2Offer 5% discount for direct bookings to reduce OTA dependencyOTA cancels at 2.4× rate of direct3Create a waitlist system for July–August peak monthsHigh volume + high cancellation = lost inventory4Re-engagement campaign for guests with 0 special requestsZero-request guests show lowest commitment5Flag high-risk booking pattern: long lead + OTA + no depositCombination drives highest cancellation probability6Priority retention program for Transient customer segmentHighest revenue loss segment
+
+Tools & Technologies
+
+Python — Pandas, Matplotlib, Seaborn
+Analysis — Exploratory Data Analysis (EDA), Descriptive Statistics
+Techniques — Cohort segmentation, Revenue quantification, Pattern detection
+
+
+Dataset
+
+Source: Hotel Booking Demand Dataset — Kaggle
+Records: 119,390 bookings
+Period: July 2015 — August 2017
+Hotels: City Hotel & Resort Hotel (Portugal)
+Features: 32 columns including lead time, ADR, market segment, deposit type, customer type
+
+
+Project Structure
+hotel-booking-cancellation-analysis/
+│
+├── hotel_booking_eda.py       # Main EDA script
+├── hotel_bookings.csv         # Dataset
+├── images/
+│   ├── eda_page1_overview.png
+│   ├── eda_page2_leadtime.png
+│   └── eda_page3_revenue.png
+└── README.md
+
+How to Run
+bash# 1. Clone the repository
+git clone https://github.com/Thummalapalli0084/PROJECTS.git
+
+# 2. Install dependencies
+pip install pandas matplotlib seaborn
+
+# 3. Run the EDA script
+python hotel_booking_eda.py
+Charts will be saved as PNG files in the current directory.
+
+Author
+Dinesh Naidu T
+Data Analyst | Power BI · Python · SQL · Excel
+
+LinkedIn: linkedin.com/in/dineshnaiduprofile
+GitHub: github.com/Thummalapalli0084
