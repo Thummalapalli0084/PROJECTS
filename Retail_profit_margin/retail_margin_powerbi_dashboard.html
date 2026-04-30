@@ -1,0 +1,421 @@
+
+<h2 class="sr-only">Retail Margin Analytics Dashboard — interactive Power BI-style dashboard with KPI cards, charts for category, freight, region, monthly trend, and discount analysis, with filters for category and freight mode.</h2>
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-sans); }
+.db-wrap { padding: 12px 0; }
+.db-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; flex-wrap: wrap; gap: 8px; }
+.db-title { font-size: 15px; font-weight: 500; color: var(--color-text-primary); }
+.db-sub { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; }
+.filters { display: flex; gap: 8px; flex-wrap: wrap; }
+.filters select { font-size: 12px; padding: 4px 8px; border-radius: var(--border-radius-md); border: 0.5px solid var(--color-border-secondary); background: var(--color-background-primary); color: var(--color-text-primary); cursor: pointer; }
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin-bottom: 14px; }
+.kpi-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 12px; }
+.kpi-label { font-size: 11px; color: var(--color-text-secondary); margin-bottom: 4px; }
+.kpi-value { font-size: 18px; font-weight: 500; color: var(--color-text-primary); }
+.kpi-delta { font-size: 11px; margin-top: 2px; }
+.kpi-red { color: var(--color-text-danger); }
+.kpi-green { color: var(--color-text-success); }
+.charts-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+.charts-row3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+.chart-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 12px; }
+.chart-title { font-size: 12px; font-weight: 500; color: var(--color-text-secondary); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.04em; }
+.chart-wrap { position: relative; width: 100%; }
+.insight-bar { background: var(--color-background-info); border-left: 3px solid #185FA5; border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0; padding: 8px 12px; margin-bottom: 10px; font-size: 12px; color: var(--color-text-info); }
+.tab-row { display: flex; gap: 4px; margin-bottom: 14px; }
+.tab { font-size: 12px; padding: 5px 12px; border-radius: var(--border-radius-md); border: 0.5px solid var(--color-border-secondary); cursor: pointer; background: var(--color-background-secondary); color: var(--color-text-secondary); }
+.tab.active { background: #185FA5; color: #fff; border-color: #185FA5; }
+.page { display: none; }
+.page.active { display: block; }
+.legend { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; font-size: 11px; color: var(--color-text-secondary); }
+.legend span { display: flex; align-items: center; gap: 4px; }
+.legend-sq { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+.freight-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.freight-table th { text-align: left; color: var(--color-text-secondary); font-weight: 500; padding: 4px 6px; border-bottom: 0.5px solid var(--color-border-tertiary); }
+.freight-table td { padding: 5px 6px; border-bottom: 0.5px solid var(--color-border-tertiary); color: var(--color-text-primary); }
+.freight-table tr:last-child td { border-bottom: none; }
+.badge { display: inline-block; font-size: 10px; padding: 2px 6px; border-radius: 20px; font-weight: 500; }
+.badge-red { background: var(--color-background-danger); color: var(--color-text-danger); }
+.badge-green { background: var(--color-background-success); color: var(--color-text-success); }
+.badge-gray { background: var(--color-background-secondary); color: var(--color-text-secondary); }
+.full-w { grid-column: 1 / -1; }
+</style>
+
+<div class="db-wrap">
+  <div class="db-header">
+    <div>
+      <div class="db-title">Retail Margin Analytics</div>
+      <div class="db-sub">892 transactions · Beauty, Clothing, Electronics · 2023–2024</div>
+    </div>
+    <div class="filters">
+      <select id="fCat" onchange="applyFilters()">
+        <option value="All">All categories</option>
+        <option value="Beauty">Beauty</option>
+        <option value="Clothing">Clothing</option>
+        <option value="Electronics">Electronics</option>
+      </select>
+      <select id="fMode" onchange="applyFilters()">
+        <option value="All">All freight modes</option>
+        <option value="Economy">Economy</option>
+        <option value="Express">Express</option>
+        <option value="Priority">Priority</option>
+        <option value="Standard">Standard</option>
+      </select>
+      <select id="fRegion" onchange="applyFilters()">
+        <option value="All">All regions</option>
+        <option value="East">East</option>
+        <option value="North">North</option>
+        <option value="South">South</option>
+        <option value="West">West</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="tab-row">
+    <button class="tab active" onclick="showPage('p1',this)">Overview</button>
+    <button class="tab" onclick="showPage('p2',this)">Margin deep-dive</button>
+    <button class="tab" onclick="showPage('p3',this)">Freight analysis</button>
+    <button class="tab" onclick="showPage('p4',this)">Discount strategy</button>
+  </div>
+
+  <div id="kpiGrid" class="kpi-grid"></div>
+
+  <div id="p1" class="page active">
+    <div class="charts-row">
+      <div class="chart-card">
+        <div class="chart-title">Sales &amp; Profit by category</div>
+        <div class="chart-wrap" style="height:220px"><canvas id="cCatBar" role="img" aria-label="Grouped bar chart of sales and profit by product category">Sales and profit by Beauty, Clothing, Electronics.</canvas></div>
+        <div class="legend" id="legCatBar">
+          <span><span class="legend-sq" style="background:#185FA5"></span>Sales</span>
+          <span><span class="legend-sq" style="background:#0F6E56"></span>Profit</span>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Monthly revenue trend</div>
+        <div class="chart-wrap" style="height:220px"><canvas id="cMonthly" role="img" aria-label="Line chart of monthly sales and profit trend across 2023">Monthly sales and profit trend 2023.</canvas></div>
+        <div class="legend">
+          <span><span class="legend-sq" style="background:#185FA5"></span>Sales</span>
+          <span><span class="legend-sq" style="background:#1D9E75"></span>Profit</span>
+        </div>
+      </div>
+    </div>
+    <div class="charts-row">
+      <div class="chart-card">
+        <div class="chart-title">Sales by region</div>
+        <div class="chart-wrap" style="height:200px"><canvas id="cRegion" role="img" aria-label="Horizontal bar chart of sales by region">Sales across East, North, South, West regions.</canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Orders by freight mode</div>
+        <div class="chart-wrap" style="height:200px"><canvas id="cFreightDonut" role="img" aria-label="Donut chart showing order share by freight mode">Order share for Economy, Express, Priority, Standard shipping.</canvas></div>
+        <div class="legend" id="legFreightDonut"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="p2" class="page">
+    <div class="insight-bar" id="insightMargin">Key insight: Electronics avg margin is 0.59% — 69% of Electronics orders are below the 30% target threshold.</div>
+    <div class="charts-row">
+      <div class="chart-card">
+        <div class="chart-title">Avg profit margin % by category</div>
+        <div class="chart-wrap" style="height:220px"><canvas id="cMarginBar" role="img" aria-label="Bar chart of average profit margin by category">Average profit margin for Beauty, Clothing, Electronics.</canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Margin vs freight cost scatter</div>
+        <div class="chart-wrap" style="height:220px"><canvas id="cScatter" role="img" aria-label="Scatter chart of average margin versus average freight cost by freight mode">Margin vs freight cost by shipping mode.</canvas></div>
+      </div>
+    </div>
+    <div class="charts-row">
+      <div class="chart-card">
+        <div class="chart-title">Monthly avg margin % trend</div>
+        <div class="chart-wrap" style="height:200px"><canvas id="cMarginTrend" role="img" aria-label="Line chart of monthly average profit margin percentage">Monthly average margin trend across 2023.</canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Profit vs freight cost by category</div>
+        <div class="chart-wrap" style="height:200px"><canvas id="cProfitFreight" role="img" aria-label="Grouped bar chart of profit vs freight cost by category">Profit and freight cost comparison by category.</canvas></div>
+        <div class="legend">
+          <span><span class="legend-sq" style="background:#1D9E75"></span>Profit</span>
+          <span><span class="legend-sq" style="background:#D85A30"></span>Freight cost</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="p3" class="page">
+    <div class="insight-bar">Express shipping costs ₹121/order avg and produces -12.95% margin. Economy costs ₹19/order and produces +25.67% margin — a ₹102 saving per order.</div>
+    <div class="charts-row">
+      <div class="chart-card">
+        <div class="chart-title">Freight mode — avg margin %</div>
+        <div class="chart-wrap" style="height:220px"><canvas id="cFreightMargin" role="img" aria-label="Horizontal bar chart of average profit margin by freight mode">Average margin for Economy, Express, Priority, Standard modes.</canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Avg freight cost &amp; delivery days</div>
+        <div class="chart-wrap" style="height:220px"><canvas id="cFreightCostDays" role="img" aria-label="Grouped bar chart of average freight cost and delivery days by mode">Freight cost vs delivery days by mode.</canvas></div>
+        <div class="legend">
+          <span><span class="legend-sq" style="background:#D85A30"></span>Avg cost (₹)</span>
+          <span><span class="legend-sq" style="background:#BA7517"></span>Avg days</span>
+        </div>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">Freight mode comparison table</div>
+      <table class="freight-table">
+        <thead><tr><th>Mode</th><th>Orders</th><th>Avg cost</th><th>Avg days</th><th>Avg margin</th><th>Verdict</th></tr></thead>
+        <tbody id="freightTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="p4" class="page">
+    <div class="insight-bar">Beauty at 1-10% discount earns 11.83% margin. Electronics at 11-20% discount = -1.69% margin. Cap Clothing discounts at 10%.</div>
+    <div class="charts-row">
+      <div class="chart-card">
+        <div class="chart-title">Revenue by category &amp; discount band</div>
+        <div class="chart-wrap" style="height:230px"><canvas id="cDiscRev" role="img" aria-label="Grouped bar chart of revenue by category and discount band">Revenue for no discount, 1-10%, 11-20%, 21%+ bands by category.</canvas></div>
+        <div class="legend">
+          <span><span class="legend-sq" style="background:#185FA5"></span>1-10%</span>
+          <span><span class="legend-sq" style="background:#1D9E75"></span>11-20%</span>
+          <span><span class="legend-sq" style="background:#D85A30"></span>21%+</span>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Margin % by category &amp; discount band</div>
+        <div class="chart-wrap" style="height:230px"><canvas id="cDiscMargin" role="img" aria-label="Grouped bar chart of margin percentage by category and discount band">Margin % at each discount level for each category.</canvas></div>
+        <div class="legend">
+          <span><span class="legend-sq" style="background:#185FA5"></span>1-10%</span>
+          <span><span class="legend-sq" style="background:#1D9E75"></span>11-20%</span>
+          <span><span class="legend-sq" style="background:#D85A30"></span>21%+</span>
+        </div>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">Strategic recommendation summary</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:4px;">
+        <div style="background:var(--color-background-success);border-radius:var(--border-radius-md);padding:10px;">
+          <div style="font-size:11px;font-weight:500;color:var(--color-text-success);margin-bottom:4px;">BEAUTY</div>
+          <div style="font-size:12px;color:var(--color-text-success);">Run 5-10% discount promos. Best ROI at 11.83% margin. Avoid 21%+ band.</div>
+        </div>
+        <div style="background:var(--color-background-warning);border-radius:var(--border-radius-md);padding:10px;">
+          <div style="font-size:11px;font-weight:500;color:var(--color-text-warning);margin-bottom:4px;">CLOTHING</div>
+          <div style="font-size:12px;color:var(--color-text-warning);">Cap at 10% discount. Revenue drops steeply beyond that without margin recovery.</div>
+        </div>
+        <div style="background:var(--color-background-danger);border-radius:var(--border-radius-md);padding:10px;">
+          <div style="font-size:11px;font-weight:500;color:var(--color-text-danger);margin-bottom:4px;">ELECTRONICS</div>
+          <div style="font-size:12px;color:var(--color-text-danger);">Zero discounts. Already -0.59% avg margin. Fix freight first, then revisit promotions.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const RAW = {"kpis":{"total_sales":409029,"total_profit":133151,"total_freight":49980,"avg_margin":6.35,"loss_orders":315,"total_orders":892},"category":[{"Category":"Beauty","sales":128319.5,"profit":51009.83,"margin":12.63,"orders":278,"freight":15716.31},{"Category":"Clothing","sales":139075.25,"profit":45187.64,"margin":6.26,"orders":316,"freight":17396.13},{"Category":"Electronics","sales":141634.25,"profit":36953.68,"margin":0.59,"orders":298,"freight":16867.33}],"freight":[{"Freight_Mode":"Economy","avg_cost":18.97,"avg_days":13.56,"avg_margin":25.67,"orders":160},{"Freight_Mode":"Express","avg_cost":121.47,"avg_days":1.44,"avg_margin":-12.95,"orders":115},{"Freight_Mode":"Priority","avg_cost":77.36,"avg_days":4.13,"avg_margin":-4.47,"orders":215},{"Freight_Mode":"Standard","avg_cost":40.65,"avg_days":8.45,"avg_margin":9.97,"orders":402}],"region":[{"Region":"East","sales":96139.0,"profit":31754.32,"margin":5.68},{"Region":"North","sales":99871.25,"profit":32238.96,"margin":6.3},{"Region":"South","sales":93691.25,"profit":30303.71,"margin":6.91},{"Region":"West","sales":108502.75,"profit":34536.88,"margin":4.97}],"monthly":[{"YearMonth":"2023-01","sales":31240.0,"profit":10925.39,"margin":8.76},{"YearMonth":"2023-02","sales":39377.25,"profit":13172.05,"margin":10.5},{"YearMonth":"2023-03","sales":25433.75,"profit":8651.02,"margin":14.63},{"YearMonth":"2023-04","sales":30322.5,"profit":9810.86,"margin":3.85},{"YearMonth":"2023-05","sales":47542.25,"profit":15079.37,"margin":2.87},{"YearMonth":"2023-06","sales":32725.0,"profit":10182.23,"margin":5.86},{"YearMonth":"2023-07","sales":31188.75,"profit":11370.64,"margin":12.37},{"YearMonth":"2023-08","sales":33557.5,"profit":10304.2,"margin":5.6},{"YearMonth":"2023-09","sales":21282.25,"profit":6073.24,"margin":0.2},{"YearMonth":"2023-10","sales":42649.5,"profit":13548.1,"margin":5.89},{"YearMonth":"2023-11","sales":32198.0,"profit":10225.65,"margin":2.94},{"YearMonth":"2023-12","sales":39982.25,"profit":13139.19,"margin":4.34},{"YearMonth":"2024-01","sales":1530.0,"profit":669.21,"margin":29.3}],"discount":[{"Category":"Beauty","Disc_Band":"1-10%","sales":33530.0,"margin":11.83},{"Category":"Beauty","Disc_Band":"11-20%","sales":28021.0,"margin":9.79},{"Category":"Beauty","Disc_Band":"21%+","sales":12367.5,"margin":6.73},{"Category":"Clothing","Disc_Band":"1-10%","sales":37210.0,"margin":2.12},{"Category":"Clothing","Disc_Band":"11-20%","sales":28642.25,"margin":4.91},{"Category":"Clothing","Disc_Band":"21%+","sales":12825.0,"margin":12.16},{"Category":"Electronics","Disc_Band":"1-10%","sales":35533.5,"margin":1.8},{"Category":"Electronics","Disc_Band":"11-20%","sales":27486.25,"margin":-1.69},{"Category":"Electronics","Disc_Band":"21%+","sales":10425.0,"margin":-4.46}]};
+
+const COLORS = { Beauty:'#1D9E75', Clothing:'#185FA5', Electronics:'#D85A30',
+  Economy:'#0F6E56', Express:'#D85A30', Priority:'#BA7517', Standard:'#185FA5',
+  East:'#185FA5', North:'#1D9E75', South:'#534AB7', West:'#D85A30' };
+const DISC_COLORS = ['#185FA5','#1D9E75','#D85A30'];
+const fmtINR = v => '₹' + Math.round(v).toLocaleString('en-IN');
+const fmtPct = v => v.toFixed(2) + '%';
+const charts = {};
+
+function destroyChart(id){ if(charts[id]){ charts[id].destroy(); delete charts[id]; } }
+
+function makeChart(id, cfg){ destroyChart(id); const c = document.getElementById(id); if(c) charts[id] = new Chart(c, cfg); }
+
+function renderKPIs(data) {
+  const k = data.kpis || RAW.kpis;
+  const lossRate = ((k.loss_orders / k.total_orders)*100).toFixed(1);
+  document.getElementById('kpiGrid').innerHTML = `
+    <div class="kpi-card"><div class="kpi-label">Total sales</div><div class="kpi-value">${fmtINR(k.total_sales)}</div></div>
+    <div class="kpi-card"><div class="kpi-label">Total profit</div><div class="kpi-value">${fmtINR(k.total_profit)}</div><div class="kpi-delta kpi-green">+${fmtPct(k.total_profit/k.total_sales*100)} margin</div></div>
+    <div class="kpi-card"><div class="kpi-label">Avg margin %</div><div class="kpi-value kpi-${k.avg_margin < 15 ? 'red':'green'}">${fmtPct(k.avg_margin)}</div><div class="kpi-delta kpi-red">Target: 30%</div></div>
+    <div class="kpi-card"><div class="kpi-label">Total freight</div><div class="kpi-value kpi-red">${fmtINR(k.total_freight)}</div><div class="kpi-delta">${fmtPct(k.total_freight/k.total_sales*100)} of sales</div></div>
+    <div class="kpi-card"><div class="kpi-label">Loss-making orders</div><div class="kpi-value kpi-red">${k.loss_orders}</div><div class="kpi-delta kpi-red">${lossRate}% of orders</div></div>
+    <div class="kpi-card"><div class="kpi-label">Total orders</div><div class="kpi-value">${k.total_orders}</div></div>
+  `;
+}
+
+function renderAll(fCat, fMode, fRegion) {
+  let cat = RAW.category;
+  let fm  = RAW.freight;
+  let reg = RAW.region;
+  let mon = RAW.monthly;
+  let disc = RAW.discount;
+
+  if(fCat !== 'All') cat = cat.filter(d => d.Category === fCat);
+  if(fMode !== 'All') fm = fm.filter(d => d.Freight_Mode === fMode);
+  if(fRegion !== 'All') reg = reg.filter(d => d.Region === fRegion);
+
+  const synKPIs = {
+    total_sales: cat.reduce((s,d)=>s+d.sales,0),
+    total_profit: cat.reduce((s,d)=>s+d.profit,0),
+    total_freight: cat.reduce((s,d)=>s+d.freight,0),
+    avg_margin: cat.length ? cat.reduce((s,d)=>s+d.margin,0)/cat.length : 0,
+    loss_orders: RAW.kpis.loss_orders, total_orders: RAW.kpis.total_orders
+  };
+  renderKPIs({kpis: synKPIs});
+
+  // P1 — Category bar
+  makeChart('cCatBar',{type:'bar',data:{
+    labels: cat.map(d=>d.Category),
+    datasets:[
+      {label:'Sales',data:cat.map(d=>Math.round(d.sales)),backgroundColor:'#185FA5',borderRadius:3},
+      {label:'Profit',data:cat.map(d=>Math.round(d.profit)),backgroundColor:'#0F6E56',borderRadius:3}
+    ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{y:{ticks:{callback:v=>'₹'+Math.round(v/1000)+'K'},grid:{color:'rgba(128,128,128,0.1)'}},
+    x:{grid:{display:false},ticks:{autoSkip:false}}}}});
+
+  // P1 — Monthly trend
+  makeChart('cMonthly',{type:'line',data:{
+    labels:mon.map(d=>d.YearMonth.slice(5)),
+    datasets:[
+      {label:'Sales',data:mon.map(d=>Math.round(d.sales)),borderColor:'#185FA5',backgroundColor:'rgba(24,95,165,0.08)',fill:true,tension:0.35,pointRadius:3},
+      {label:'Profit',data:mon.map(d=>Math.round(d.profit)),borderColor:'#1D9E75',backgroundColor:'rgba(29,158,117,0.08)',fill:true,tension:0.35,pointRadius:3}
+    ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{y:{ticks:{callback:v=>'₹'+Math.round(v/1000)+'K'},grid:{color:'rgba(128,128,128,0.1)'}},
+    x:{grid:{display:false},ticks:{autoSkip:true,maxTicksLimit:8}}}}});
+
+  // P1 — Region bar
+  makeChart('cRegion',{type:'bar',data:{
+    labels:reg.map(d=>d.Region),
+    datasets:[{label:'Sales',data:reg.map(d=>Math.round(d.sales)),
+      backgroundColor:reg.map(d=>COLORS[d.Region]||'#185FA5'),borderRadius:3}]
+    },options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false}},
+    scales:{x:{ticks:{callback:v=>'₹'+Math.round(v/1000)+'K'},grid:{color:'rgba(128,128,128,0.1)'}},
+    y:{grid:{display:false}}}}});
+
+  // P1 — Freight donut
+  const fmAll = RAW.freight;
+  const legEl = document.getElementById('legFreightDonut');
+  legEl.innerHTML = fmAll.map((d,i)=>`<span><span class="legend-sq" style="background:${Object.values(COLORS).slice(4,8)[i]}"></span>${d.Freight_Mode} (${d.orders})</span>`).join('');
+  makeChart('cFreightDonut',{type:'doughnut',data:{
+    labels:fmAll.map(d=>d.Freight_Mode),
+    datasets:[{data:fmAll.map(d=>d.orders),
+      backgroundColor:['#0F6E56','#D85A30','#BA7517','#185FA5'],
+      borderWidth:2,borderColor:'var(--color-background-primary)'}]
+    },options:{responsive:true,maintainAspectRatio:false,cutout:'60%',
+    plugins:{legend:{display:false}}}});
+
+  // P2 — Margin bar
+  makeChart('cMarginBar',{type:'bar',data:{
+    labels:cat.map(d=>d.Category),
+    datasets:[{label:'Avg Margin %',data:cat.map(d=>+d.margin.toFixed(2)),
+      backgroundColor:cat.map(d=>d.margin<10?'#D85A30':d.margin<20?'#BA7517':'#1D9E75'),
+      borderRadius:3}]
+    },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{y:{ticks:{callback:v=>v+'%'},grid:{color:'rgba(128,128,128,0.1)'}},
+    x:{grid:{display:false}}},
+    plugins:{annotation:{annotations:{line1:{type:'line',yMin:30,yMax:30,borderColor:'#D85A30',borderDash:[4,4],borderWidth:1.5}}}}}});
+
+  // P2 — Scatter (freight cost vs margin)
+  makeChart('cScatter',{type:'scatter',data:{
+    datasets:RAW.freight.map(d=>({label:d.Freight_Mode,
+      data:[{x:+d.avg_cost.toFixed(1),y:+d.avg_margin.toFixed(1)}],
+      backgroundColor:COLORS[d.Freight_Mode]||'#185FA5',
+      pointRadius:12,pointHoverRadius:14}))
+    },options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{
+      label:ctx=>`${ctx.dataset.label}: cost ₹${ctx.parsed.x}, margin ${ctx.parsed.y}%`}}},
+    scales:{x:{title:{display:true,text:'Avg freight cost (₹)',font:{size:11}},
+      min:0,max:150,grid:{color:'rgba(128,128,128,0.1)'}},
+    y:{title:{display:true,text:'Avg margin %',font:{size:11}},
+      grid:{color:'rgba(128,128,128,0.1)'}}}}});
+
+  // P2 — Margin trend
+  makeChart('cMarginTrend',{type:'line',data:{
+    labels:mon.map(d=>d.YearMonth.slice(5)),
+    datasets:[{label:'Avg Margin %',data:mon.map(d=>+d.margin.toFixed(2)),
+      borderColor:'#534AB7',backgroundColor:'rgba(83,74,183,0.08)',fill:true,tension:0.35,pointRadius:3}]
+    },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{y:{ticks:{callback:v=>v+'%'},grid:{color:'rgba(128,128,128,0.1)'}},
+    x:{grid:{display:false},ticks:{autoSkip:true,maxTicksLimit:8}}}}});
+
+  // P2 — Profit vs freight
+  makeChart('cProfitFreight',{type:'bar',data:{
+    labels:cat.map(d=>d.Category),
+    datasets:[
+      {label:'Profit',data:cat.map(d=>Math.round(d.profit)),backgroundColor:'#1D9E75',borderRadius:3},
+      {label:'Freight',data:cat.map(d=>Math.round(d.freight)),backgroundColor:'#D85A30',borderRadius:3}
+    ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{y:{ticks:{callback:v=>'₹'+Math.round(v/1000)+'K'},grid:{color:'rgba(128,128,128,0.1)'}},
+    x:{grid:{display:false}}}}});
+
+  // P3 — Freight margin bar
+  makeChart('cFreightMargin',{type:'bar',data:{
+    labels:RAW.freight.map(d=>d.Freight_Mode),
+    datasets:[{label:'Avg Margin %',data:RAW.freight.map(d=>+d.avg_margin.toFixed(2)),
+      backgroundColor:RAW.freight.map(d=>d.avg_margin<0?'#D85A30':d.avg_margin<15?'#BA7517':'#1D9E75'),
+      borderRadius:3}]
+    },options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false}},
+    scales:{x:{ticks:{callback:v=>v+'%'},grid:{color:'rgba(128,128,128,0.1)'}},
+    y:{grid:{display:false}}}}});
+
+  // P3 — Freight cost & days
+  makeChart('cFreightCostDays',{type:'bar',data:{
+    labels:RAW.freight.map(d=>d.Freight_Mode),
+    datasets:[
+      {label:'Avg cost (₹)',data:RAW.freight.map(d=>+d.avg_cost.toFixed(1)),backgroundColor:'#D85A30',borderRadius:3},
+      {label:'Avg days',data:RAW.freight.map(d=>+d.avg_days.toFixed(1)),backgroundColor:'#BA7517',borderRadius:3}
+    ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{y:{grid:{color:'rgba(128,128,128,0.1)'}},x:{grid:{display:false}}}}});
+
+  // P3 — Freight table
+  const tbody = document.getElementById('freightTableBody');
+  tbody.innerHTML = RAW.freight.map(d=>`<tr>
+    <td><strong>${d.Freight_Mode}</strong></td>
+    <td>${d.orders}</td>
+    <td>₹${d.avg_cost.toFixed(0)}</td>
+    <td>${d.avg_days.toFixed(1)}</td>
+    <td class="${d.avg_margin<0?'kpi-red':'kpi-green'}">${d.avg_margin.toFixed(2)}%</td>
+    <td><span class="badge ${d.avg_margin>15?'badge-green':d.avg_margin<0?'badge-red':'badge-gray'}">${d.avg_margin>15?'Best':'d.avg_margin<0'?'Loss':'Mid'}</span></td>
+  </tr>`).join('');
+  // Fix verdict logic
+  tbody.querySelectorAll('td:last-child span').forEach((el,i)=>{
+    const m = RAW.freight[i].avg_margin;
+    el.className = 'badge ' + (m>15?'badge-green':m<0?'badge-red':'badge-gray');
+    el.textContent = m>15?'Best':m<0?'Loss-making':'Moderate';
+  });
+
+  // P4 — Disc revenue
+  const bands = ['1-10%','11-20%','21%+'];
+  const cats3 = ['Beauty','Clothing','Electronics'];
+  makeChart('cDiscRev',{type:'bar',data:{
+    labels:cats3,
+    datasets:bands.map((b,i)=>({label:b,
+      data:cats3.map(c=>{ const r=disc.find(d=>d.Category===c&&d.Disc_Band===b); return r?Math.round(r.sales):0; }),
+      backgroundColor:DISC_COLORS[i],borderRadius:3}))
+    },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{y:{ticks:{callback:v=>'₹'+Math.round(v/1000)+'K'},grid:{color:'rgba(128,128,128,0.1)'}},
+    x:{grid:{display:false}}}}});
+
+  makeChart('cDiscMargin',{type:'bar',data:{
+    labels:cats3,
+    datasets:bands.map((b,i)=>({label:b,
+      data:cats3.map(c=>{ const r=disc.find(d=>d.Category===c&&d.Disc_Band===b); return r?+r.margin.toFixed(2):0; }),
+      backgroundColor:DISC_COLORS[i],borderRadius:3}))
+    },options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+    scales:{y:{ticks:{callback:v=>v+'%'},grid:{color:'rgba(128,128,128,0.1)'}},
+    x:{grid:{display:false}}}}});
+}
+
+function applyFilters(){
+  renderAll(
+    document.getElementById('fCat').value,
+    document.getElementById('fMode').value,
+    document.getElementById('fRegion').value
+  );
+}
+
+function showPage(id, btn){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+
+renderAll('All','All','All');
+</script>
