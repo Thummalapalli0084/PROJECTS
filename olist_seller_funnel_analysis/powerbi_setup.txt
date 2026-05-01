@@ -1,0 +1,213 @@
+# Power BI Setup Guide — Olist Marketing Funnel Analysis
+# =========================================================
+# Load: olist_master_dataset.csv  (8,000 rows × 20 cols)
+# =========================================================
+
+
+# ──────────────────────────────────────────────────────────────────────
+# STEP 1: DATA TYPES TO SET IN POWER QUERY
+# ──────────────────────────────────────────────────────────────────────
+# mql_id                → Text
+# first_contact_date    → Date
+# landing_page_id       → Text
+# origin                → Text
+# seller_id             → Text
+# won_date              → Date
+# business_segment      → Text
+# lead_type             → Text
+# lead_behaviour_profile→ Text
+# converted             → Whole Number
+# days_to_close         → Decimal Number
+# month                 → Text
+
+
+# ──────────────────────────────────────────────────────────────────────
+# STEP 2: DAX MEASURES TABLE
+# Create a new blank table called "Measures" and add these measures
+# ──────────────────────────────────────────────────────────────────────
+
+# ── KPI MEASURES ──────────────────────────────────────────────────────
+
+Total MQLs =
+COUNTROWS('olist_master_dataset')
+
+Won Deals =
+CALCULATE(
+    COUNTROWS('olist_master_dataset'),
+    'olist_master_dataset'[converted] = 1
+)
+
+Overall Conversion Rate =
+DIVIDE([Won Deals], [Total MQLs], 0)
+
+Overall Conversion Rate % =
+FORMAT([Overall Conversion Rate], "0.0%")
+
+Avg Days to Close =
+CALCULATE(
+    AVERAGE('olist_master_dataset'[days_to_close]),
+    'olist_master_dataset'[converted] = 1
+)
+
+Funnel Leak % =
+1 - [Overall Conversion Rate]
+
+Funnel Leak % Label =
+FORMAT([Funnel Leak %], "0.0%") & " drop-off at MQL→SDR"
+
+
+# ── CHANNEL MEASURES ──────────────────────────────────────────────────
+
+Leads by Channel =
+CALCULATE(
+    [Total MQLs],
+    ALLEXCEPT('olist_master_dataset', 'olist_master_dataset'[origin])
+)
+
+Deals by Channel =
+CALCULATE(
+    [Won Deals],
+    ALLEXCEPT('olist_master_dataset', 'olist_master_dataset'[origin])
+)
+
+Channel Conversion Rate =
+DIVIDE(
+    CALCULATE([Won Deals], ALLEXCEPT('olist_master_dataset','olist_master_dataset'[origin])),
+    CALCULATE([Total MQLs], ALLEXCEPT('olist_master_dataset','olist_master_dataset'[origin])),
+    0
+)
+
+Channel Conversion Rate % =
+FORMAT([Channel Conversion Rate], "0.00%")
+
+Channel Quality Label =
+SWITCH(
+    TRUE(),
+    [Channel Conversion Rate] >= 0.10, "Strong",
+    [Channel Conversion Rate] >= 0.06, "Moderate",
+    "Weak"
+)
+
+
+# ── SEGMENT MEASURES ──────────────────────────────────────────────────
+
+Segment Avg Days =
+CALCULATE(
+    AVERAGE('olist_master_dataset'[days_to_close]),
+    'olist_master_dataset'[converted] = 1,
+    ALLEXCEPT('olist_master_dataset','olist_master_dataset'[business_segment])
+)
+
+Segment Deal Count =
+CALCULATE(
+    [Won Deals],
+    ALLEXCEPT('olist_master_dataset','olist_master_dataset'[business_segment])
+)
+
+Segment Speed Label =
+SWITCH(
+    TRUE(),
+    [Segment Avg Days] <= 35, "Fast (≤35d)",
+    [Segment Avg Days] <= 55, "Moderate (36–55d)",
+    "Slow (>55d)"
+)
+
+
+# ── MONTHLY TREND ─────────────────────────────────────────────────────
+
+Monthly Leads =
+CALCULATE(
+    [Total MQLs],
+    ALLEXCEPT('olist_master_dataset','olist_master_dataset'[month])
+)
+
+MoM Growth % =
+VAR CurrentMonth = CALCULATE([Total MQLs])
+VAR PrevMonth =
+    CALCULATE(
+        [Total MQLs],
+        DATEADD('olist_master_dataset'[first_contact_date], -1, MONTH)
+    )
+RETURN
+DIVIDE(CurrentMonth - PrevMonth, PrevMonth, BLANK())
+
+
+# ──────────────────────────────────────────────────────────────────────
+# STEP 3: CONDITIONAL FORMATTING RULES
+# ──────────────────────────────────────────────────────────────────────
+# For Channel Conversion Rate column in tables:
+#   Value >= 10%  → Green  (#00c9a7)
+#   Value >= 6%   → Amber  (#f5a623)
+#   Value < 6%    → Red    (#ff5c5c)
+#
+# For Segment Avg Days column:
+#   Value <= 35   → Green  (#00c9a7)
+#   Value <= 55   → Amber  (#f5a623)
+#   Value > 55    → Red    (#ff5c5c)
+
+
+# ──────────────────────────────────────────────────────────────────────
+# STEP 4: REPORT PAGE LAYOUT SPEC
+# ──────────────────────────────────────────────────────────────────────
+# Canvas size: 1280 × 800 px   Background: #0d0f14
+
+# PAGE 1 — FUNNEL OVERVIEW
+# ┌─────────────────────────────────────────────────────────────────────┐
+# │  TITLE: "Olist Seller Acquisition Funnel · 2017–2018"              │
+# ├──────────┬──────────┬──────────┬──────────────────────────────────┤
+# │ KPI Card │ KPI Card │ KPI Card │ KPI Card                          │
+# │ Total    │ Won      │ Conv.    │ Funnel                            │
+# │ MQLs     │ Deals    │ Rate     │ Leak %                            │
+# │ 8,000    │ 842      │ 10.5%    │ 89.5%                             │
+# ├──────────┴──────────┴──────────┴──────────────────────────────────┤
+# │                  FUNNEL VISUAL (Decomposition Tree or              │
+# │                  Waterfall chart — 4 stages)                       │
+# │   MQL 8,000 ──89.5%▼── SDR 842 ──0%── Consult. ──0%── Won 842     │
+# ├──────────────────────────────────────────────────────────────────┤
+# │  Line Chart: Monthly MQL Lead Volume (month on X, leads on Y)     │
+# └──────────────────────────────────────────────────────────────────┘
+
+# PAGE 2 — CHANNEL ANALYSIS
+# ┌──────────────────────────┬───────────────────────────────────────┐
+# │  Bar Chart (Horizontal)  │  Bar Chart (Horizontal)               │
+# │  Lead Volume by Channel  │  Conversion Rate by Channel (%)       │
+# │  (sorted by volume desc) │  (color: green/amber/red by rate)     │
+# ├──────────────────────────┴───────────────────────────────────────┤
+# │  Stacked Bar: Leads vs Deals side-by-side per channel            │
+# │  Slicer: Filter by origin (exclude 'unknown')                    │
+# └──────────────────────────────────────────────────────────────────┘
+
+# PAGE 3 — SEGMENT DEEP DIVE
+# ┌──────────────────────────┬───────────────────────────────────────┐
+# │  Clustered Bar:          │  Scatter Plot:                        │
+# │  Deals by Segment        │  X = Avg Days to Close                │
+# │  (top 12, sorted desc)   │  Y = Deal Count                       │
+# │                          │  Bubble size = deals                  │
+# │                          │  Color = Speed Label                  │
+# ├──────────────────────────┴───────────────────────────────────────┤
+# │  Table: Segment | Deals | Avg Days | Median Days | Speed Label   │
+# │  Conditional formatting on Avg Days column                       │
+# └──────────────────────────────────────────────────────────────────┘
+
+
+# ──────────────────────────────────────────────────────────────────────
+# STEP 5: SLICER FIELDS (add to all pages)
+# ──────────────────────────────────────────────────────────────────────
+# - origin          (channel filter — exclude 'unknown')
+# - business_segment
+# - month           (date range slicer)
+# - lead_type
+
+
+# ──────────────────────────────────────────────────────────────────────
+# STEP 6: THEME COLORS (paste into View > Themes > Customize)
+# ──────────────────────────────────────────────────────────────────────
+# Background:   #0d0f14
+# Card bg:      #141720
+# Accent 1:     #00c9a7  (teal  — primary)
+# Accent 2:     #f5a623  (amber — moderate)
+# Accent 3:     #ff5c5c  (coral — weak/slow)
+# Accent 4:     #4a9eff  (blue  — secondary)
+# Text:         #e2e8f0
+# Subtext:      #8892a4
+# Grid lines:   #1e2330
