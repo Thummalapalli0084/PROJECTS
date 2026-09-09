@@ -1,0 +1,1601 @@
+Hospital_ID,Hospital_Name,City,Hospital_Type,Beds,Daily_Patients,Avg_Wait_Time_Min,Contactless_Registration,Online_Appointment,Telemedicine,Digital_Health_Records,Cleanliness_Rating,Food_Service_Rating,Patient_Hospitality_Rating,CCTV_Coverage_Percentage,Security_Staff,Infection_Control_Score,Patient_Satisfaction,AI_Assisted_Services,Overall_Trend
+H00001,Bengaluru Care Hospital 1,Pune,Government,958,90,120,yes,NO,No,No,,4.6,3.6,,101,82,2.4,,
+H00002,Jaipur Care Hospital 2,,Government,1118,1870,90,yes,YES,No,No,3.5,3.1,3.3,72,95,,2.4,No,Digital Patient Care
+H00003,Pune Care Hospital 3,,Multispeciality,310,1365,115,yes,No,,No,2.5,3.1,3.7,,106,83,4.1,YES,
+H00004,Hyderabad Care Hospital 4,Coimbatore,Private,904,1570,30,Yes,YES,No,No,2.3,2.7,3.2,47,137,62,4.3,No,Digital Patient Care
+H00005,Pune Care Hospital 5,Bengaluru,Specialty,578,571,149,Yes,No,Yes,Yes,4.3,,3.8,71,72,86,4.5,yes,Digital Patient Care
+H00006,Chennai Care Hospital 6,Madurai,Private,1458,710,150,Yes,No,No,No,4.9,2.8,2.1,64,24,51,2,No,Smart Hospital
+H00007,Pune Care Hospital 7,Chennai,Specialty,200,1738,41,No,Yes,No,Yes,,4.4,2.1,31,139,75,2.7,yes,Smart Hospital
+H00008,Mumbai Care Hospital 8,Coimbatore,Specialty,,775,64,Yes,YES,No,No,,4.9,,86,196,62,2.8,YES,Enhanced Security
+H00009,Bengaluru Care Hospital 9,Kochi,,885,1991,,YES,YES,Yes,,3.2,3.3,3.5,30,74,,2.3,No,IoT Healthcare
+H00010,Delhi Care Hospital 10,,Government,1494,170,52,YES,YES,Yes,No,3,2.2,3.9,86,118,77,3.1,No,Patient-Centric Care
+H00011,Hyderabad Care Hospital 11,Pune,Private,965,648,51,Yes,NO,No,Yes,4.8,4.2,3.5,63,179,80,3.3,YES,Patient-Centric Care
+H00012,Delhi Care Hospital 12,Hyderabad,Private,554,158,71,yes,,Yes,,2.5,2,4.9,82,150,79,4.9,Yes,Smart Hospital
+H00013,Bengaluru Care Hospital 13,Pune,Multispeciality,591,1802,148,yes,,,Yes,2.8,4,,33,200,,3.8,Yes,AI Healthcare
+H00014,Kochi Care Hospital 14,Chennai,Government,,1350,74,Yes,Yes,Yes,,2.1,3.8,3.9,75,162,81,4.9,yes,Digital Patient Care
+H00015,Pune Care Hospital 15,Jaipur,Multispeciality,131,769,140,YES,YES,Yes,Yes,2.4,2.9,4.6,56,129,94,,Yes,
+H00016,Madurai Care Hospital 16,Mumbai,Private,937,1204,62,Yes,NO,Yes,No,,3.1,3.5,,,68,4.8,YES,Digital Patient Care
+H00017,Delhi Care Hospital 17,Madurai,,,1298,42,yes,YES,Yes,Yes,4.2,4.9,4.6,68,85,59,4.6,Yes,AI Healthcare
+H00018,Bengaluru Care Hospital 18,Pune,Government,1210,,22,Yes,NO,No,,2.8,4.3,3.2,52,174,85,4.6,yes,Digital Patient Care
+H00019,Madurai Care Hospital 19,Delhi,Multispeciality,693,1254,52,,No,Yes,No,3.9,2.5,4.8,67,36,99,2.1,Yes,Green Hospital
+H00020,Madurai Care Hospital 20,Hyderabad,Specialty,1162,,,Yes,Yes,,,2.2,4.3,2.8,97,20,,3.6,,Enhanced Security
+H00021,Mumbai Care Hospital 21,Jaipur,Private,870,134,28,YES,Yes,Yes,,2.5,3.1,3.1,35,12,98,,yes,Contactless Healthcare
+H00022,Coimbatore Care Hospital 22,Madurai,,1361,2130,99,yes,No,No,No,4.9,2.2,3.1,87,203,70,3.2,yes,Patient-Centric Care
+H00023,Delhi Care Hospital 23,Pune,Government,485,318,120,YES,YES,No,No,5,4,4.3,38,181,84,2.7,Yes,Contactless Healthcare
+H00024,Kochi Care Hospital 24,Chennai,Government,912,849,61,No,Yes,No,No,3.8,5,3.5,63,92,,3.1,yes,IoT Healthcare
+H00025,Kochi Care Hospital 25,Hyderabad,Multispeciality,421,1537,123,YES,NO,Yes,Yes,3,4.1,3,95,128,89,3.8,Yes,Enhanced Security
+H00026,Mumbai Care Hospital 26,,Private,1086,126,29,No,No,No,Yes,3.1,4.2,,87,67,66,2.6,YES,Enhanced Security
+H00027,Pune Care Hospital 27,Jaipur,Multispeciality,1020,1966,63,Yes,Yes,No,,4.9,3.1,2.1,92,,,2.4,yes,Enhanced Security
+H00028,Kochi Care Hospital 28,Mumbai,Specialty,224,1489,,Yes,YES,No,No,4.5,3.8,2.4,73,106,67,,No,Patient-Centric Care
+H00029,Hyderabad Care Hospital 29,Kochi,Private,,2100,,No,NO,Yes,No,2.8,2.9,4.6,39,163,54,4.6,yes,Digital Patient Care
+H00030,Pune Care Hospital 30,Mumbai,Specialty,1297,2026,43,,No,Yes,No,3.6,2.1,4.8,67,169,67,,YES,
+H00031,Delhi Care Hospital 31,Madurai,Multispeciality,945,525,105,Yes,No,No,No,4.2,4.4,2.7,35,46,95,4.3,No,Contactless Healthcare
+H00032,Delhi Care Hospital 32,Pune,Private,827,804,27,yes,NO,Yes,No,2.6,3.4,3.1,77,71,65,2.4,No,Digital Patient Care
+H00033,Coimbatore Care Hospital 33,,Specialty,628,1846,29,YES,NO,Yes,No,3.2,2.2,2.2,96,32,,4.3,YES,
+H00034,Hyderabad Care Hospital 34,Bengaluru,Specialty,1404,215,31,YES,Yes,Yes,Yes,3.7,2.8,4.1,,198,65,4.8,No,Contactless Healthcare
+H00035,Coimbatore Care Hospital 35,Bengaluru,Multispeciality,327,1113,39,No,YES,Yes,Yes,3.7,,2.7,89,106,95,3,No,Green Hospital
+H00036,Mumbai Care Hospital 36,Kochi,,,1713,16,No,YES,Yes,No,3.4,2.2,,72,86,87,4.4,YES,Contactless Healthcare
+H00037,Pune Care Hospital 37,Mumbai,,,1185,109,Yes,YES,No,Yes,4.7,4.9,3.2,41,36,64,2.3,Yes,Contactless Healthcare
+H00038,Coimbatore Care Hospital 38,Pune,Specialty,1456,400,48,YES,Yes,Yes,Yes,2.3,3.5,2.9,54,207,56,4.6,,Digital Patient Care
+H00039,Coimbatore Care Hospital 39,Kochi,Specialty,,210,46,Yes,NO,No,No,2.8,2.4,3.3,,95,100,2.2,No,Green Hospital
+H00040,Chennai Care Hospital 40,Madurai,Multispeciality,,1086,107,Yes,NO,,,4.5,2.4,3.7,45,21,90,5,No,Enhanced Security
+H00041,Bengaluru Care Hospital 41,Coimbatore,Multispeciality,1293,,117,Yes,,Yes,No,4.6,3.2,4.9,66,,86,3.3,,
+H00042,Chennai Care Hospital 42,,Private,310,248,,yes,NO,Yes,Yes,3.1,4.7,4.7,37,130,65,4.4,YES,Digital Patient Care
+H00043,Jaipur Care Hospital 43,Bengaluru,Specialty,1470,1516,25,Yes,,Yes,Yes,3.1,3.2,,83,114,69,4.1,No,AI Healthcare
+H00044,Bengaluru Care Hospital 44,Delhi,Multispeciality,1275,745,50,YES,YES,No,Yes,4.4,2.1,2.4,34,46,,4.5,No,Smart Hospital
+H00045,Pune Care Hospital 45,Jaipur,Specialty,377,,11,Yes,NO,No,No,2.7,2.9,4.9,42,,100,3.3,,Enhanced Security
+H00046,Bengaluru Care Hospital 46,Pune,Government,199,1675,33,,YES,Yes,Yes,4.1,2.3,3.9,65,46,67,2.3,No,
+H00047,Hyderabad Care Hospital 47,Jaipur,Specialty,1419,252,135,YES,NO,No,Yes,3.9,4.5,,66,,82,4.9,No,IoT Healthcare
+H00048,Jaipur Care Hospital 48,Delhi,,946,485,37,YES,YES,No,Yes,4.8,2.5,4.6,60,111,92,3.3,,Contactless Healthcare
+H00049,Kochi Care Hospital 49,Chennai,Government,814,,82,yes,YES,No,Yes,3.8,2.4,3.7,88,36,66,3.3,Yes,Enhanced Security
+H00050,Bengaluru Care Hospital 50,Madurai,Private,1322,1514,76,No,Yes,No,Yes,4.1,2.2,3.5,94,214,56,2.1,yes,AI Healthcare
+H00051,Bengaluru Care Hospital 51,Pune,Specialty,159,,22,YES,,No,No,3.3,,,86,55,87,4.7,No,AI Healthcare
+H00052,Kochi Care Hospital 52,Bengaluru,Specialty,218,1677,23,yes,YES,No,Yes,4.7,2.3,2.7,49,210,95,4.5,Yes,Enhanced Security
+H00053,Bengaluru Care Hospital 53,Kochi,Government,561,442,121,yes,NO,Yes,No,3.4,3.4,2.7,99,51,57,2.5,,Contactless Healthcare
+H00054,Madurai Care Hospital 54,Bengaluru,Government,1188,70,40,No,YES,Yes,Yes,4.3,2.9,2.1,76,53,54,4.7,yes,Contactless Healthcare
+H00055,Jaipur Care Hospital 55,Mumbai,Government,1025,1803,121,yes,NO,,No,2.7,,3.9,74,,,4.5,No,Enhanced Security
+H00056,Mumbai Care Hospital 56,Pune,Private,335,1583,14,YES,NO,Yes,No,4.8,,2.9,34,108,84,4.2,YES,Digital Patient Care
+H00057,Kochi Care Hospital 57,Mumbai,Specialty,602,394,66,YES,No,Yes,Yes,4,2.6,2.6,98,127,95,4.4,yes,
+H00058,Mumbai Care Hospital 58,Bengaluru,Private,,257,69,,NO,No,Yes,4.4,3.1,3.8,97,193,71,2.1,,Contactless Healthcare
+H00059,Delhi Care Hospital 59,Mumbai,Government,345,1568,,Yes,Yes,,No,4.4,2.4,3.7,43,23,88,3.6,yes,
+H00060,Hyderabad Care Hospital 60,Mumbai,Private,465,2191,,yes,NO,,Yes,4.9,5,2.7,33,175,63,3.4,Yes,Patient-Centric Care
+H00061,Delhi Care Hospital 61,Jaipur,Government,646,1950,43,No,Yes,No,Yes,2.9,3.3,3.4,76,88,64,4.7,Yes,Contactless Healthcare
+H00062,Delhi Care Hospital 62,Pune,Multispeciality,713,812,30,Yes,No,No,Yes,2.8,,3.8,89,105,94,4.6,YES,Patient-Centric Care
+H00063,Chennai Care Hospital 63,Coimbatore,Private,1053,1014,126,YES,NO,No,Yes,5,3,4.2,80,192,94,4.4,No,Smart Hospital
+H00064,Pune Care Hospital 64,Pune,Government,1075,,128,,YES,No,No,4.7,2.6,3.6,61,,56,2.4,yes,Enhanced Security
+H00065,Hyderabad Care Hospital 65,,Multispeciality,1235,661,,yes,No,No,Yes,4.3,4.7,4.9,71,147,98,,yes,IoT Healthcare
+H00066,Pune Care Hospital 66,Hyderabad,Government,662,1446,26,No,NO,Yes,Yes,2.1,,2.5,30,5,52,,No,Contactless Healthcare
+H00067,Delhi Care Hospital 67,Coimbatore,Government,728,1245,19,No,No,,No,4.5,3,4.2,74,198,99,4,,Patient-Centric Care
+H00068,Delhi Care Hospital 68,Kochi,Private,743,168,62,yes,,Yes,,3,,4.4,62,220,84,3.3,YES,Green Hospital
+H00069,Pune Care Hospital 69,Delhi,Private,141,624,13,No,Yes,Yes,No,2.2,4.3,4.9,45,,87,2.9,No,Contactless Healthcare
+H00070,Chennai Care Hospital 70,Mumbai,Specialty,1056,1892,99,,No,Yes,,3.4,,3.3,79,102,69,3.6,,Digital Patient Care
+H00071,Madurai Care Hospital 71,Madurai,Multispeciality,313,1703,77,YES,YES,Yes,Yes,2.1,4.3,4.1,99,214,85,3.9,yes,Enhanced Security
+H00072,Kochi Care Hospital 72,Mumbai,Private,1222,2115,74,Yes,NO,No,Yes,2.9,3.6,3.6,88,,,4.4,yes,Enhanced Security
+H00073,Delhi Care Hospital 73,Madurai,Government,665,70,22,yes,YES,No,Yes,2.5,4,2.4,56,96,59,4.4,YES,Smart Hospital
+H00074,Bengaluru Care Hospital 74,Pune,Private,759,133,63,No,YES,No,Yes,2.5,4.1,4,79,215,51,4.6,No,Green Hospital
+H00075,Delhi Care Hospital 75,Delhi,Government,1315,510,82,YES,YES,No,No,3.9,2.1,3.3,100,132,90,4,No,Green Hospital
+H00076,Chennai Care Hospital 76,Bengaluru,Private,709,70,124,yes,NO,No,,2.1,3.5,3.6,62,,85,4.7,yes,IoT Healthcare
+H00077,Chennai Care Hospital 77,Hyderabad,Government,349,944,9,Yes,Yes,No,No,2.6,4,3.6,79,81,50,4.7,yes,IoT Healthcare
+H00078,Bengaluru Care Hospital 78,Mumbai,Multispeciality,718,756,102,,YES,No,Yes,2.2,2,,48,139,56,2.7,No,Smart Hospital
+H00079,Madurai Care Hospital 79,Pune,Government,1469,1718,46,Yes,YES,No,,3.8,4.7,4.5,,198,70,3.6,No,Smart Hospital
+H00080,Hyderabad Care Hospital 80,Chennai,Government,1321,1512,100,yes,No,No,Yes,3.1,4.6,4.1,,150,,4.4,Yes,Green Hospital
+H00081,Bengaluru Care Hospital 81,,Multispeciality,158,443,108,,No,No,Yes,5,2.1,2.5,47,133,100,4.4,yes,Digital Patient Care
+H00082,Bengaluru Care Hospital 82,Madurai,Private,1003,362,58,Yes,Yes,No,Yes,3.6,4.6,2.2,49,195,65,,,
+H00083,Kochi Care Hospital 83,Madurai,Government,1485,638,,yes,No,No,No,2.2,3.7,3.9,97,114,77,4.1,YES,Enhanced Security
+H00084,Hyderabad Care Hospital 84,Hyderabad,Specialty,1441,341,,Yes,YES,No,Yes,,3.5,,52,102,97,3.8,YES,AI Healthcare
+H00085,Chennai Care Hospital 85,Delhi,Private,1092,90,31,yes,YES,Yes,Yes,2.7,3.4,,,184,,3.2,yes,Enhanced Security
+H00086,Hyderabad Care Hospital 86,Mumbai,Specialty,203,2054,75,Yes,Yes,No,Yes,2.7,4.3,3.9,83,192,56,4.5,No,
+H00087,Chennai Care Hospital 87,Madurai,Multispeciality,300,206,24,yes,,No,No,4.1,,3.9,44,87,59,3.2,,Green Hospital
+H00088,Pune Care Hospital 88,Chennai,Specialty,136,1341,108,Yes,Yes,No,,4.4,4,2.6,,191,100,4.7,YES,Smart Hospital
+H00089,Delhi Care Hospital 89,Hyderabad,Specialty,1193,379,12,,No,No,No,4.7,4.6,3.4,38,117,82,3.2,,Contactless Healthcare
+H00090,Kochi Care Hospital 90,Coimbatore,Private,159,1134,44,,Yes,No,,5,2.8,3.4,79,,98,2.3,Yes,Digital Patient Care
+H00091,Jaipur Care Hospital 91,Delhi,,183,1962,17,yes,NO,No,Yes,4,3.1,2.1,35,110,67,2.4,Yes,Green Hospital
+H00092,Bengaluru Care Hospital 92,,Specialty,262,1480,38,yes,NO,No,No,,,,35,188,76,3.7,No,Smart Hospital
+H00093,Kochi Care Hospital 93,Coimbatore,Government,924,,132,No,NO,No,Yes,3,4.5,3.2,41,109,57,3.6,yes,Patient-Centric Care
+H00094,Mumbai Care Hospital 94,Bengaluru,Multispeciality,613,2039,118,YES,NO,No,No,2.6,3.3,,99,104,95,3.1,YES,Green Hospital
+H00095,Kochi Care Hospital 95,,Government,1009,1744,,yes,No,Yes,Yes,3.3,2.3,4.9,82,114,65,2.6,yes,Contactless Healthcare
+H00096,Chennai Care Hospital 96,Mumbai,Specialty,299,130,71,,NO,No,,3.2,,,99,,,4.6,Yes,Smart Hospital
+H00097,Jaipur Care Hospital 97,Madurai,Multispeciality,,369,5,YES,NO,No,No,3.2,3.1,2.2,,87,80,2.4,YES,Digital Patient Care
+H00098,Chennai Care Hospital 98,Mumbai,Private,678,2080,8,yes,Yes,No,No,5,4.1,3,91,164,54,4.1,YES,IoT Healthcare
+H00099,Kochi Care Hospital 99,Chennai,Government,1176,1164,30,YES,Yes,Yes,Yes,,2.1,,71,151,96,3.6,YES,Digital Patient Care
+H00100,Delhi Care Hospital 100,Hyderabad,Private,942,1991,102,No,NO,No,No,3.2,4.6,3.5,96,150,86,2.8,No,Patient-Centric Care
+H00101,Coimbatore Care Hospital 101,Delhi,Private,798,942,27,YES,NO,No,Yes,4.3,4.1,3.2,41,43,75,,,Enhanced Security
+H00102,Chennai Care Hospital 102,Chennai,Private,1315,,65,,,Yes,No,,4.3,4.7,36,42,,3.5,yes,Digital Patient Care
+H00103,Hyderabad Care Hospital 103,Hyderabad,Government,,1967,128,YES,NO,No,No,,4.8,2.7,95,129,73,4.5,Yes,AI Healthcare
+H00104,Chennai Care Hospital 104,Mumbai,Government,1167,1595,63,,NO,No,Yes,3.3,2.2,4.1,96,51,78,4.2,YES,Enhanced Security
+H00105,Hyderabad Care Hospital 105,Chennai,Government,1015,949,97,yes,No,Yes,No,3.4,4.3,3.4,43,9,52,4.6,No,Green Hospital
+H00106,Coimbatore Care Hospital 106,Mumbai,Specialty,1102,2197,142,Yes,No,,No,2.1,2.4,2.4,42,,62,3.5,No,Patient-Centric Care
+H00107,Madurai Care Hospital 107,Pune,Private,331,534,103,No,No,Yes,No,2.3,,2.8,63,188,73,4.2,yes,Digital Patient Care
+H00108,Coimbatore Care Hospital 108,Coimbatore,Private,1034,2161,20,No,,No,No,4,4,4.1,66,216,56,5,,Enhanced Security
+H00109,Delhi Care Hospital 109,Madurai,Specialty,1054,1349,,No,Yes,Yes,,2.8,3,2.8,52,205,60,,yes,AI Healthcare
+H00110,Chennai Care Hospital 110,Kochi,Specialty,188,1292,136,,Yes,No,,2.2,4.7,3.7,32,58,90,,Yes,Smart Hospital
+H00111,Madurai Care Hospital 111,Delhi,Private,1037,1430,122,,Yes,,Yes,2.5,2.9,2.7,,188,97,2.4,YES,
+H00112,Chennai Care Hospital 112,Jaipur,Private,752,1563,93,yes,Yes,Yes,No,3.1,3.4,4.8,77,155,68,4.2,yes,Enhanced Security
+H00113,Delhi Care Hospital 113,Coimbatore,Specialty,885,1387,61,YES,Yes,Yes,No,4.3,4.7,2.9,73,,83,3.9,yes,Enhanced Security
+H00114,Pune Care Hospital 114,Bengaluru,Government,636,1769,20,Yes,No,Yes,Yes,,2.8,3.4,65,52,71,2.3,YES,IoT Healthcare
+H00115,Chennai Care Hospital 115,Coimbatore,,923,2158,13,No,Yes,,No,2.3,4.3,,89,158,71,4.6,yes,IoT Healthcare
+H00116,Delhi Care Hospital 116,Coimbatore,Multispeciality,1153,1933,11,yes,Yes,Yes,Yes,3.2,3.9,,61,100,61,2.4,Yes,Digital Patient Care
+H00117,Madurai Care Hospital 117,Hyderabad,Specialty,,,97,yes,YES,,No,3.5,3.2,4.5,48,161,97,2.9,No,Digital Patient Care
+H00118,Madurai Care Hospital 118,Chennai,Government,792,1051,18,,No,Yes,Yes,,3.6,2.4,78,218,50,3.1,Yes,Patient-Centric Care
+H00119,Delhi Care Hospital 119,Delhi,Private,636,1097,79,YES,NO,Yes,Yes,3.7,3.2,5,84,154,86,4.8,,Patient-Centric Care
+H00120,Pune Care Hospital 120,Hyderabad,Specialty,815,277,105,YES,No,No,,5,3.7,2,34,72,82,,Yes,Green Hospital
+H00121,Kochi Care Hospital 121,,Government,1491,974,37,yes,YES,Yes,No,4.2,4.5,3.8,67,179,61,2.8,yes,Enhanced Security
+H00122,Hyderabad Care Hospital 122,Delhi,Specialty,866,1066,150,YES,Yes,No,No,3.4,2.5,4.5,62,121,90,2.7,yes,Digital Patient Care
+H00123,Chennai Care Hospital 123,Kochi,Multispeciality,169,,49,Yes,NO,Yes,Yes,3.5,,3.2,87,147,79,4.1,yes,IoT Healthcare
+H00124,Pune Care Hospital 124,Delhi,Multispeciality,826,,34,No,No,,Yes,3.8,2.1,3,65,125,,3.6,Yes,Enhanced Security
+H00125,Delhi Care Hospital 125,Coimbatore,Specialty,351,1930,,Yes,No,No,Yes,3.5,2.6,3.3,90,196,78,3.9,YES,IoT Healthcare
+H00126,Chennai Care Hospital 126,Chennai,Private,447,1419,67,Yes,NO,No,No,,4.2,3,73,82,75,,No,Patient-Centric Care
+H00127,Madurai Care Hospital 127,,,862,1013,,Yes,,,Yes,2.8,2.9,2.3,75,145,,2.2,yes,
+H00128,Delhi Care Hospital 128,Bengaluru,Specialty,392,1831,24,No,NO,No,No,2.1,4.7,3.2,93,133,84,2.1,yes,IoT Healthcare
+H00129,Bengaluru Care Hospital 129,Kochi,,1094,2007,84,Yes,No,Yes,No,2.7,3.1,2.9,48,132,97,2.6,YES,
+H00130,Chennai Care Hospital 130,,Government,841,,111,YES,YES,,Yes,3.7,,3.2,67,14,75,4.2,YES,Patient-Centric Care
+H00131,Bengaluru Care Hospital 131,Jaipur,Government,105,1984,62,YES,Yes,Yes,Yes,,3.9,4.8,95,211,59,4.5,No,Digital Patient Care
+H00132,Delhi Care Hospital 132,Mumbai,Specialty,1464,702,98,No,No,No,Yes,4.8,2.9,,55,161,93,4.3,Yes,IoT Healthcare
+H00133,Bengaluru Care Hospital 133,Hyderabad,Multispeciality,,539,62,Yes,No,No,Yes,3.5,2.8,3.9,68,206,96,3.4,Yes,Enhanced Security
+H00134,Kochi Care Hospital 134,Delhi,Private,415,1635,23,No,Yes,No,Yes,3.8,,3.2,97,120,54,3.6,Yes,IoT Healthcare
+H00135,Delhi Care Hospital 135,Coimbatore,Multispeciality,605,628,19,YES,No,No,Yes,2,3.1,3.5,95,194,88,3.7,Yes,Smart Hospital
+H00136,Kochi Care Hospital 136,Hyderabad,Specialty,653,340,41,,NO,Yes,No,4.2,2.5,2.2,98,,79,3.9,Yes,Green Hospital
+H00137,Mumbai Care Hospital 137,Chennai,Government,1252,1444,48,YES,YES,No,,3.5,,2.1,82,162,80,,,Green Hospital
+H00138,Madurai Care Hospital 138,Coimbatore,Government,1449,1374,5,No,,No,No,2.2,3.1,4.3,54,70,58,2.2,YES,AI Healthcare
+H00139,Pune Care Hospital 139,Coimbatore,Specialty,850,56,84,YES,No,No,No,,4.7,3.3,45,175,73,3.9,yes,Patient-Centric Care
+H00140,Bengaluru Care Hospital 140,Pune,Specialty,204,,26,YES,,No,,,,4.1,36,,94,4.5,Yes,Contactless Healthcare
+H00141,Jaipur Care Hospital 141,Pune,Specialty,1250,787,144,Yes,No,Yes,Yes,2.5,4.9,4.4,30,,54,4.9,yes,AI Healthcare
+H00142,Madurai Care Hospital 142,Chennai,Specialty,513,2192,84,No,NO,No,Yes,4.1,4.5,3.9,85,123,78,2.7,Yes,Green Hospital
+H00143,Coimbatore Care Hospital 143,Chennai,Specialty,,1389,120,yes,Yes,No,,4.5,2.2,3.3,31,154,55,2.7,Yes,Smart Hospital
+H00144,Kochi Care Hospital 144,Coimbatore,Multispeciality,557,2112,84,,YES,Yes,Yes,4.9,2.8,3.6,99,49,78,2.4,No,Green Hospital
+H00145,Coimbatore Care Hospital 145,Chennai,Multispeciality,766,,16,yes,NO,,No,4.9,4.8,2.3,52,149,94,,Yes,Contactless Healthcare
+H00146,Hyderabad Care Hospital 146,Hyderabad,Specialty,1233,1380,125,,Yes,No,No,4.2,4.3,2.2,57,205,82,3,Yes,Smart Hospital
+H00147,Chennai Care Hospital 147,Hyderabad,Private,843,,126,Yes,Yes,No,Yes,3.6,3,2,45,121,100,,,
+H00148,Hyderabad Care Hospital 148,Jaipur,Government,1228,552,100,,NO,Yes,Yes,3.1,4.4,4.8,35,207,64,2.4,Yes,Digital Patient Care
+H00149,Madurai Care Hospital 149,Coimbatore,Specialty,232,509,41,yes,Yes,No,Yes,2.1,3.9,2.6,72,196,50,,yes,AI Healthcare
+H00150,Kochi Care Hospital 150,Jaipur,Specialty,1165,,48,No,NO,Yes,No,3.6,4.6,3.6,37,145,57,2.5,No,Digital Patient Care
+H00151,Mumbai Care Hospital 151,Delhi,Multispeciality,123,1060,116,,,No,Yes,,4.4,,92,177,52,4.3,No,Contactless Healthcare
+H00152,Coimbatore Care Hospital 152,Madurai,Government,275,660,116,Yes,Yes,No,No,3.5,3.5,4.9,36,102,,2.8,YES,Enhanced Security
+H00153,Pune Care Hospital 153,,Multispeciality,131,1467,9,YES,YES,Yes,,4.1,3.8,3.1,33,64,68,4.2,Yes,
+H00154,Jaipur Care Hospital 154,Mumbai,Government,1035,1167,58,YES,Yes,No,No,4.7,4.1,4.1,,,96,,YES,Digital Patient Care
+H00155,Bengaluru Care Hospital 155,,Specialty,505,63,121,Yes,NO,Yes,No,2,3.6,2.1,58,133,86,3.7,YES,AI Healthcare
+H00156,Kochi Care Hospital 156,Bengaluru,Government,1225,960,8,YES,Yes,Yes,No,2.2,4.6,4,68,47,84,2.6,Yes,AI Healthcare
+H00157,Mumbai Care Hospital 157,,Government,1486,1591,21,yes,YES,Yes,No,2.7,3.5,2.1,99,140,92,4.1,YES,Contactless Healthcare
+H00158,Bengaluru Care Hospital 158,Mumbai,Government,264,835,99,No,YES,No,No,3.2,4.4,3.1,33,87,96,3.4,Yes,
+H00159,Mumbai Care Hospital 159,Bengaluru,,,514,,yes,No,Yes,,4.3,3.5,2.7,57,220,95,2.2,yes,AI Healthcare
+H00160,Mumbai Care Hospital 160,Kochi,Government,141,1559,107,yes,YES,Yes,Yes,3.3,4.9,3.7,35,218,85,3.6,YES,Smart Hospital
+H00161,Pune Care Hospital 161,Chennai,,,1086,34,YES,,No,No,2.6,3.5,4.9,37,54,89,4,YES,Enhanced Security
+H00162,Coimbatore Care Hospital 162,Bengaluru,Specialty,385,1947,26,Yes,NO,No,No,,3.2,4.7,41,120,66,,yes,Contactless Healthcare
+H00163,Pune Care Hospital 163,Jaipur,Private,660,1165,106,Yes,Yes,No,No,2.6,3.7,4.5,80,200,,4.4,yes,
+H00164,Jaipur Care Hospital 164,Mumbai,Multispeciality,302,934,99,yes,YES,No,No,2.9,2.6,4.2,41,34,78,3.5,Yes,Digital Patient Care
+H00165,Delhi Care Hospital 165,Chennai,,651,2185,149,yes,Yes,,No,2.9,2,2,,22,57,3.4,No,Digital Patient Care
+H00166,Hyderabad Care Hospital 166,Hyderabad,Multispeciality,972,1520,147,No,,No,Yes,,5,3.4,41,7,90,2.5,No,Enhanced Security
+H00167,Kochi Care Hospital 167,,Specialty,982,1742,,yes,,,No,,2,4.9,57,47,71,4.6,YES,Enhanced Security
+H00168,Delhi Care Hospital 168,Delhi,Specialty,,567,133,Yes,No,No,No,2.3,3.4,3.5,78,115,,2.1,,IoT Healthcare
+H00169,Chennai Care Hospital 169,Pune,Specialty,146,2177,94,yes,NO,No,,4.6,3.4,2.5,94,122,64,4.9,No,
+H00170,Coimbatore Care Hospital 170,Jaipur,Private,491,425,93,YES,,No,Yes,4.6,4.2,2.8,45,133,96,3.3,Yes,IoT Healthcare
+H00171,Coimbatore Care Hospital 171,Jaipur,Multispeciality,1264,685,65,yes,,No,No,2.4,2.2,3,70,170,88,4,yes,
+H00172,Jaipur Care Hospital 172,Kochi,Multispeciality,1124,379,111,Yes,Yes,Yes,Yes,3.4,3.5,,63,67,70,3.4,,Digital Patient Care
+H00173,Madurai Care Hospital 173,,Government,924,845,114,yes,YES,Yes,Yes,2.6,2.5,3.9,,160,93,2.4,,Patient-Centric Care
+H00174,Kochi Care Hospital 174,Hyderabad,,530,,31,Yes,YES,No,Yes,3.6,,4.2,,108,65,2.7,yes,AI Healthcare
+H00175,Delhi Care Hospital 175,Madurai,,908,1964,144,Yes,Yes,Yes,No,3.7,4,4.7,78,182,90,3.9,Yes,Contactless Healthcare
+H00176,Hyderabad Care Hospital 176,Coimbatore,Private,1419,519,39,YES,Yes,No,Yes,,2.1,3.9,46,69,62,2.6,YES,Digital Patient Care
+H00177,Kochi Care Hospital 177,Coimbatore,Multispeciality,1380,,49,Yes,,No,No,4.8,2.1,3,83,58,56,2.3,Yes,Green Hospital
+H00178,Chennai Care Hospital 178,Madurai,Private,1026,481,123,YES,Yes,No,Yes,,2,4.4,58,69,61,,Yes,Enhanced Security
+H00179,Bengaluru Care Hospital 179,Bengaluru,Multispeciality,501,294,145,YES,YES,Yes,Yes,3.3,2.3,3,100,91,68,,YES,Contactless Healthcare
+H00180,Delhi Care Hospital 180,Jaipur,Specialty,608,1675,146,YES,NO,,No,4.1,4,3.2,,,96,2.8,No,IoT Healthcare
+H00181,Delhi Care Hospital 181,Kochi,Multispeciality,623,441,18,No,No,Yes,Yes,4.3,4.4,4.3,42,70,63,2.9,YES,IoT Healthcare
+H00182,Jaipur Care Hospital 182,Chennai,Government,1402,439,142,No,No,No,,3,3.2,4.7,43,216,51,4.5,Yes,IoT Healthcare
+H00183,Chennai Care Hospital 183,Delhi,Specialty,1391,,,yes,Yes,Yes,No,4.1,4.5,3.7,95,,,4.4,Yes,
+H00184,Hyderabad Care Hospital 184,Delhi,Specialty,1270,1850,136,Yes,Yes,,No,2.7,2.1,,90,,76,2.7,YES,AI Healthcare
+H00185,Pune Care Hospital 185,Chennai,Multispeciality,863,743,126,Yes,No,Yes,Yes,3.7,4.6,3.6,63,39,,3.9,Yes,AI Healthcare
+H00186,Coimbatore Care Hospital 186,Pune,Multispeciality,326,328,113,Yes,NO,Yes,Yes,4.8,3,3.7,99,30,76,2.3,YES,Green Hospital
+H00187,Mumbai Care Hospital 187,Bengaluru,,829,1661,37,Yes,,Yes,Yes,3.8,3.3,4.8,63,135,78,4.3,YES,Enhanced Security
+H00188,Bengaluru Care Hospital 188,Delhi,Specialty,744,962,44,,NO,,Yes,2.5,2.1,3,44,88,81,4.7,No,IoT Healthcare
+H00189,Hyderabad Care Hospital 189,Pune,Specialty,1316,765,,YES,Yes,No,Yes,3.1,3.3,2.3,,9,96,3.9,Yes,Digital Patient Care
+H00190,Madurai Care Hospital 190,Madurai,,,2198,140,YES,Yes,,Yes,3.4,4.1,2.1,60,133,100,4.1,YES,
+H00191,Hyderabad Care Hospital 191,,Private,1300,973,,No,Yes,No,No,3.1,4.4,4.9,64,140,93,3.2,YES,Contactless Healthcare
+H00192,Mumbai Care Hospital 192,Kochi,Specialty,144,1373,106,Yes,NO,No,Yes,2.8,,2.1,91,175,53,3.7,No,IoT Healthcare
+H00193,Jaipur Care Hospital 193,Coimbatore,Government,398,199,133,Yes,YES,,No,3.9,2.3,3.4,32,213,71,,No,Patient-Centric Care
+H00194,Madurai Care Hospital 194,Pune,Multispeciality,1462,1244,131,yes,NO,No,No,3.6,,4.6,61,206,80,4.8,YES,Digital Patient Care
+H00195,Bengaluru Care Hospital 195,,Multispeciality,1273,131,44,yes,,No,No,,3.9,4.2,42,171,79,4.8,No,Patient-Centric Care
+H00196,Chennai Care Hospital 196,Mumbai,,,2152,36,yes,Yes,No,No,3.8,2.8,3.1,86,160,,4.8,YES,Green Hospital
+H00197,Bengaluru Care Hospital 197,Pune,Private,495,1148,,YES,YES,No,Yes,2.7,4.9,2.7,64,183,76,4.3,YES,IoT Healthcare
+H00198,Pune Care Hospital 198,Jaipur,Multispeciality,1114,1011,23,No,,No,Yes,,3.3,2.8,48,60,99,3.8,YES,IoT Healthcare
+H00199,Bengaluru Care Hospital 199,Madurai,Specialty,486,1100,128,Yes,,Yes,No,3.9,3.5,2.3,97,,55,4.8,Yes,Green Hospital
+H00200,Delhi Care Hospital 200,Bengaluru,Multispeciality,,445,20,Yes,NO,No,Yes,4.7,2.8,4.9,60,9,81,3.6,yes,Contactless Healthcare
+H00201,Madurai Care Hospital 201,Jaipur,Specialty,,676,42,yes,Yes,No,No,2.3,2.7,3.2,93,211,83,4.6,YES,Smart Hospital
+H00202,Coimbatore Care Hospital 202,Jaipur,Specialty,1090,1290,118,No,Yes,No,No,3.2,2.2,3.5,,22,51,,yes,Contactless Healthcare
+H00203,Mumbai Care Hospital 203,Pune,Government,605,,136,,Yes,No,No,2.2,3.5,2.8,81,170,,2.5,Yes,Contactless Healthcare
+H00204,Delhi Care Hospital 204,Madurai,Specialty,723,,14,Yes,YES,,No,,3.1,2.2,61,213,96,2.9,YES,
+H00205,Kochi Care Hospital 205,Coimbatore,,316,1351,,No,Yes,No,Yes,4.8,2,4.3,40,144,76,4.2,,AI Healthcare
+H00206,Mumbai Care Hospital 206,Mumbai,Private,393,647,28,Yes,No,No,No,3.5,4.6,2.1,38,22,99,2.3,YES,Digital Patient Care
+H00207,Coimbatore Care Hospital 207,Coimbatore,Specialty,715,199,6,YES,YES,Yes,No,2.5,4.1,4.7,90,194,,4.9,Yes,Patient-Centric Care
+H00208,Kochi Care Hospital 208,Mumbai,Private,512,1966,,YES,,No,Yes,2.6,4.2,3.3,99,104,89,3.8,yes,Enhanced Security
+H00209,Chennai Care Hospital 209,Madurai,,1005,1667,117,,YES,Yes,Yes,3.6,3.3,4.7,64,71,51,2.3,yes,AI Healthcare
+H00210,Hyderabad Care Hospital 210,Chennai,Multispeciality,632,1172,27,No,NO,Yes,No,4,4.6,2.4,70,,,,yes,IoT Healthcare
+H00211,Pune Care Hospital 211,Chennai,Multispeciality,649,369,84,YES,,Yes,No,2.9,3.8,2.9,47,182,69,4.9,No,Smart Hospital
+H00212,Pune Care Hospital 212,Mumbai,Specialty,198,1933,62,yes,Yes,Yes,,,4.5,2.7,38,181,,,YES,Contactless Healthcare
+H00213,Chennai Care Hospital 213,Mumbai,Government,1062,1713,47,YES,NO,No,,3.1,2.2,3.3,,105,52,2.9,YES,Patient-Centric Care
+H00214,Kochi Care Hospital 214,,Government,1382,135,,yes,YES,No,No,2.3,3.4,2.1,97,23,68,2.8,YES,Green Hospital
+H00215,Mumbai Care Hospital 215,Coimbatore,Multispeciality,952,,82,,NO,No,No,4.3,2,,46,193,91,3.8,Yes,Contactless Healthcare
+H00216,Chennai Care Hospital 216,Mumbai,Multispeciality,902,2049,,yes,No,,Yes,2.7,2.2,2.4,83,140,73,4.1,Yes,Digital Patient Care
+H00217,Delhi Care Hospital 217,Madurai,Multispeciality,,511,78,yes,No,,No,3,4,4.8,59,124,67,3.1,YES,
+H00218,Pune Care Hospital 218,Delhi,Specialty,580,2168,137,No,No,Yes,No,4.1,,3.9,75,67,86,3.3,YES,IoT Healthcare
+H00219,Jaipur Care Hospital 219,Pune,Specialty,782,2127,63,No,No,Yes,Yes,4.9,3.5,,42,13,67,4.1,YES,Enhanced Security
+H00220,Hyderabad Care Hospital 220,,Multispeciality,786,2042,42,yes,Yes,Yes,Yes,4.6,3.1,2.2,93,124,61,3.7,Yes,Green Hospital
+H00221,Mumbai Care Hospital 221,Mumbai,Government,649,625,59,No,No,No,No,3.7,4.3,2.2,65,73,68,4.2,yes,IoT Healthcare
+H00222,Hyderabad Care Hospital 222,Pune,Multispeciality,1003,1145,52,YES,YES,No,No,2.2,4.5,2.2,63,184,82,4,YES,Patient-Centric Care
+H00223,Pune Care Hospital 223,Madurai,,978,1898,73,YES,,,No,4.7,4.5,3.5,71,22,66,4.8,,Smart Hospital
+H00224,Hyderabad Care Hospital 224,Delhi,Private,292,1219,126,No,Yes,No,No,2.3,2.2,,,,60,2.9,,Green Hospital
+H00225,Pune Care Hospital 225,Jaipur,Government,1279,943,66,Yes,Yes,No,No,3.9,2.8,2.8,92,119,86,3.3,yes,Patient-Centric Care
+H00226,Pune Care Hospital 226,,Private,428,,99,,Yes,Yes,Yes,4,3,4.3,71,19,89,3.7,No,Green Hospital
+H00227,Kochi Care Hospital 227,Delhi,Government,299,1800,47,yes,Yes,No,Yes,2.6,,4.7,52,187,,4.3,YES,Smart Hospital
+H00228,Bengaluru Care Hospital 228,Mumbai,,1338,1995,111,YES,YES,No,No,2.7,3.5,4.8,30,129,63,4.6,No,Contactless Healthcare
+H00229,Mumbai Care Hospital 229,Hyderabad,Private,1087,942,122,YES,,Yes,No,4.6,3.5,,43,173,75,,Yes,Green Hospital
+H00230,Chennai Care Hospital 230,Pune,Private,242,1112,116,YES,NO,Yes,No,,3.3,2.8,,153,82,2.8,No,Contactless Healthcare
+H00231,Mumbai Care Hospital 231,Kochi,Specialty,416,2106,9,Yes,NO,No,Yes,4.9,3.2,2.4,51,184,86,4.5,Yes,Contactless Healthcare
+H00232,Delhi Care Hospital 232,Kochi,Specialty,1103,642,113,yes,,Yes,,4.4,2.7,4.5,,,98,5,yes,Patient-Centric Care
+H00233,Hyderabad Care Hospital 233,Mumbai,Multispeciality,1077,,128,YES,Yes,Yes,No,4.7,4.2,4.1,90,41,94,4.9,No,IoT Healthcare
+H00234,Chennai Care Hospital 234,Bengaluru,Specialty,1439,619,86,Yes,YES,Yes,Yes,4.9,2.1,4.6,74,136,61,4.9,YES,Enhanced Security
+H00235,Jaipur Care Hospital 235,Mumbai,Government,602,789,90,Yes,YES,Yes,Yes,3.2,2.1,2.1,81,79,90,3.3,yes,Green Hospital
+H00236,Mumbai Care Hospital 236,Delhi,Multispeciality,881,2104,,No,NO,Yes,No,2.2,2.3,2.9,65,,53,4.6,Yes,Green Hospital
+H00237,Jaipur Care Hospital 237,Bengaluru,Specialty,499,692,132,yes,YES,No,Yes,3,4.8,4.4,39,101,80,4.9,Yes,Digital Patient Care
+H00238,Delhi Care Hospital 238,Pune,Specialty,1442,2002,15,No,NO,No,Yes,3.4,4.7,4.7,90,59,85,3.7,yes,Contactless Healthcare
+H00239,Mumbai Care Hospital 239,Mumbai,,,539,36,Yes,NO,Yes,No,2.7,3.1,,51,32,66,2.8,Yes,Patient-Centric Care
+H00240,Hyderabad Care Hospital 240,Pune,Government,648,1401,93,yes,,Yes,,3.6,2.1,2.5,86,7,53,3.1,yes,
+H00241,Madurai Care Hospital 241,Jaipur,Specialty,,1128,69,YES,YES,No,Yes,2.1,4.1,4,81,97,62,2.6,,IoT Healthcare
+H00242,Jaipur Care Hospital 242,Chennai,Private,,1695,54,,Yes,Yes,No,4.3,3.6,3.3,41,53,93,4.1,No,AI Healthcare
+H00243,Delhi Care Hospital 243,Kochi,Government,,2114,13,yes,NO,Yes,No,4.4,2.9,2.6,88,215,86,4.9,Yes,Patient-Centric Care
+H00244,Madurai Care Hospital 244,Pune,Multispeciality,1041,,121,yes,No,,Yes,2,2.2,4.8,44,135,52,2.6,,Digital Patient Care
+H00245,Mumbai Care Hospital 245,,Private,,1554,88,,,No,No,,2.1,2.3,83,172,81,2.3,yes,Smart Hospital
+H00246,Chennai Care Hospital 246,Delhi,Multispeciality,1318,1838,10,Yes,YES,,Yes,2.2,3.4,4.3,89,157,62,4.6,No,Digital Patient Care
+H00247,Kochi Care Hospital 247,Mumbai,Government,1079,1489,20,Yes,No,No,Yes,2.9,3.5,2.1,39,164,69,4.5,No,IoT Healthcare
+H00248,Delhi Care Hospital 248,Pune,Specialty,1106,1377,8,yes,,No,,3.5,3.3,2.3,98,80,95,3,YES,Patient-Centric Care
+H00249,Hyderabad Care Hospital 249,Chennai,Government,1025,,15,No,Yes,No,Yes,3.9,2.9,3.8,71,168,98,,YES,AI Healthcare
+H00250,Delhi Care Hospital 250,Mumbai,,995,1065,85,yes,NO,Yes,Yes,2.6,2.6,4.2,31,20,53,4.9,No,Smart Hospital
+H00251,Kochi Care Hospital 251,Delhi,Specialty,288,1992,,YES,NO,No,No,,2.3,4.4,97,40,50,2.6,Yes,Contactless Healthcare
+H00252,Kochi Care Hospital 252,Kochi,Multispeciality,913,827,65,yes,No,No,No,3,4.9,4.3,72,9,76,3.1,YES,
+H00253,Kochi Care Hospital 253,,Private,1171,891,135,Yes,YES,No,Yes,4.1,2,3.6,81,,100,3.4,yes,Green Hospital
+H00254,Bengaluru Care Hospital 254,Bengaluru,Specialty,398,789,118,yes,YES,Yes,Yes,3.2,4.5,4.9,54,,85,4.4,yes,AI Healthcare
+H00255,Chennai Care Hospital 255,Delhi,Specialty,864,133,129,No,No,No,No,4.7,3.2,,68,157,100,4.7,Yes,Digital Patient Care
+H00256,Bengaluru Care Hospital 256,Chennai,Multispeciality,84,280,70,yes,No,No,No,2.5,3.9,4.7,93,217,75,4.3,YES,Digital Patient Care
+H00257,Coimbatore Care Hospital 257,Jaipur,Multispeciality,352,1911,108,yes,YES,No,Yes,3,3.9,2.5,31,114,89,3.8,No,Green Hospital
+H00258,Delhi Care Hospital 258,Hyderabad,,452,,,Yes,Yes,No,Yes,2.7,2.7,3.2,61,192,82,4.4,Yes,Green Hospital
+H00259,Mumbai Care Hospital 259,Mumbai,Specialty,1313,1916,148,yes,Yes,,No,2.4,4.2,,83,,72,4.1,,AI Healthcare
+H00260,Pune Care Hospital 260,,Private,101,1125,11,,,No,Yes,4.6,2.2,4.5,60,54,95,4.9,YES,Contactless Healthcare
+H00261,Mumbai Care Hospital 261,Mumbai,Specialty,689,1951,35,yes,YES,Yes,No,2.5,4,2.8,46,95,53,,Yes,Patient-Centric Care
+H00262,Coimbatore Care Hospital 262,Coimbatore,Multispeciality,96,1357,86,YES,YES,Yes,No,3.6,4.6,2.9,56,163,72,2,YES,Enhanced Security
+H00263,Coimbatore Care Hospital 263,Kochi,Private,1248,1338,41,yes,,Yes,No,2.2,2,3.9,,22,67,3.8,,Green Hospital
+H00264,Bengaluru Care Hospital 264,Kochi,Multispeciality,1389,2064,,Yes,No,Yes,No,4.3,2.9,,,85,62,4.2,Yes,Patient-Centric Care
+H00265,Hyderabad Care Hospital 265,Madurai,Government,1153,277,84,No,NO,No,Yes,4.7,3.8,4.1,53,143,84,3.3,Yes,Green Hospital
+H00266,Jaipur Care Hospital 266,Delhi,Specialty,95,1042,150,No,Yes,No,No,2.4,2.8,4.8,55,109,80,2.2,yes,Smart Hospital
+H00267,Pune Care Hospital 267,,Government,763,1198,25,YES,No,Yes,Yes,3.7,2.4,2.7,,72,50,4.4,,Green Hospital
+H00268,Delhi Care Hospital 268,Madurai,Specialty,408,319,128,YES,,No,Yes,,4.3,2.2,76,183,85,4.8,yes,AI Healthcare
+H00269,Kochi Care Hospital 269,,Government,171,1508,15,Yes,No,No,No,4.9,3.9,3,58,159,98,3.6,No,Patient-Centric Care
+H00270,Bengaluru Care Hospital 270,Mumbai,Government,,308,92,YES,No,No,No,3.5,5,3.2,65,170,,4.2,yes,Digital Patient Care
+H00271,Jaipur Care Hospital 271,Mumbai,Specialty,151,168,132,,YES,Yes,No,3.3,2.7,2.9,93,212,97,,,Patient-Centric Care
+H00272,Madurai Care Hospital 272,,Private,381,863,,yes,YES,No,No,4,,3.6,76,,56,3.5,,Patient-Centric Care
+H00273,Hyderabad Care Hospital 273,Pune,Specialty,1246,1163,49,No,NO,No,No,4.5,2.5,,38,103,,,Yes,Contactless Healthcare
+H00274,Pune Care Hospital 274,Kochi,Government,158,1264,47,Yes,YES,Yes,No,,4.4,4.9,53,111,,4,Yes,Digital Patient Care
+H00275,Bengaluru Care Hospital 275,Hyderabad,Specialty,605,915,89,Yes,Yes,No,,,3,4.4,,44,,4.5,Yes,Contactless Healthcare
+H00276,Coimbatore Care Hospital 276,Kochi,Private,,1878,53,yes,YES,No,No,4.7,3.3,3.1,75,132,63,3.2,YES,Digital Patient Care
+H00277,Delhi Care Hospital 277,Pune,Government,1029,1477,59,YES,No,Yes,Yes,4.1,5,2.5,99,76,59,,Yes,Patient-Centric Care
+H00278,Hyderabad Care Hospital 278,Mumbai,Private,186,1511,114,YES,,No,No,4.9,4.7,3.8,62,163,87,5,No,Contactless Healthcare
+H00279,Bengaluru Care Hospital 279,Pune,Specialty,452,,121,No,No,Yes,No,2.8,3.3,2.8,56,178,61,3.9,No,IoT Healthcare
+H00280,Delhi Care Hospital 280,Madurai,,,821,76,Yes,YES,No,No,3.7,4.1,4.3,91,191,77,3.2,YES,AI Healthcare
+H00281,Hyderabad Care Hospital 281,Kochi,Specialty,182,477,131,yes,No,No,No,2.6,4.9,2.6,81,92,90,2.6,Yes,Patient-Centric Care
+H00282,Bengaluru Care Hospital 282,Chennai,Government,769,1301,53,YES,Yes,No,No,3.7,,3,53,129,71,,,Green Hospital
+H00283,Mumbai Care Hospital 283,,Multispeciality,1194,1436,98,yes,Yes,No,No,3.3,2.4,4.9,84,29,58,4,Yes,
+H00284,Delhi Care Hospital 284,Delhi,Multispeciality,1121,521,34,yes,Yes,No,No,2.8,4.1,3.7,48,54,91,4.2,Yes,Enhanced Security
+H00285,Mumbai Care Hospital 285,Delhi,Government,1428,1241,,YES,No,Yes,No,2,,3.6,75,168,51,2.5,No,IoT Healthcare
+H00286,Bengaluru Care Hospital 286,Madurai,Government,1200,895,47,yes,YES,Yes,No,2.6,3.9,3.4,62,,89,4.3,,AI Healthcare
+H00287,Madurai Care Hospital 287,,Specialty,1114,1526,56,YES,Yes,No,No,4.3,3.4,3.1,57,89,,2.7,Yes,
+H00288,Kochi Care Hospital 288,Bengaluru,Government,1339,311,23,yes,Yes,Yes,Yes,2.7,4.7,4.7,,193,50,4.4,,Green Hospital
+H00289,Mumbai Care Hospital 289,Hyderabad,Multispeciality,393,1819,22,Yes,,No,Yes,2.5,2.9,3,96,72,97,2.5,yes,IoT Healthcare
+H00290,Kochi Care Hospital 290,,Private,463,182,33,YES,No,No,No,4.5,2.4,4.3,86,141,98,4,Yes,AI Healthcare
+H00291,Jaipur Care Hospital 291,Pune,Specialty,590,1462,13,No,No,Yes,Yes,3.6,4.2,3.5,76,212,65,4.8,Yes,AI Healthcare
+H00292,Bengaluru Care Hospital 292,Bengaluru,Government,284,1549,59,No,NO,No,No,4.2,3.2,5,91,96,98,2.7,YES,IoT Healthcare
+H00293,Bengaluru Care Hospital 293,Delhi,Multispeciality,,607,6,YES,Yes,No,No,2.2,3,2.6,59,105,,3.3,No,Contactless Healthcare
+H00294,Bengaluru Care Hospital 294,Jaipur,Specialty,1292,1782,37,No,NO,Yes,No,2.9,2.4,2.2,,23,86,4.7,Yes,AI Healthcare
+H00295,Mumbai Care Hospital 295,Madurai,,,301,96,No,No,No,No,3.4,,2.2,92,153,94,4.5,No,Green Hospital
+H00296,Hyderabad Care Hospital 296,Mumbai,Specialty,707,971,33,YES,YES,Yes,Yes,3.7,4.3,3.1,72,148,77,2.7,No,AI Healthcare
+H00297,Madurai Care Hospital 297,Madurai,Multispeciality,1076,1779,73,Yes,NO,Yes,Yes,4.4,2.4,2.2,91,,92,2.8,YES,Enhanced Security
+H00298,Kochi Care Hospital 298,Madurai,Multispeciality,280,1697,,Yes,Yes,No,Yes,3.2,2.5,3.2,95,12,99,3.4,yes,Enhanced Security
+H00299,Jaipur Care Hospital 299,Chennai,Specialty,1092,1085,,No,Yes,Yes,No,,5,4.7,60,,74,2.7,YES,Enhanced Security
+H00300,Coimbatore Care Hospital 300,Jaipur,Specialty,365,1939,88,YES,YES,No,No,2.6,2.8,4.7,94,192,74,2.2,No,Contactless Healthcare
+H00301,Mumbai Care Hospital 301,,Private,1397,821,146,Yes,YES,No,No,2.6,3.7,4.1,80,8,97,3,YES,AI Healthcare
+H00302,Delhi Care Hospital 302,Bengaluru,Multispeciality,375,736,146,YES,YES,Yes,No,2.9,4.5,3.2,87,177,93,4.8,YES,
+H00303,Hyderabad Care Hospital 303,Chennai,Government,1203,,85,YES,No,No,Yes,3.4,2.6,3.1,72,99,79,3.7,yes,Patient-Centric Care
+H00304,Coimbatore Care Hospital 304,Mumbai,,163,1174,120,No,NO,No,No,4.5,3.9,3.8,90,63,98,3.8,YES,Contactless Healthcare
+H00305,Bengaluru Care Hospital 305,Bengaluru,Private,1076,2119,92,YES,Yes,Yes,,4.7,2,,76,215,70,3.3,No,AI Healthcare
+H00306,Pune Care Hospital 306,Jaipur,,682,1348,49,yes,Yes,Yes,,3.6,4.6,,74,13,55,3.6,YES,Contactless Healthcare
+H00307,Mumbai Care Hospital 307,Hyderabad,Private,1014,2195,37,YES,YES,Yes,Yes,3.2,3.9,2.3,46,23,78,2.4,yes,Contactless Healthcare
+H00308,Madurai Care Hospital 308,Pune,Private,1125,2091,,YES,No,No,Yes,,,3,75,15,89,3.8,No,
+H00309,Pune Care Hospital 309,Pune,Multispeciality,1287,98,77,YES,Yes,Yes,Yes,4,4.2,4.9,87,,67,3,YES,Contactless Healthcare
+H00310,Mumbai Care Hospital 310,Chennai,Multispeciality,822,1582,86,YES,NO,No,Yes,4.2,4.8,4.2,69,5,59,4.9,No,
+H00311,Mumbai Care Hospital 311,Mumbai,Private,186,352,7,No,YES,No,,2.3,3.9,5,42,50,80,3.4,yes,IoT Healthcare
+H00312,Bengaluru Care Hospital 312,Hyderabad,Government,1335,1074,10,No,No,Yes,No,3.8,4.4,3.8,52,196,51,3.5,yes,AI Healthcare
+H00313,Jaipur Care Hospital 313,Coimbatore,Government,82,1844,52,No,YES,Yes,No,3.5,4.2,4.3,68,69,100,2.9,Yes,Digital Patient Care
+H00314,Bengaluru Care Hospital 314,Madurai,Specialty,870,1577,138,Yes,YES,No,No,3.2,2.7,4.9,82,219,95,,No,Enhanced Security
+H00315,Madurai Care Hospital 315,Coimbatore,Private,1151,891,94,yes,YES,No,Yes,3.7,3.9,5,55,23,,2.8,YES,Digital Patient Care
+H00316,Hyderabad Care Hospital 316,Jaipur,Specialty,1190,145,,No,No,Yes,Yes,4.2,2,4.3,95,145,94,4.1,Yes,Digital Patient Care
+H00317,Madurai Care Hospital 317,Mumbai,Government,1433,1856,103,yes,NO,No,No,2.8,4.5,3.4,47,125,81,4.2,yes,Smart Hospital
+H00318,Delhi Care Hospital 318,Chennai,Government,99,627,60,,YES,No,No,5,4.3,3.6,40,218,,2.6,YES,Contactless Healthcare
+H00319,Coimbatore Care Hospital 319,Kochi,Multispeciality,229,,47,Yes,YES,Yes,No,3.5,3.1,4.8,61,158,96,,YES,IoT Healthcare
+H00320,Bengaluru Care Hospital 320,Delhi,Multispeciality,179,1873,123,,Yes,Yes,,2,4.2,2.9,56,195,60,3.6,No,Patient-Centric Care
+H00321,Madurai Care Hospital 321,Bengaluru,Government,1275,411,62,Yes,YES,Yes,No,2.7,3.5,2,32,113,50,2.3,Yes,Enhanced Security
+H00322,Delhi Care Hospital 322,Pune,Private,182,77,139,YES,No,,,2.8,3,4.9,76,217,61,3.7,YES,IoT Healthcare
+H00323,Kochi Care Hospital 323,Chennai,Specialty,1169,1440,44,No,NO,,Yes,,3.6,4.8,59,141,89,3,yes,Patient-Centric Care
+H00324,Jaipur Care Hospital 324,Jaipur,Government,1106,993,68,Yes,Yes,Yes,Yes,4,2.5,4.5,62,153,,4.6,,Smart Hospital
+H00325,Delhi Care Hospital 325,Chennai,Multispeciality,1251,110,14,No,NO,No,Yes,,2.8,3.8,35,122,96,4,YES,AI Healthcare
+H00326,Jaipur Care Hospital 326,Mumbai,Private,843,1942,26,YES,YES,No,No,,3.3,2.3,68,136,69,3.8,YES,IoT Healthcare
+H00327,Kochi Care Hospital 327,Madurai,Specialty,654,1869,56,YES,NO,Yes,No,4.3,3.9,3,62,136,83,2.7,No,Smart Hospital
+H00328,Delhi Care Hospital 328,Chennai,Private,,1087,56,No,NO,Yes,Yes,,,2.4,61,100,82,2.3,yes,Digital Patient Care
+H00329,Delhi Care Hospital 329,Coimbatore,Specialty,1332,276,15,yes,NO,Yes,Yes,4.2,3.9,3.5,62,7,51,3.2,yes,Patient-Centric Care
+H00330,Delhi Care Hospital 330,,,824,278,49,No,,No,Yes,3.2,2.8,2.5,84,141,69,2.3,yes,AI Healthcare
+H00331,Hyderabad Care Hospital 331,Madurai,Specialty,,60,60,Yes,NO,No,No,4.8,,2.5,,,94,4.8,Yes,Enhanced Security
+H00332,Chennai Care Hospital 332,Mumbai,Private,744,1916,113,YES,YES,,Yes,4.9,4,4.1,87,,100,4.2,No,Smart Hospital
+H00333,Kochi Care Hospital 333,Madurai,Government,98,1863,107,Yes,,Yes,No,3.2,4.7,3.1,36,136,54,3.3,YES,Digital Patient Care
+H00334,Pune Care Hospital 334,Coimbatore,,793,2187,52,,YES,Yes,No,3.9,2.2,3,70,87,76,4.5,YES,IoT Healthcare
+H00335,Delhi Care Hospital 335,Delhi,Government,230,1712,25,YES,YES,Yes,,2.1,3.2,4,79,52,51,3.3,Yes,
+H00336,Hyderabad Care Hospital 336,Madurai,Multispeciality,1025,1301,76,YES,No,Yes,Yes,3.5,,,73,161,57,3.8,,Enhanced Security
+H00337,Mumbai Care Hospital 337,Coimbatore,,1335,1730,130,Yes,YES,Yes,Yes,4.1,3.7,3.9,48,,51,2,No,IoT Healthcare
+H00338,Pune Care Hospital 338,Coimbatore,Private,666,1885,113,YES,No,Yes,No,4.8,2.5,2.7,31,173,74,4.8,,Contactless Healthcare
+H00339,Jaipur Care Hospital 339,Jaipur,Multispeciality,746,1041,87,Yes,YES,No,Yes,2.2,,3.1,88,109,95,4.3,yes,Patient-Centric Care
+H00340,Kochi Care Hospital 340,Madurai,Specialty,513,915,103,yes,YES,Yes,No,,3.9,4.8,71,113,99,4.3,No,Enhanced Security
+H00341,Hyderabad Care Hospital 341,Kochi,Multispeciality,468,447,72,Yes,NO,No,Yes,3.6,4.8,4.5,68,97,52,3.2,YES,Smart Hospital
+H00342,Chennai Care Hospital 342,Kochi,Private,1332,1832,45,YES,,Yes,No,,3.7,4.6,69,198,96,2.2,Yes,
+H00343,Hyderabad Care Hospital 343,Jaipur,Government,523,508,148,Yes,,No,No,2.5,3.1,3.3,93,57,,,yes,Digital Patient Care
+H00344,Madurai Care Hospital 344,Pune,Multispeciality,1486,1463,7,YES,No,No,Yes,,4.8,,56,,85,4.7,YES,
+H00345,Mumbai Care Hospital 345,Mumbai,,1220,518,52,yes,,Yes,No,4.8,2.6,3.7,,104,71,4.7,Yes,Patient-Centric Care
+H00346,Kochi Care Hospital 346,Jaipur,,1016,108,139,No,Yes,No,Yes,5,3.1,2.3,85,106,66,3,No,Digital Patient Care
+H00347,Delhi Care Hospital 347,,Multispeciality,682,2182,147,No,,Yes,Yes,4.8,4.5,2.7,89,14,100,4.9,Yes,Green Hospital
+H00348,Delhi Care Hospital 348,Pune,Specialty,,99,145,yes,No,Yes,Yes,3.8,4.2,4.2,37,96,79,3.5,YES,Smart Hospital
+H00349,Mumbai Care Hospital 349,Kochi,Multispeciality,443,342,117,YES,No,Yes,No,2.5,,5,61,36,62,2.2,No,Green Hospital
+H00350,Kochi Care Hospital 350,Mumbai,Specialty,937,633,149,Yes,,Yes,No,3.2,,3.3,86,10,94,3.6,YES,Patient-Centric Care
+H00351,Jaipur Care Hospital 351,Kochi,Private,907,1743,106,No,Yes,Yes,Yes,3.3,3.7,4.8,92,107,100,4.2,YES,AI Healthcare
+H00352,Coimbatore Care Hospital 352,,Private,1281,,114,No,No,No,Yes,2.2,,4.5,97,48,98,2.8,Yes,Digital Patient Care
+H00353,Delhi Care Hospital 353,Bengaluru,Multispeciality,1321,,135,yes,No,Yes,No,3.6,4.3,,72,8,97,2.6,YES,Smart Hospital
+H00354,Mumbai Care Hospital 354,Kochi,Government,636,,102,,NO,Yes,Yes,3.7,4,3.3,,19,80,,No,Enhanced Security
+H00355,Hyderabad Care Hospital 355,Delhi,Private,210,1539,35,,YES,No,,,3.9,2.5,75,16,50,4.9,Yes,Contactless Healthcare
+H00356,Pune Care Hospital 356,Hyderabad,Government,365,,48,yes,No,No,Yes,4.3,4.6,2.4,,108,73,,Yes,Digital Patient Care
+H00357,Pune Care Hospital 357,Hyderabad,Government,803,885,49,No,YES,No,No,2.7,3,2.1,78,205,71,4.7,,Enhanced Security
+H00358,Coimbatore Care Hospital 358,Mumbai,Multispeciality,432,171,95,yes,NO,Yes,No,,3.8,3.2,76,156,81,2.5,yes,IoT Healthcare
+H00359,Kochi Care Hospital 359,Delhi,Multispeciality,,727,21,YES,Yes,No,,4.7,2.2,4.4,54,54,78,3,yes,
+H00360,Bengaluru Care Hospital 360,Bengaluru,Government,960,2106,24,,,No,,2.2,3,4.9,81,54,65,3.7,yes,Enhanced Security
+H00361,Delhi Care Hospital 361,Mumbai,,799,1040,90,,NO,No,Yes,,2.4,4.1,44,31,75,4.7,Yes,Digital Patient Care
+H00362,Pune Care Hospital 362,Jaipur,Specialty,960,1037,77,YES,Yes,Yes,Yes,2.6,4.6,3.9,57,160,55,3.3,No,AI Healthcare
+H00363,Chennai Care Hospital 363,Coimbatore,Multispeciality,1040,535,136,Yes,No,,,3.6,4.1,2.9,60,161,71,4.3,No,Contactless Healthcare
+H00364,Kochi Care Hospital 364,Coimbatore,Multispeciality,1194,,,No,No,Yes,,4.3,2.9,2.6,99,89,93,3.7,No,Contactless Healthcare
+H00365,Hyderabad Care Hospital 365,Mumbai,Government,251,853,135,No,YES,No,Yes,,4.7,4.2,71,219,80,3.6,No,Patient-Centric Care
+H00366,Bengaluru Care Hospital 366,Kochi,Government,1393,923,,yes,NO,No,No,4,2,4.4,,203,,3.4,Yes,Smart Hospital
+H00367,Coimbatore Care Hospital 367,Pune,Private,353,2158,105,yes,NO,No,,4.6,4.5,3,98,160,92,3.8,No,IoT Healthcare
+H00368,Pune Care Hospital 368,Madurai,Government,194,510,134,,YES,No,Yes,3.7,4.9,2.2,59,,55,3.6,yes,Green Hospital
+H00369,Delhi Care Hospital 369,Madurai,Government,666,,42,YES,Yes,No,Yes,4.9,3,3.1,43,207,67,2.6,YES,Patient-Centric Care
+H00370,Pune Care Hospital 370,Kochi,Government,595,468,150,yes,No,Yes,No,2.8,2.7,2.8,51,,63,4.5,No,
+H00371,Mumbai Care Hospital 371,Madurai,Private,268,1991,70,YES,NO,Yes,No,4.9,,3.4,51,199,87,2.1,YES,AI Healthcare
+H00372,Mumbai Care Hospital 372,Jaipur,Specialty,1137,1828,19,No,YES,Yes,Yes,4,4.3,3.1,,76,63,3.2,yes,IoT Healthcare
+H00373,Delhi Care Hospital 373,Delhi,Specialty,643,1284,,No,Yes,,Yes,3.2,4.3,4.6,46,144,67,,YES,Green Hospital
+H00374,Delhi Care Hospital 374,Bengaluru,Government,629,772,92,YES,No,No,Yes,4.5,3.6,2.2,75,24,65,,Yes,Patient-Centric Care
+H00375,Kochi Care Hospital 375,Hyderabad,Multispeciality,248,1686,17,Yes,Yes,Yes,Yes,4.4,2.1,3.2,,13,71,4.7,,Smart Hospital
+H00376,Delhi Care Hospital 376,Madurai,Private,1256,,9,Yes,NO,,No,3.7,2.9,4.1,,92,54,2.4,YES,Contactless Healthcare
+H00377,Bengaluru Care Hospital 377,Chennai,,835,1452,150,Yes,NO,No,Yes,4,3.6,3.8,50,199,78,2.3,Yes,Digital Patient Care
+H00378,Coimbatore Care Hospital 378,Coimbatore,Specialty,924,398,35,No,YES,Yes,Yes,,3.6,2.2,89,44,84,,Yes,Enhanced Security
+H00379,Mumbai Care Hospital 379,Bengaluru,Government,314,354,45,Yes,Yes,Yes,No,4.6,2.2,2.9,49,177,67,2.7,No,Patient-Centric Care
+H00380,Chennai Care Hospital 380,Pune,,1166,1915,15,YES,No,Yes,Yes,2.5,4.1,4.9,95,108,74,,YES,Digital Patient Care
+H00381,Chennai Care Hospital 381,,Multispeciality,1272,1915,81,YES,,Yes,,4.1,,2.2,98,218,77,2.6,yes,Digital Patient Care
+H00382,Delhi Care Hospital 382,Hyderabad,Multispeciality,,,53,Yes,No,No,No,,4.6,3.4,89,159,86,4.4,yes,AI Healthcare
+H00383,Delhi Care Hospital 383,Madurai,,318,759,98,yes,Yes,Yes,No,2.9,5,4.2,33,,67,3.3,YES,Green Hospital
+H00384,Kochi Care Hospital 384,Pune,Specialty,274,1273,73,No,No,Yes,Yes,4.2,4.9,4.3,84,142,80,2.4,YES,
+H00385,Chennai Care Hospital 385,Kochi,Specialty,223,1109,20,YES,,,Yes,3.8,4.7,3.7,38,120,77,3.8,No,
+H00386,Chennai Care Hospital 386,Coimbatore,Specialty,103,1559,87,YES,Yes,No,,3.5,4.7,2.3,82,198,89,2.5,yes,IoT Healthcare
+H00387,Pune Care Hospital 387,Kochi,Specialty,1208,1652,142,Yes,NO,No,Yes,4.7,3.9,,87,111,87,4.2,,IoT Healthcare
+H00388,Kochi Care Hospital 388,Coimbatore,Government,,1624,110,Yes,No,Yes,No,2.1,4.3,4.7,51,151,56,2.3,Yes,
+H00389,Pune Care Hospital 389,,Multispeciality,1276,1055,99,,Yes,Yes,Yes,3.5,4.3,3.5,67,108,85,3.8,Yes,Smart Hospital
+H00390,Bengaluru Care Hospital 390,Coimbatore,Private,,932,147,yes,Yes,No,Yes,3.4,4,4,74,23,,4.8,No,AI Healthcare
+H00391,Kochi Care Hospital 391,Jaipur,Private,467,,55,yes,Yes,No,Yes,2.6,4.1,4.8,49,126,52,4,Yes,Enhanced Security
+H00392,Pune Care Hospital 392,Madurai,Specialty,1143,1402,112,YES,Yes,,Yes,3.7,,3.9,56,181,57,4.2,No,Green Hospital
+H00393,Pune Care Hospital 393,Kochi,Multispeciality,,1800,108,yes,No,,Yes,3.4,,3.6,,137,91,3,Yes,AI Healthcare
+H00394,Mumbai Care Hospital 394,Bengaluru,Specialty,332,1281,131,yes,No,No,No,3.4,3.7,3.8,59,33,67,3.8,No,AI Healthcare
+H00395,Bengaluru Care Hospital 395,Madurai,Private,457,2194,85,Yes,,Yes,No,4.2,4.1,2.5,,80,69,4,YES,Patient-Centric Care
+H00396,Madurai Care Hospital 396,Jaipur,Specialty,606,716,7,Yes,,,No,4.9,3.3,3.7,78,107,,2.8,No,
+H00397,Coimbatore Care Hospital 397,Delhi,Government,1204,105,85,No,YES,No,,3.7,3.9,2.3,66,48,72,2.9,yes,
+H00398,Madurai Care Hospital 398,Jaipur,Government,1364,,82,Yes,Yes,No,Yes,2.4,3.1,2.6,71,23,,2.3,YES,Green Hospital
+H00399,Jaipur Care Hospital 399,Hyderabad,Specialty,205,1546,135,YES,NO,,No,2,3.3,,,169,76,3.7,Yes,
+H00400,Pune Care Hospital 400,Coimbatore,Government,,1340,98,YES,No,No,Yes,4.3,3.2,4.2,96,31,98,4,No,Green Hospital
+H00401,Jaipur Care Hospital 401,Kochi,Specialty,226,1394,18,No,,Yes,,2.8,3,3.5,66,63,71,4.5,YES,AI Healthcare
+H00402,Bengaluru Care Hospital 402,Bengaluru,Government,1224,,70,Yes,,Yes,Yes,2.7,4.2,,84,117,69,3,YES,Green Hospital
+H00403,Mumbai Care Hospital 403,Chennai,Specialty,821,1449,13,No,,No,Yes,2.9,3,4.8,33,27,100,3.3,Yes,Enhanced Security
+H00404,Kochi Care Hospital 404,Mumbai,Multispeciality,1374,776,135,Yes,YES,Yes,No,2.1,4.9,4.8,73,83,97,4.7,Yes,Enhanced Security
+H00405,Coimbatore Care Hospital 405,Hyderabad,Private,402,1988,108,YES,Yes,No,No,3.1,2,,50,191,,3.7,YES,Digital Patient Care
+H00406,Hyderabad Care Hospital 406,Pune,Private,1210,1952,123,yes,Yes,Yes,No,3.3,4.1,2.4,91,148,66,2.5,YES,
+H00407,Delhi Care Hospital 407,Delhi,Specialty,156,1545,,yes,Yes,No,Yes,4.2,4.5,4.3,90,176,63,3.2,No,Patient-Centric Care
+H00408,Bengaluru Care Hospital 408,Kochi,Government,625,1770,12,,YES,No,No,2.6,3.3,3.5,,,70,3.6,,
+H00409,Delhi Care Hospital 409,Kochi,Private,469,,134,Yes,Yes,No,No,2.7,2.4,2.9,70,122,87,3.2,YES,IoT Healthcare
+H00410,Bengaluru Care Hospital 410,Mumbai,Specialty,,1462,74,YES,NO,,No,4.6,3.6,2.2,,150,56,4.1,Yes,Digital Patient Care
+H00411,Chennai Care Hospital 411,Bengaluru,,527,1607,89,No,No,No,No,3.2,3,3.2,85,77,,,Yes,Enhanced Security
+H00412,Kochi Care Hospital 412,Jaipur,Specialty,1223,747,90,No,Yes,No,No,4.9,3.4,3.2,97,72,73,3.4,No,Contactless Healthcare
+H00413,Pune Care Hospital 413,Jaipur,Multispeciality,1088,1301,23,Yes,Yes,Yes,No,3.5,2,3.7,81,12,50,2.5,YES,Contactless Healthcare
+H00414,Hyderabad Care Hospital 414,Jaipur,Private,155,1746,122,YES,Yes,Yes,No,3.3,,4.5,93,146,87,2.5,Yes,Contactless Healthcare
+H00415,Pune Care Hospital 415,Mumbai,Private,523,1403,,Yes,YES,Yes,Yes,4.5,2.7,2.9,69,27,97,4.4,No,AI Healthcare
+H00416,Mumbai Care Hospital 416,Chennai,Multispeciality,233,1431,54,yes,,No,No,4.4,2.6,2,30,,98,2.3,yes,Smart Hospital
+H00417,Delhi Care Hospital 417,Bengaluru,Private,984,1840,26,YES,,No,Yes,3.1,3.8,3.6,43,198,64,2.3,YES,Digital Patient Care
+H00418,Jaipur Care Hospital 418,Bengaluru,Multispeciality,1247,1640,19,YES,No,No,No,,3.1,3.6,62,90,,3.6,Yes,
+H00419,Delhi Care Hospital 419,Coimbatore,Specialty,,1652,148,yes,Yes,Yes,Yes,4,3.1,2.8,55,98,50,2.6,,Smart Hospital
+H00420,Mumbai Care Hospital 420,,Specialty,,691,47,YES,Yes,No,No,2.5,2.9,4.9,71,97,70,3.9,YES,Contactless Healthcare
+H00421,Delhi Care Hospital 421,Pune,Multispeciality,210,436,111,YES,YES,No,Yes,4.8,,3.2,50,78,98,3.7,yes,
+H00422,Kochi Care Hospital 422,Delhi,Government,,2063,86,No,Yes,No,No,3,4.3,4.6,45,,86,4.8,yes,Smart Hospital
+H00423,Delhi Care Hospital 423,Madurai,Specialty,1477,1714,111,yes,YES,Yes,No,,3.7,4,,39,52,2.1,,Contactless Healthcare
+H00424,Chennai Care Hospital 424,,Private,371,1861,94,No,No,No,Yes,3.5,3.8,4.9,55,115,90,4,yes,Smart Hospital
+H00425,Chennai Care Hospital 425,Madurai,Government,1317,1490,93,Yes,YES,No,Yes,2.8,3.7,4.1,45,183,64,2.3,YES,Patient-Centric Care
+H00426,Hyderabad Care Hospital 426,Mumbai,Government,373,578,10,yes,YES,Yes,,3.5,4.5,,85,143,89,2.4,YES,Smart Hospital
+H00427,Kochi Care Hospital 427,Pune,Specialty,125,1460,13,No,YES,No,,3,4.7,4.1,36,,88,2.8,yes,IoT Healthcare
+H00428,Pune Care Hospital 428,Bengaluru,Multispeciality,927,,124,Yes,NO,No,No,3.3,3.5,3.1,72,93,96,4.6,YES,Smart Hospital
+H00429,Mumbai Care Hospital 429,Bengaluru,,418,1153,59,yes,NO,Yes,Yes,3.4,2.2,4.8,86,,97,4.4,YES,Digital Patient Care
+H00430,Delhi Care Hospital 430,Bengaluru,Government,418,871,143,No,Yes,,No,3.5,4.4,4.3,82,98,59,4.5,YES,Enhanced Security
+H00431,Pune Care Hospital 431,Kochi,Government,655,1445,96,No,No,,Yes,3.4,4.2,4.8,43,103,56,4.9,,
+H00432,Coimbatore Care Hospital 432,Bengaluru,,243,1196,35,YES,YES,No,No,4.7,4.3,4.8,52,96,64,3.1,yes,IoT Healthcare
+H00433,Kochi Care Hospital 433,Hyderabad,Private,885,2138,,YES,,Yes,Yes,3.6,4.4,3.7,74,111,74,3.1,,Smart Hospital
+H00434,Chennai Care Hospital 434,Hyderabad,Private,1480,2050,12,Yes,YES,No,Yes,3.1,4.2,3,69,112,78,3.6,No,Smart Hospital
+H00435,Delhi Care Hospital 435,Delhi,Multispeciality,793,,111,yes,YES,No,No,2.5,2.9,2.6,76,152,60,2.9,YES,Patient-Centric Care
+H00436,Jaipur Care Hospital 436,Madurai,Government,1026,,104,No,No,No,Yes,2.1,3.1,4.7,51,100,79,,YES,AI Healthcare
+H00437,Jaipur Care Hospital 437,Mumbai,Specialty,430,424,106,YES,No,Yes,Yes,4.6,4.5,4,73,193,,4.9,No,Patient-Centric Care
+H00438,Madurai Care Hospital 438,Coimbatore,,1132,516,28,,NO,Yes,No,2.9,3.5,3.9,46,25,79,4.3,yes,Enhanced Security
+H00439,Bengaluru Care Hospital 439,Delhi,Multispeciality,122,1663,72,yes,YES,Yes,No,3.6,4.5,4.5,,141,100,4.7,YES,Contactless Healthcare
+H00440,Madurai Care Hospital 440,Chennai,Government,336,277,20,yes,No,No,No,2.4,2.4,,41,27,56,2.6,No,Digital Patient Care
+H00441,Hyderabad Care Hospital 441,,Government,969,408,150,No,Yes,,No,4.4,3,3.2,65,184,91,4,,
+H00442,Coimbatore Care Hospital 442,,Multispeciality,244,,92,Yes,YES,Yes,Yes,3.9,3.3,2.1,41,124,74,4.5,YES,IoT Healthcare
+H00443,Bengaluru Care Hospital 443,,Multispeciality,862,2173,112,No,NO,No,No,4.3,2.7,2.5,73,105,51,2.4,Yes,IoT Healthcare
+H00444,Hyderabad Care Hospital 444,Jaipur,Government,1237,2159,110,Yes,NO,Yes,,,2.5,4.8,72,99,89,3.3,Yes,IoT Healthcare
+H00445,Jaipur Care Hospital 445,Delhi,Multispeciality,961,1396,7,YES,,Yes,Yes,2.5,3.6,2.4,65,212,84,2.8,No,Enhanced Security
+H00446,Chennai Care Hospital 446,,Multispeciality,407,141,63,Yes,No,No,No,,3.9,3.6,72,82,90,2.2,yes,Contactless Healthcare
+H00447,Jaipur Care Hospital 447,Madurai,Private,596,67,50,yes,No,No,No,3.9,2.7,4.8,75,,,4.1,,Patient-Centric Care
+H00448,Pune Care Hospital 448,Jaipur,Private,1059,1476,93,,No,Yes,Yes,3,3.1,4.9,84,128,74,2.4,YES,Digital Patient Care
+H00449,Jaipur Care Hospital 449,Chennai,,895,1679,21,Yes,Yes,Yes,No,2.9,2.5,2.9,,96,92,2.2,,Contactless Healthcare
+H00450,Pune Care Hospital 450,Delhi,Government,197,2157,125,No,YES,No,Yes,4.7,3.6,3,70,174,84,3.8,yes,
+H00451,Delhi Care Hospital 451,Madurai,Multispeciality,296,1410,14,Yes,No,Yes,,4.2,2.8,2,94,146,51,4.9,yes,Patient-Centric Care
+H00452,Mumbai Care Hospital 452,Kochi,Private,1277,1469,92,yes,YES,Yes,No,3.6,2,4.6,72,123,88,2.7,YES,AI Healthcare
+H00453,Coimbatore Care Hospital 453,Coimbatore,Private,215,1308,,yes,NO,,No,3,4.8,4.7,35,158,66,3.5,No,Patient-Centric Care
+H00454,Bengaluru Care Hospital 454,Delhi,Private,978,1954,,YES,NO,No,No,4.1,4.2,3.6,83,26,62,2.4,,
+H00455,Hyderabad Care Hospital 455,Coimbatore,Private,1461,1216,41,yes,NO,No,No,5,,3.2,94,9,100,2.3,No,AI Healthcare
+H00456,Pune Care Hospital 456,Delhi,Multispeciality,203,2097,124,Yes,No,Yes,Yes,2.2,2.4,3.8,,169,97,4.6,Yes,Green Hospital
+H00457,Kochi Care Hospital 457,Chennai,Private,596,1455,97,,NO,Yes,Yes,2.6,4.6,3,37,31,74,4.1,yes,Contactless Healthcare
+H00458,Bengaluru Care Hospital 458,,Government,481,227,14,No,NO,,No,2.1,3.9,4.9,,215,51,2.2,No,Digital Patient Care
+H00459,Pune Care Hospital 459,Bengaluru,Specialty,876,604,124,YES,,No,,3.5,2.8,2.3,31,215,75,3.2,Yes,Patient-Centric Care
+H00460,Hyderabad Care Hospital 460,Mumbai,Multispeciality,362,320,,yes,YES,No,No,4,4.4,3.5,61,51,84,3.9,Yes,Digital Patient Care
+H00461,Pune Care Hospital 461,Mumbai,Government,1183,,9,,YES,No,Yes,4.4,3.2,3.4,65,34,82,3.3,Yes,IoT Healthcare
+H00462,Kochi Care Hospital 462,,Government,506,601,,,No,Yes,Yes,2.8,2.9,4.8,44,214,75,4.5,YES,AI Healthcare
+H00463,Madurai Care Hospital 463,Chennai,Private,1333,209,125,No,NO,Yes,Yes,3,4.9,3.2,82,194,83,3.4,YES,AI Healthcare
+H00464,Coimbatore Care Hospital 464,Bengaluru,Government,271,1432,101,YES,Yes,No,Yes,3.6,4.4,2.9,67,169,55,4.6,YES,Green Hospital
+H00465,Delhi Care Hospital 465,Delhi,,1049,,137,YES,YES,Yes,No,3.1,3.8,,53,208,92,4.2,No,Green Hospital
+H00466,Madurai Care Hospital 466,Madurai,Government,882,1647,148,No,No,Yes,No,4.3,4.9,4.7,30,202,86,2.2,yes,Green Hospital
+H00467,Jaipur Care Hospital 467,,,692,,94,yes,No,No,No,2.5,2.8,4.5,58,11,82,,YES,Enhanced Security
+H00468,Delhi Care Hospital 468,Mumbai,Specialty,,1622,22,yes,NO,No,No,4.8,,2.9,92,172,80,4.8,No,
+H00469,Madurai Care Hospital 469,Chennai,Multispeciality,1498,794,67,No,YES,No,No,2.3,4.1,4,64,34,61,,Yes,Contactless Healthcare
+H00470,Chennai Care Hospital 470,Madurai,Multispeciality,795,261,88,,,Yes,No,3.3,2.4,2.8,44,67,84,4.5,No,IoT Healthcare
+H00471,Kochi Care Hospital 471,Jaipur,Specialty,1441,127,139,No,NO,No,No,3.1,4.8,,43,97,66,3.8,YES,Patient-Centric Care
+H00472,Coimbatore Care Hospital 472,Chennai,Specialty,520,2042,75,No,No,No,No,,2.9,3.4,,79,63,3.5,No,Patient-Centric Care
+H00473,Pune Care Hospital 473,Coimbatore,,,,56,Yes,,No,Yes,4.9,2.3,4.7,60,181,92,4.3,Yes,Digital Patient Care
+H00474,Madurai Care Hospital 474,Delhi,Multispeciality,547,2044,129,yes,,No,No,2.1,,3.4,86,34,51,3,No,Green Hospital
+H00475,Bengaluru Care Hospital 475,Kochi,Private,1492,,138,No,,No,,2.9,4.3,3.3,75,53,91,3.5,YES,Patient-Centric Care
+H00476,Hyderabad Care Hospital 476,Kochi,Multispeciality,1294,1926,36,yes,Yes,No,No,4.9,3.6,2.5,35,31,71,4.6,yes,IoT Healthcare
+H00477,Coimbatore Care Hospital 477,Mumbai,Government,1427,1164,132,yes,NO,Yes,Yes,4.9,,,68,,56,3.9,No,AI Healthcare
+H00478,Hyderabad Care Hospital 478,,Government,288,833,116,YES,,No,No,2.2,3.7,4.3,40,192,90,,YES,Enhanced Security
+H00479,Madurai Care Hospital 479,Mumbai,Specialty,1486,1814,83,YES,NO,Yes,No,3.9,4.1,2.5,79,200,92,4.7,Yes,Digital Patient Care
+H00480,Hyderabad Care Hospital 480,Bengaluru,Multispeciality,1293,,78,YES,No,No,,4.3,4.2,2.1,50,66,74,,YES,Patient-Centric Care
+H00481,Pune Care Hospital 481,Chennai,Multispeciality,1375,129,74,No,NO,No,Yes,2.8,3.6,4.8,68,218,84,4.7,No,Patient-Centric Care
+H00482,Mumbai Care Hospital 482,Pune,Government,194,833,48,No,NO,Yes,Yes,4.8,4.3,4.6,40,142,89,2.4,,Green Hospital
+H00483,Kochi Care Hospital 483,Coimbatore,,1442,909,20,yes,Yes,Yes,Yes,,2.4,2.1,90,34,54,4.1,,Digital Patient Care
+H00484,Bengaluru Care Hospital 484,Delhi,Private,889,450,104,No,Yes,Yes,,3,2.8,2.1,87,15,55,4.4,YES,Patient-Centric Care
+H00485,Delhi Care Hospital 485,Pune,Private,654,,21,,No,Yes,Yes,,3.9,4.1,96,176,63,2.3,Yes,Patient-Centric Care
+H00486,Mumbai Care Hospital 486,Madurai,Multispeciality,627,,7,,Yes,,No,4.7,3.6,2.6,35,68,71,3,Yes,AI Healthcare
+H00487,Pune Care Hospital 487,Delhi,Private,114,2148,94,Yes,YES,Yes,No,3.2,4.3,2.6,44,93,63,2.1,,Smart Hospital
+H00488,Jaipur Care Hospital 488,Hyderabad,Government,1334,1799,57,Yes,NO,Yes,No,2.7,2.2,,67,153,63,2.6,Yes,Enhanced Security
+H00489,Hyderabad Care Hospital 489,Kochi,Specialty,1428,791,47,YES,NO,No,No,4.2,3.9,3.2,97,126,66,,yes,Smart Hospital
+H00490,Delhi Care Hospital 490,Pune,Private,1492,,131,No,YES,Yes,No,4.3,4.2,4.9,57,141,89,2.1,Yes,AI Healthcare
+H00491,Kochi Care Hospital 491,Pune,Government,1149,1007,149,YES,YES,No,Yes,4,3,4.4,35,,66,2.5,YES,Smart Hospital
+H00492,Jaipur Care Hospital 492,Bengaluru,Private,1389,1852,,yes,No,No,Yes,4.9,3.6,4.1,80,207,50,4.3,No,Smart Hospital
+H00493,Coimbatore Care Hospital 493,Bengaluru,Multispeciality,740,678,35,YES,Yes,No,Yes,4.4,,2.4,80,100,85,4.7,Yes,IoT Healthcare
+H00494,Madurai Care Hospital 494,,Multispeciality,1132,1448,13,No,,No,No,3.5,3.9,2.4,74,87,84,3.5,yes,Patient-Centric Care
+H00495,Bengaluru Care Hospital 495,Bengaluru,Government,880,1610,119,yes,No,Yes,No,4.3,2.4,3.5,44,138,96,3.6,No,Patient-Centric Care
+H00496,Kochi Care Hospital 496,,Government,1287,,10,yes,NO,Yes,Yes,3.7,4.9,2.9,75,138,57,4.2,,Enhanced Security
+H00497,Chennai Care Hospital 497,Hyderabad,Private,1105,1414,92,Yes,No,No,Yes,2.4,2.1,2.8,,,69,4.7,yes,Smart Hospital
+H00498,Coimbatore Care Hospital 498,Kochi,Private,1295,181,74,yes,NO,No,No,,3.6,2,73,,70,,YES,Enhanced Security
+H00499,Coimbatore Care Hospital 499,Chennai,Multispeciality,228,736,68,yes,No,No,No,3.1,4.5,3.8,90,83,75,2.3,,
+H00500,Coimbatore Care Hospital 500,Delhi,Multispeciality,589,1312,119,Yes,YES,No,No,,,3.9,62,,75,2.9,,Contactless Healthcare
+H00501,Jaipur Care Hospital 501,Chennai,Multispeciality,425,2126,85,No,Yes,Yes,Yes,3.9,2.9,3.2,58,59,69,2.2,YES,IoT Healthcare
+H00502,Coimbatore Care Hospital 502,Jaipur,Specialty,91,599,10,YES,YES,No,Yes,2,3.2,3.1,43,,85,4.1,yes,Contactless Healthcare
+H00503,Kochi Care Hospital 503,Mumbai,Private,762,,,No,No,Yes,Yes,3.4,4,2.2,36,66,96,3.3,No,Enhanced Security
+H00504,Mumbai Care Hospital 504,Pune,,919,755,108,Yes,NO,Yes,Yes,2.5,3.8,,39,47,98,3.2,,Patient-Centric Care
+H00505,Jaipur Care Hospital 505,Madurai,Government,794,629,87,No,YES,No,No,4.4,4.5,4.1,90,,52,4,yes,AI Healthcare
+H00506,Mumbai Care Hospital 506,Bengaluru,Private,1313,,,Yes,NO,No,Yes,3.7,3.8,3.5,34,11,70,2.3,No,
+H00507,Mumbai Care Hospital 507,Delhi,Private,1089,1409,136,yes,No,No,No,4.7,4.5,4.5,49,165,71,3.3,yes,Patient-Centric Care
+H00508,Kochi Care Hospital 508,Pune,Multispeciality,1161,319,,,NO,Yes,Yes,3.4,4.5,2.4,31,137,63,3.3,yes,Patient-Centric Care
+H00509,Bengaluru Care Hospital 509,Delhi,Private,248,294,,No,YES,Yes,No,2.8,2.7,4.9,97,34,50,3.1,No,IoT Healthcare
+H00510,Kochi Care Hospital 510,Madurai,,374,1697,32,,Yes,,No,3.9,2.8,3.2,94,,85,3.7,yes,
+H00511,Coimbatore Care Hospital 511,Coimbatore,Specialty,411,78,,No,No,Yes,Yes,3.8,3,2.4,37,107,80,3.5,,
+H00512,Madurai Care Hospital 512,Bengaluru,Specialty,575,,102,,Yes,Yes,No,2.2,2.3,2.5,42,40,76,3.2,No,
+H00513,Chennai Care Hospital 513,Hyderabad,Multispeciality,1070,,,yes,,Yes,,,3,3.3,89,51,66,4.2,YES,Smart Hospital
+H00514,Kochi Care Hospital 514,Madurai,Government,737,,48,yes,No,Yes,No,5,3,2.1,89,36,52,3.3,No,Smart Hospital
+H00515,Jaipur Care Hospital 515,Mumbai,Private,1175,333,119,yes,No,Yes,No,3,3.4,3.6,89,192,79,2.3,No,IoT Healthcare
+H00516,Chennai Care Hospital 516,Madurai,Specialty,1336,,29,Yes,No,Yes,No,2.1,4,2.2,30,90,56,,YES,IoT Healthcare
+H00517,Pune Care Hospital 517,Jaipur,Government,593,1212,15,No,,No,No,2.1,4.5,2.1,99,177,93,4.4,,Digital Patient Care
+H00518,Hyderabad Care Hospital 518,Kochi,Government,700,2151,125,yes,,Yes,Yes,4.6,3.7,2.8,67,163,,2.8,Yes,Enhanced Security
+H00519,Madurai Care Hospital 519,Bengaluru,Specialty,879,1712,23,Yes,No,Yes,No,3.1,5,4.4,69,34,65,2.4,yes,Patient-Centric Care
+H00520,Bengaluru Care Hospital 520,Jaipur,Specialty,226,709,24,YES,No,Yes,No,2.9,2.2,4.2,96,80,84,4.9,yes,Smart Hospital
+H00521,Bengaluru Care Hospital 521,Mumbai,Private,737,,,YES,YES,Yes,No,2.2,4.7,3.2,45,123,52,2.5,Yes,Green Hospital
+H00522,Mumbai Care Hospital 522,Bengaluru,,1102,299,103,,No,No,Yes,,3,3.7,57,45,98,,Yes,Contactless Healthcare
+H00523,Jaipur Care Hospital 523,Pune,Specialty,311,734,108,No,YES,Yes,Yes,2.9,4.5,3.9,74,83,75,3.9,Yes,IoT Healthcare
+H00524,Hyderabad Care Hospital 524,Kochi,Specialty,511,79,20,,Yes,Yes,Yes,4.8,,,45,162,57,3.8,yes,Green Hospital
+H00525,Pune Care Hospital 525,,Multispeciality,583,502,106,Yes,,Yes,Yes,4.6,4.9,,67,204,66,4.3,,Digital Patient Care
+H00526,Kochi Care Hospital 526,Chennai,Government,303,1184,103,YES,YES,Yes,No,2.4,4.4,4.8,31,217,96,2.3,Yes,Patient-Centric Care
+H00527,Mumbai Care Hospital 527,Hyderabad,,895,2144,109,yes,YES,Yes,Yes,4.5,2.8,4.8,75,7,96,3.2,Yes,Contactless Healthcare
+H00528,Coimbatore Care Hospital 528,Mumbai,Specialty,,1736,79,Yes,Yes,Yes,No,,3.7,3.4,62,48,70,2.7,yes,Digital Patient Care
+H00529,Hyderabad Care Hospital 529,Chennai,Government,1026,178,9,YES,YES,,Yes,3.3,4.3,3.6,81,199,96,,yes,Enhanced Security
+H00530,Madurai Care Hospital 530,Jaipur,Private,311,688,138,,,Yes,Yes,,3.4,4.8,,30,79,4.1,No,Green Hospital
+H00531,Pune Care Hospital 531,Hyderabad,Multispeciality,986,692,23,YES,No,Yes,No,3.9,,2.5,66,99,51,3.1,,Digital Patient Care
+H00532,Chennai Care Hospital 532,Hyderabad,Private,1368,453,52,YES,No,No,Yes,2.7,4,2.2,,38,75,2.4,yes,Green Hospital
+H00533,Jaipur Care Hospital 533,Hyderabad,Private,,916,130,yes,,No,No,3.5,3.1,,,,91,4.2,YES,IoT Healthcare
+H00534,Hyderabad Care Hospital 534,Jaipur,Specialty,524,611,121,YES,YES,Yes,No,3.6,3.2,3.8,,35,73,2.8,yes,
+H00535,Coimbatore Care Hospital 535,Hyderabad,Government,1276,349,117,yes,Yes,,Yes,3.9,2.4,3.3,39,190,59,2.3,YES,Digital Patient Care
+H00536,Coimbatore Care Hospital 536,Madurai,Multispeciality,313,2195,103,,YES,No,Yes,2.6,3.5,3,32,160,82,4.4,No,AI Healthcare
+H00537,Madurai Care Hospital 537,Coimbatore,Multispeciality,1128,115,139,yes,YES,Yes,Yes,3.2,4,3.7,81,133,74,,yes,Contactless Healthcare
+H00538,Delhi Care Hospital 538,Kochi,Government,883,836,,yes,NO,,No,4.5,2.9,4.1,81,162,67,4.6,yes,
+H00539,Madurai Care Hospital 539,Pune,,452,2112,85,YES,NO,Yes,Yes,3.1,4.4,4.3,88,46,74,2,Yes,
+H00540,Hyderabad Care Hospital 540,Bengaluru,Government,921,769,38,yes,No,No,Yes,,4.5,2.2,57,188,76,2.6,,IoT Healthcare
+H00541,Mumbai Care Hospital 541,Coimbatore,,761,1696,94,No,Yes,,No,4.6,5,3.1,,64,60,2.5,Yes,Enhanced Security
+H00542,Madurai Care Hospital 542,Bengaluru,Government,1449,1372,33,YES,YES,No,,3.7,4.6,4.4,51,,53,2.2,yes,Digital Patient Care
+H00543,Delhi Care Hospital 543,Hyderabad,Specialty,,943,127,No,,No,Yes,2,4.4,2.3,,10,,2.5,Yes,IoT Healthcare
+H00544,Pune Care Hospital 544,Madurai,Multispeciality,1302,2054,103,yes,Yes,No,No,3.2,4.9,2.5,92,129,74,3.7,Yes,
+H00545,Hyderabad Care Hospital 545,Jaipur,Government,308,994,57,No,Yes,,No,3.2,2.8,,47,,90,2.7,yes,Green Hospital
+H00546,Pune Care Hospital 546,Coimbatore,Government,397,,42,yes,YES,,,3.4,2.6,2.1,31,207,72,3.6,YES,Digital Patient Care
+H00547,Madurai Care Hospital 547,Mumbai,Multispeciality,1271,817,90,Yes,No,No,Yes,3.5,4.2,4.1,44,157,60,4.7,,Digital Patient Care
+H00548,Mumbai Care Hospital 548,,Private,607,631,5,No,No,No,Yes,4.1,2.9,4.5,63,175,72,3.1,Yes,Contactless Healthcare
+H00549,Bengaluru Care Hospital 549,Chennai,Multispeciality,614,209,111,YES,No,Yes,,4.5,3.8,3.9,35,148,51,,No,IoT Healthcare
+H00550,Jaipur Care Hospital 550,Chennai,Government,922,1781,122,yes,YES,Yes,No,3.4,2.2,3.1,,174,87,3.8,yes,Green Hospital
+H00551,Bengaluru Care Hospital 551,Jaipur,Multispeciality,300,,148,YES,YES,No,Yes,3.7,3.1,4.9,93,36,87,3.5,YES,AI Healthcare
+H00552,Jaipur Care Hospital 552,Bengaluru,Government,576,783,12,No,No,Yes,Yes,2.5,2.4,2.9,44,46,93,4.2,No,Smart Hospital
+H00553,Coimbatore Care Hospital 553,Bengaluru,Government,390,1130,12,Yes,NO,,Yes,4.9,3.7,4.1,43,113,78,2.5,yes,Digital Patient Care
+H00554,Mumbai Care Hospital 554,Kochi,Specialty,1184,,29,YES,Yes,No,No,2,3.2,2.6,35,120,100,3.4,YES,Green Hospital
+H00555,Jaipur Care Hospital 555,Hyderabad,Private,,1814,76,yes,YES,,No,3.5,2.4,2.8,91,102,65,2.8,YES,Green Hospital
+H00556,Bengaluru Care Hospital 556,,Specialty,1021,1903,79,yes,YES,Yes,Yes,3,4.2,2.5,71,138,77,4.1,Yes,
+H00557,Kochi Care Hospital 557,Kochi,Multispeciality,921,192,94,YES,,No,Yes,,,4.1,81,85,82,,yes,Contactless Healthcare
+H00558,Hyderabad Care Hospital 558,Kochi,Multispeciality,681,1562,63,No,YES,No,No,2.4,2.1,4.9,98,108,61,4.8,No,AI Healthcare
+H00559,Hyderabad Care Hospital 559,Madurai,Government,1156,875,,YES,No,Yes,Yes,3.6,3.6,2.8,81,173,68,4.3,yes,Smart Hospital
+H00560,Bengaluru Care Hospital 560,Pune,Specialty,1498,1149,,Yes,NO,No,Yes,,2.4,2.2,80,89,87,4.5,YES,Contactless Healthcare
+H00561,Kochi Care Hospital 561,Coimbatore,Multispeciality,1168,837,118,No,NO,No,Yes,4.9,2.5,2.5,39,210,78,4.2,Yes,AI Healthcare
+H00562,Delhi Care Hospital 562,Chennai,Multispeciality,626,2142,118,,NO,No,Yes,2.7,3.7,3.8,93,128,68,4.7,No,IoT Healthcare
+H00563,Hyderabad Care Hospital 563,Bengaluru,Multispeciality,1304,279,62,Yes,Yes,No,Yes,4.5,2.3,2.1,,,66,4.2,YES,Patient-Centric Care
+H00564,Kochi Care Hospital 564,Bengaluru,,1236,975,140,Yes,,Yes,No,2.7,,,72,114,68,5,YES,IoT Healthcare
+H00565,Hyderabad Care Hospital 565,Mumbai,Government,,1331,31,yes,YES,Yes,Yes,4.1,2.9,3.7,45,97,68,4.4,Yes,IoT Healthcare
+H00566,Bengaluru Care Hospital 566,Delhi,Specialty,1211,333,52,,YES,,,2.8,4.3,,53,55,58,,yes,Patient-Centric Care
+H00567,Pune Care Hospital 567,Coimbatore,Specialty,1016,1769,146,No,YES,No,No,3,,4,40,74,100,3.8,Yes,Green Hospital
+H00568,Hyderabad Care Hospital 568,Mumbai,Government,474,,,Yes,No,No,No,3.8,3.8,,83,84,,2.9,yes,Green Hospital
+H00569,Pune Care Hospital 569,Bengaluru,Specialty,1342,593,105,No,,Yes,Yes,4,4,3.6,94,215,,3.9,Yes,Digital Patient Care
+H00570,Kochi Care Hospital 570,Madurai,Government,391,839,59,YES,Yes,Yes,,2.2,3.2,2.1,50,36,89,4.9,,Digital Patient Care
+H00571,Coimbatore Care Hospital 571,Coimbatore,Specialty,1348,1623,140,,Yes,Yes,,4,2.2,4.8,59,163,58,3.7,Yes,Enhanced Security
+H00572,Chennai Care Hospital 572,Madurai,Specialty,496,698,13,YES,NO,,No,4.8,2.6,4.1,48,135,74,2.8,Yes,Green Hospital
+H00573,Pune Care Hospital 573,,Multispeciality,1016,311,31,YES,YES,No,Yes,4.3,4.9,3.2,,69,73,3.5,yes,Enhanced Security
+H00574,Bengaluru Care Hospital 574,Hyderabad,Specialty,322,1914,128,yes,No,Yes,,2.4,2.3,2.2,80,203,54,3.4,No,IoT Healthcare
+H00575,Kochi Care Hospital 575,Pune,Private,1465,,11,YES,No,No,,3.4,2.9,4.2,93,125,63,3.6,yes,Green Hospital
+H00576,Bengaluru Care Hospital 576,Jaipur,Specialty,1436,1389,38,yes,Yes,No,Yes,4.6,3.2,4.2,72,68,84,2.4,yes,
+H00577,Bengaluru Care Hospital 577,Pune,Government,1080,1663,,yes,Yes,No,Yes,2.5,2.4,4.6,63,152,,3.6,,AI Healthcare
+H00578,Delhi Care Hospital 578,Jaipur,Specialty,,,,YES,No,No,Yes,3.2,,3.3,68,22,56,,,Enhanced Security
+H00579,Bengaluru Care Hospital 579,Kochi,Government,1412,798,111,Yes,NO,No,Yes,4.7,3,3.9,82,180,71,3.5,No,Digital Patient Care
+H00580,Coimbatore Care Hospital 580,Kochi,Specialty,1318,97,48,yes,YES,Yes,Yes,4.9,2.8,2.6,32,79,70,3.3,YES,Contactless Healthcare
+H00581,Madurai Care Hospital 581,Mumbai,Multispeciality,456,828,107,yes,YES,Yes,,4.2,4.7,2.3,84,38,,3.2,No,
+H00582,Bengaluru Care Hospital 582,Chennai,Private,860,2131,76,YES,No,Yes,No,3.9,3.1,4.4,83,19,77,,YES,Smart Hospital
+H00583,Mumbai Care Hospital 583,Bengaluru,,681,1004,39,YES,Yes,No,No,5,3,3.7,53,,85,2.2,Yes,Contactless Healthcare
+H00584,Bengaluru Care Hospital 584,Bengaluru,Private,1471,161,92,No,No,,No,5,4.4,4.1,93,87,67,5,No,Contactless Healthcare
+H00585,Kochi Care Hospital 585,Jaipur,Multispeciality,,1907,94,yes,NO,Yes,Yes,3.6,2.1,3.9,83,163,59,2.4,Yes,Contactless Healthcare
+H00586,Jaipur Care Hospital 586,Coimbatore,Specialty,172,567,35,yes,,No,Yes,3.5,4.3,3.8,77,218,94,,Yes,Green Hospital
+H00587,Mumbai Care Hospital 587,Pune,Multispeciality,1278,1377,14,Yes,YES,Yes,Yes,4.7,2.2,4.6,56,,83,3.5,YES,Green Hospital
+H00588,Mumbai Care Hospital 588,Pune,Private,400,865,146,YES,Yes,No,,2.7,3.5,4,32,197,73,,Yes,IoT Healthcare
+H00589,Hyderabad Care Hospital 589,,Multispeciality,434,1829,35,,,Yes,No,4.4,4.2,4.7,75,75,72,2.2,YES,Green Hospital
+H00590,Pune Care Hospital 590,Jaipur,Multispeciality,1141,,40,No,NO,No,Yes,2.5,2,2.9,57,135,79,,Yes,Patient-Centric Care
+H00591,Jaipur Care Hospital 591,Bengaluru,Specialty,1414,1366,,YES,No,Yes,No,4.8,2.7,4.9,,114,78,3.8,,Enhanced Security
+H00592,Bengaluru Care Hospital 592,,Multispeciality,1133,2097,,YES,YES,No,No,2.7,4.9,2.8,51,59,70,4.8,No,Contactless Healthcare
+H00593,Chennai Care Hospital 593,Hyderabad,,789,1631,7,YES,No,No,Yes,2.3,2.9,,81,194,69,4.8,YES,Smart Hospital
+H00594,Kochi Care Hospital 594,Chennai,Private,622,731,28,No,NO,No,No,2.1,2.4,2.5,96,147,,3.7,,
+H00595,Mumbai Care Hospital 595,,,522,755,,No,No,Yes,No,3.6,3.7,5,86,164,65,2.1,Yes,
+H00596,Chennai Care Hospital 596,Mumbai,Multispeciality,1298,582,86,YES,No,Yes,,3.8,2.4,3.3,95,176,54,3.3,Yes,Digital Patient Care
+H00597,Pune Care Hospital 597,,Government,235,727,29,yes,Yes,No,No,2,2.5,4.8,68,214,62,4.5,YES,IoT Healthcare
+H00598,Chennai Care Hospital 598,Delhi,Specialty,,80,119,Yes,No,Yes,Yes,4.7,2.6,4.3,,121,91,3.9,YES,Smart Hospital
+H00599,Mumbai Care Hospital 599,Madurai,Government,,118,150,YES,NO,No,Yes,2.2,5,3.6,84,35,50,4.4,No,AI Healthcare
+H00600,Jaipur Care Hospital 600,Delhi,Specialty,117,1281,95,yes,Yes,No,No,3.5,3.9,2.6,58,174,82,,No,Patient-Centric Care
+H00601,Delhi Care Hospital 601,Delhi,Multispeciality,282,1922,112,YES,No,Yes,,4.6,3.4,2.8,30,,90,4.5,yes,Enhanced Security
+H00602,Bengaluru Care Hospital 602,Hyderabad,Private,986,1367,110,,NO,No,Yes,2.4,2.1,4.9,88,152,,2.6,Yes,Patient-Centric Care
+H00603,Coimbatore Care Hospital 603,,Private,1033,2053,33,Yes,YES,Yes,No,4.2,2,2.2,32,,75,4.6,yes,Digital Patient Care
+H00604,Pune Care Hospital 604,Madurai,Specialty,824,1079,64,No,YES,No,Yes,,3.9,,73,84,,4.1,No,
+H00605,Delhi Care Hospital 605,Pune,Specialty,1438,208,71,YES,No,Yes,Yes,3.7,4.9,4,74,168,85,2.1,YES,Contactless Healthcare
+H00606,Kochi Care Hospital 606,Jaipur,Private,196,983,,,No,Yes,Yes,3.2,3.4,2.4,93,132,90,2.1,YES,Enhanced Security
+H00607,Chennai Care Hospital 607,Chennai,Government,1101,1481,118,Yes,,Yes,Yes,3.4,3.9,3.6,92,,80,,YES,IoT Healthcare
+H00608,Coimbatore Care Hospital 608,Delhi,,485,346,45,No,YES,No,,3.7,3.3,2.3,100,156,59,3.7,YES,Patient-Centric Care
+H00609,Pune Care Hospital 609,Coimbatore,Private,501,338,59,YES,NO,No,,3.3,4.1,2.4,41,82,69,3.7,yes,Enhanced Security
+H00610,Mumbai Care Hospital 610,Bengaluru,Government,,908,79,No,Yes,Yes,No,,3.7,4.2,,20,88,4,yes,Patient-Centric Care
+H00611,Bengaluru Care Hospital 611,Madurai,Government,220,1382,43,,Yes,No,No,4.2,3.2,3.6,85,150,71,4.5,,Smart Hospital
+H00612,Madurai Care Hospital 612,Bengaluru,Multispeciality,285,1234,106,yes,NO,No,No,4.6,2.7,4.6,90,38,61,4.6,yes,Enhanced Security
+H00613,Jaipur Care Hospital 613,Bengaluru,Specialty,1137,1642,40,Yes,Yes,Yes,Yes,3,2.2,3.5,81,131,99,3.3,Yes,AI Healthcare
+H00614,Hyderabad Care Hospital 614,,Specialty,878,1753,19,Yes,Yes,No,Yes,3.6,4.8,3.6,62,114,77,3.7,yes,Enhanced Security
+H00615,Coimbatore Care Hospital 615,Coimbatore,Specialty,1064,1520,,No,NO,Yes,No,3.5,2.8,4.7,55,,,4.1,,Green Hospital
+H00616,Chennai Care Hospital 616,Madurai,Specialty,,1961,51,Yes,Yes,Yes,Yes,4.2,4,4.7,,212,84,,,
+H00617,Bengaluru Care Hospital 617,Hyderabad,Government,479,874,117,Yes,No,Yes,No,3.5,2.7,4.7,33,87,73,4.7,No,AI Healthcare
+H00618,Pune Care Hospital 618,Bengaluru,Specialty,216,493,78,,Yes,No,,2.1,5,2.5,69,75,67,2.2,yes,Green Hospital
+H00619,Kochi Care Hospital 619,Delhi,,,1910,61,,NO,Yes,No,,,,72,204,54,3,,Digital Patient Care
+H00620,Chennai Care Hospital 620,Kochi,Specialty,1475,2142,36,YES,YES,No,,4.9,2.8,4.3,,22,54,4.6,yes,IoT Healthcare
+H00621,Delhi Care Hospital 621,Chennai,Multispeciality,487,162,62,Yes,YES,Yes,No,2.8,4.1,4.3,78,40,,,No,
+H00622,Kochi Care Hospital 622,,Government,1224,,110,YES,Yes,Yes,No,4.6,3.4,3.5,91,174,94,,YES,Green Hospital
+H00623,Madurai Care Hospital 623,Coimbatore,Private,1243,1665,62,yes,No,No,No,2.9,2.5,2.7,41,94,57,2.4,Yes,Enhanced Security
+H00624,Madurai Care Hospital 624,Jaipur,Specialty,700,211,51,yes,YES,No,Yes,4.5,3.5,2.2,52,,62,3.1,yes,Enhanced Security
+H00625,Delhi Care Hospital 625,Mumbai,Multispeciality,1185,361,16,Yes,YES,No,No,4.6,,4.5,41,71,90,,YES,Green Hospital
+H00626,Hyderabad Care Hospital 626,,Multispeciality,422,1010,,Yes,NO,,Yes,3.8,4.5,2.3,66,150,51,4.5,yes,Smart Hospital
+H00627,Bengaluru Care Hospital 627,Mumbai,Specialty,833,1272,135,No,NO,No,No,2.6,4.4,3.3,50,92,72,3.5,yes,AI Healthcare
+H00628,Kochi Care Hospital 628,Madurai,Private,347,557,,YES,No,No,No,4.3,2.9,4.9,,84,100,3.1,YES,Green Hospital
+H00629,Madurai Care Hospital 629,Madurai,Government,730,186,,No,No,Yes,Yes,4.7,4.9,3.3,34,,59,4.8,No,IoT Healthcare
+H00630,Jaipur Care Hospital 630,Delhi,,1461,1433,42,YES,YES,No,No,4.3,4.5,4.5,32,139,74,2.4,YES,Contactless Healthcare
+H00631,Mumbai Care Hospital 631,Coimbatore,,785,271,,yes,,No,Yes,2.4,4.1,,71,184,50,,YES,
+H00632,Chennai Care Hospital 632,Bengaluru,Multispeciality,921,,73,YES,NO,,Yes,3.7,3.7,3.1,92,18,99,4.7,No,Contactless Healthcare
+H00633,Bengaluru Care Hospital 633,Hyderabad,Specialty,534,267,56,YES,Yes,Yes,Yes,3.6,3,3.6,83,65,,3,YES,Smart Hospital
+H00634,Bengaluru Care Hospital 634,,Government,1369,682,68,Yes,No,,Yes,3.7,4.4,3.8,66,153,65,3.6,Yes,AI Healthcare
+H00635,Chennai Care Hospital 635,Pune,Multispeciality,658,993,99,,,Yes,No,2.5,4.3,3.3,,49,91,4.2,YES,Enhanced Security
+H00636,Pune Care Hospital 636,Bengaluru,Government,925,264,124,YES,NO,No,Yes,3.5,3.5,2.5,51,168,93,3.4,Yes,IoT Healthcare
+H00637,Pune Care Hospital 637,Bengaluru,Government,420,1824,,yes,NO,Yes,Yes,3.7,2.3,2.6,,93,54,,yes,Enhanced Security
+H00638,Madurai Care Hospital 638,Coimbatore,Private,551,521,21,No,,Yes,Yes,2.2,4.8,3.8,67,207,65,3.8,No,Enhanced Security
+H00639,Kochi Care Hospital 639,Hyderabad,,382,1107,117,,Yes,No,Yes,3.4,3.7,2.9,76,91,60,2.9,Yes,IoT Healthcare
+H00640,Jaipur Care Hospital 640,Mumbai,Multispeciality,1328,,,yes,YES,No,No,3.2,,2.2,69,25,74,3.3,Yes,AI Healthcare
+H00641,Madurai Care Hospital 641,Hyderabad,Multispeciality,1393,2076,33,Yes,NO,No,Yes,2,3.4,4.4,42,66,80,3,yes,Enhanced Security
+H00642,Pune Care Hospital 642,Mumbai,Specialty,,1546,23,No,NO,Yes,No,4,4.3,,95,56,79,2.1,Yes,Smart Hospital
+H00643,Chennai Care Hospital 643,Bengaluru,Specialty,,141,,YES,No,Yes,Yes,2.7,3.9,2.4,52,70,65,2.4,yes,Patient-Centric Care
+H00644,Madurai Care Hospital 644,Hyderabad,Multispeciality,946,1686,,yes,No,Yes,Yes,3.4,4.3,3.8,57,157,64,4.9,yes,AI Healthcare
+H00645,Hyderabad Care Hospital 645,Delhi,Government,1052,1301,38,Yes,NO,Yes,Yes,2.3,4.8,5,83,219,59,3.8,YES,
+H00646,Bengaluru Care Hospital 646,Kochi,Government,1403,361,48,yes,YES,No,No,4.7,2.5,3.6,,90,73,3.4,YES,Digital Patient Care
+H00647,Kochi Care Hospital 647,Delhi,Specialty,,1066,12,No,NO,No,No,3.6,3.8,4,50,188,66,4.7,yes,Green Hospital
+H00648,Madurai Care Hospital 648,Kochi,Private,1145,625,,Yes,,No,,4.8,,2.7,87,159,73,2.4,yes,Patient-Centric Care
+H00649,Mumbai Care Hospital 649,Madurai,Private,,1109,132,No,YES,Yes,Yes,2.1,4.5,2.8,48,21,73,3.4,Yes,Smart Hospital
+H00650,Delhi Care Hospital 650,Coimbatore,Private,708,1597,71,YES,Yes,No,Yes,3.1,4.1,3.6,65,200,82,4.1,yes,Green Hospital
+H00651,Mumbai Care Hospital 651,Hyderabad,Specialty,1440,342,58,No,YES,No,No,2.3,3.8,3.4,58,157,,4.7,yes,Patient-Centric Care
+H00652,Jaipur Care Hospital 652,Chennai,Government,774,2011,131,yes,,No,Yes,2.5,4.6,4.9,77,122,98,4.2,yes,Digital Patient Care
+H00653,Bengaluru Care Hospital 653,Kochi,Government,1071,1850,116,Yes,,Yes,Yes,5,4.4,2.5,,137,74,2.8,YES,Enhanced Security
+H00654,Madurai Care Hospital 654,Kochi,,877,403,145,Yes,NO,No,Yes,3.9,5,3.8,89,85,89,,No,Enhanced Security
+H00655,Pune Care Hospital 655,,Specialty,511,87,53,YES,Yes,No,Yes,4.2,,3.5,,7,94,2.9,,
+H00656,Madurai Care Hospital 656,Coimbatore,Specialty,903,1386,89,YES,YES,No,No,4.3,4.7,4.9,57,97,93,4.6,YES,Patient-Centric Care
+H00657,Mumbai Care Hospital 657,Coimbatore,Multispeciality,1057,571,33,No,YES,Yes,No,4.8,3.4,3.5,58,,,3,No,IoT Healthcare
+H00658,Madurai Care Hospital 658,Madurai,Multispeciality,1360,977,139,Yes,YES,No,No,4.3,3.9,3.8,47,29,93,,,
+H00659,Coimbatore Care Hospital 659,Delhi,Government,1241,2159,39,No,Yes,Yes,Yes,2,3,,53,121,66,4.4,,Digital Patient Care
+H00660,Jaipur Care Hospital 660,Pune,Multispeciality,1317,2143,136,yes,No,Yes,Yes,3.8,2.5,3.9,61,,62,3.6,yes,
+H00661,Madurai Care Hospital 661,Coimbatore,Private,121,1688,27,No,Yes,,,3.1,3.2,4.9,,,84,2.5,YES,Green Hospital
+H00662,Mumbai Care Hospital 662,Pune,Multispeciality,937,330,36,No,YES,No,No,3.7,4.2,2.3,87,5,55,3.8,No,Green Hospital
+H00663,Chennai Care Hospital 663,Chennai,Government,445,385,46,No,Yes,Yes,No,4.6,3.5,,74,82,90,,yes,IoT Healthcare
+H00664,Kochi Care Hospital 664,Coimbatore,Multispeciality,372,518,65,No,,Yes,No,4.1,3.8,3.3,84,78,96,3.8,Yes,Contactless Healthcare
+H00665,Delhi Care Hospital 665,Coimbatore,Specialty,804,,,yes,No,Yes,No,4.6,4.6,2.3,97,102,98,4.6,yes,Smart Hospital
+H00666,Hyderabad Care Hospital 666,Coimbatore,Private,971,1138,29,No,No,Yes,Yes,,4.4,3.2,100,113,100,2.7,yes,AI Healthcare
+H00667,Chennai Care Hospital 667,Bengaluru,Private,,,16,,No,Yes,Yes,4,2.8,3.7,49,19,97,3.2,YES,AI Healthcare
+H00668,Pune Care Hospital 668,Chennai,,1018,1366,29,No,NO,Yes,Yes,3.3,3.1,2.2,31,136,94,4.4,Yes,Green Hospital
+H00669,Chennai Care Hospital 669,Delhi,Government,153,2089,98,YES,,Yes,No,3.2,4.8,4.6,33,58,64,4.9,,Green Hospital
+H00670,Coimbatore Care Hospital 670,Chennai,Private,279,994,111,yes,Yes,Yes,Yes,4.8,3.7,4,76,70,91,2.8,Yes,Contactless Healthcare
+H00671,Kochi Care Hospital 671,Madurai,Private,666,2112,77,Yes,No,Yes,No,2.5,4.7,3.1,45,,54,2.3,Yes,Smart Hospital
+H00672,Pune Care Hospital 672,Pune,Government,1463,791,57,,Yes,No,No,2.7,3,3.7,,81,,3.9,Yes,Digital Patient Care
+H00673,Madurai Care Hospital 673,Hyderabad,Specialty,974,187,30,,NO,Yes,No,2.1,2.1,4,95,74,88,2.6,Yes,IoT Healthcare
+H00674,Madurai Care Hospital 674,Delhi,Private,1073,221,103,yes,YES,,No,,3.6,2.3,34,7,,2.8,Yes,Enhanced Security
+H00675,Chennai Care Hospital 675,Jaipur,Private,1479,,62,YES,YES,No,,4.7,2.9,,67,45,55,4,,Patient-Centric Care
+H00676,Coimbatore Care Hospital 676,Hyderabad,Multispeciality,865,1863,27,Yes,YES,No,Yes,4.7,4.3,3.2,64,201,99,2.6,Yes,Smart Hospital
+H00677,Hyderabad Care Hospital 677,Coimbatore,Private,505,1948,102,yes,No,No,No,4.1,2.9,3.8,59,220,54,4.4,Yes,Green Hospital
+H00678,Jaipur Care Hospital 678,Pune,Multispeciality,575,898,78,yes,No,Yes,Yes,2.2,4.8,3.9,86,45,62,3,yes,Digital Patient Care
+H00679,Kochi Care Hospital 679,,Government,638,,34,yes,Yes,Yes,Yes,,2.5,4.1,70,176,76,2.2,No,Smart Hospital
+H00680,Bengaluru Care Hospital 680,Coimbatore,Private,1225,498,127,No,YES,Yes,No,,4.9,2.4,90,119,85,4.5,YES,Patient-Centric Care
+H00681,Bengaluru Care Hospital 681,Hyderabad,,151,1500,,Yes,YES,Yes,No,3.7,2.2,3.3,88,,56,3.8,YES,Green Hospital
+H00682,Mumbai Care Hospital 682,Coimbatore,Government,1260,,105,No,No,Yes,No,3.7,3,4.7,45,156,92,2.1,YES,IoT Healthcare
+H00683,Mumbai Care Hospital 683,Mumbai,Specialty,355,1813,96,,Yes,No,No,3.9,4.5,2.4,64,30,90,3.3,YES,IoT Healthcare
+H00684,Delhi Care Hospital 684,,Private,88,233,116,,NO,Yes,Yes,4.9,4.8,,77,187,98,5,YES,
+H00685,Hyderabad Care Hospital 685,Madurai,Multispeciality,1083,1334,28,No,Yes,No,Yes,4.3,2.5,,85,35,97,3,,Contactless Healthcare
+H00686,Hyderabad Care Hospital 686,Delhi,Specialty,,1910,85,,No,Yes,Yes,,4,4.5,77,99,93,4.9,No,AI Healthcare
+H00687,Jaipur Care Hospital 687,Hyderabad,Multispeciality,876,132,30,YES,YES,Yes,No,3.2,2.3,4.4,,172,87,3.8,YES,Smart Hospital
+H00688,Madurai Care Hospital 688,Hyderabad,Multispeciality,240,1064,123,Yes,Yes,Yes,Yes,5,5,3.9,81,145,54,2.3,,Contactless Healthcare
+H00689,Madurai Care Hospital 689,Delhi,Specialty,1176,793,121,No,YES,No,,4.8,3.5,4.2,74,18,,4.4,yes,Patient-Centric Care
+H00690,Pune Care Hospital 690,Jaipur,Private,436,,105,yes,YES,Yes,Yes,2.7,,3.4,34,195,74,3.3,YES,Smart Hospital
+H00691,Chennai Care Hospital 691,Madurai,Multispeciality,,1178,49,Yes,NO,Yes,No,4.1,2.8,3.6,34,37,76,3.5,No,Smart Hospital
+H00692,Delhi Care Hospital 692,,Specialty,,2111,,No,No,,No,2,3,3.4,54,69,88,3.8,Yes,AI Healthcare
+H00693,Jaipur Care Hospital 693,Mumbai,Specialty,1455,102,140,Yes,YES,No,Yes,3.6,4.7,2.1,,,78,,yes,Patient-Centric Care
+H00694,Bengaluru Care Hospital 694,Mumbai,Multispeciality,548,72,137,No,No,Yes,Yes,2.5,4.6,2.9,40,82,72,3.9,Yes,AI Healthcare
+H00695,Pune Care Hospital 695,Mumbai,Multispeciality,333,1817,73,YES,NO,No,Yes,3.5,2.2,4,83,106,66,3.5,Yes,Enhanced Security
+H00696,Bengaluru Care Hospital 696,Hyderabad,Multispeciality,752,1504,9,Yes,,,,2.6,4.1,3.1,41,183,59,,,Green Hospital
+H00697,Madurai Care Hospital 697,Delhi,Specialty,1455,,,yes,,Yes,No,2.6,3.8,2.7,52,175,55,4.7,,Smart Hospital
+H00698,Madurai Care Hospital 698,Hyderabad,Government,,1760,45,YES,NO,No,No,4.8,3.9,2.5,58,152,,2.2,YES,Smart Hospital
+H00699,Bengaluru Care Hospital 699,Hyderabad,Private,997,1876,25,yes,No,No,Yes,4,,3.9,58,116,58,4.3,yes,Digital Patient Care
+H00700,Bengaluru Care Hospital 700,Mumbai,Government,1340,425,45,YES,No,,,3.8,2.8,4.7,97,43,93,3.7,yes,AI Healthcare
+H00701,Bengaluru Care Hospital 701,Bengaluru,Government,563,1411,112,No,,Yes,No,4.9,,3.3,97,105,62,3.1,Yes,Smart Hospital
+H00702,Madurai Care Hospital 702,Jaipur,,,873,13,yes,Yes,No,,3.1,3.5,,45,135,83,2.5,,Green Hospital
+H00703,Delhi Care Hospital 703,Madurai,Private,636,,73,yes,YES,No,No,,,2.9,60,32,100,3.3,Yes,IoT Healthcare
+H00704,Jaipur Care Hospital 704,Jaipur,Specialty,601,1174,,YES,No,No,No,2.8,3.9,4.7,60,,56,3.8,No,Enhanced Security
+H00705,Jaipur Care Hospital 705,Pune,Multispeciality,1428,1871,38,YES,YES,Yes,No,2.7,3.7,,74,201,61,3.2,YES,IoT Healthcare
+H00706,Hyderabad Care Hospital 706,,Government,200,1215,18,No,Yes,No,No,3,4.5,3.5,95,213,64,4.3,,Enhanced Security
+H00707,Madurai Care Hospital 707,Pune,Specialty,287,543,80,No,,Yes,Yes,,4.4,3.2,,9,98,2.2,No,AI Healthcare
+H00708,Mumbai Care Hospital 708,Delhi,Specialty,615,,122,yes,Yes,Yes,No,2,4.9,3.2,63,140,,,Yes,Green Hospital
+H00709,Pune Care Hospital 709,Hyderabad,Multispeciality,1424,201,39,yes,,Yes,No,4,3.4,4.8,49,111,62,,No,
+H00710,Pune Care Hospital 710,Coimbatore,Specialty,1182,540,89,Yes,YES,No,No,3.5,2.4,3.2,77,41,83,4.7,No,Contactless Healthcare
+H00711,Mumbai Care Hospital 711,,Specialty,1178,1136,,YES,YES,No,,2.6,3.7,2.2,51,209,60,2.7,yes,Patient-Centric Care
+H00712,Kochi Care Hospital 712,Chennai,Multispeciality,137,1185,6,yes,YES,Yes,Yes,,3.5,4.1,98,132,86,4.9,YES,IoT Healthcare
+H00713,Chennai Care Hospital 713,Kochi,,973,,32,YES,NO,No,No,2.9,4.2,4.6,94,80,95,2.8,No,
+H00714,Delhi Care Hospital 714,Delhi,Specialty,1498,1228,110,No,No,Yes,Yes,2.3,3.7,4.5,67,115,85,4.6,No,Enhanced Security
+H00715,Jaipur Care Hospital 715,Mumbai,Specialty,654,496,65,Yes,YES,No,No,2.1,3,2.2,44,63,58,2.6,No,Enhanced Security
+H00716,Coimbatore Care Hospital 716,Coimbatore,Specialty,1270,1462,60,yes,NO,No,No,2.6,2.3,4.7,40,134,55,2.1,No,IoT Healthcare
+H00717,Delhi Care Hospital 717,Chennai,Multispeciality,677,221,,yes,Yes,Yes,Yes,3.2,2.5,2.2,92,141,80,3.8,No,Green Hospital
+H00718,Kochi Care Hospital 718,Mumbai,Specialty,336,131,59,,YES,Yes,Yes,4,5,3,47,204,,3.2,,Patient-Centric Care
+H00719,Hyderabad Care Hospital 719,Madurai,Multispeciality,1176,809,64,YES,YES,No,Yes,4.2,4.6,4.8,54,198,62,4.5,YES,
+H00720,Mumbai Care Hospital 720,Pune,Private,1061,1951,7,No,No,No,Yes,2.8,3.6,2.5,81,93,89,2.7,YES,Patient-Centric Care
+H00721,Kochi Care Hospital 721,Coimbatore,Government,403,385,64,,,No,Yes,2.8,4.5,3,68,,69,2.6,yes,Enhanced Security
+H00722,Jaipur Care Hospital 722,Kochi,Specialty,1266,705,143,yes,No,Yes,No,3.5,2,2.5,97,66,66,2.2,yes,Patient-Centric Care
+H00723,Pune Care Hospital 723,Chennai,Government,931,1609,148,YES,No,No,Yes,3.9,4.9,3.4,38,31,95,4,No,Green Hospital
+H00724,Pune Care Hospital 724,Mumbai,Multispeciality,175,872,5,Yes,YES,Yes,Yes,3.3,4.8,4.3,61,216,51,4.6,yes,Enhanced Security
+H00725,Kochi Care Hospital 725,Chennai,Specialty,364,2105,115,YES,Yes,Yes,No,3.7,4.6,2.3,,,53,3.6,YES,Smart Hospital
+H00726,Coimbatore Care Hospital 726,Madurai,Private,405,1998,,No,No,No,,3.6,3.7,5,74,51,88,2.2,yes,Patient-Centric Care
+H00727,Bengaluru Care Hospital 727,Madurai,Specialty,921,433,88,No,YES,Yes,Yes,4.6,,4.2,42,,,3.4,YES,Contactless Healthcare
+H00728,Madurai Care Hospital 728,Pune,Private,840,1786,22,YES,No,,Yes,4.8,3.7,4.8,70,,80,2.8,,Patient-Centric Care
+H00729,Hyderabad Care Hospital 729,Pune,Government,1394,347,108,No,NO,Yes,Yes,3.3,3.2,3.6,83,165,72,5,YES,Contactless Healthcare
+H00730,Pune Care Hospital 730,Jaipur,Government,300,120,127,Yes,YES,No,No,2.1,3.1,,93,213,87,2.2,Yes,Enhanced Security
+H00731,Chennai Care Hospital 731,,Specialty,827,1390,35,,Yes,Yes,No,2.1,,4.3,30,,52,4,No,Digital Patient Care
+H00732,Pune Care Hospital 732,Hyderabad,Multispeciality,1144,449,27,YES,,No,Yes,3,,4.9,74,173,,2,No,
+H00733,Coimbatore Care Hospital 733,,Specialty,883,1203,23,yes,Yes,Yes,Yes,2.6,2.1,3.8,97,34,96,3.2,yes,Patient-Centric Care
+H00734,Bengaluru Care Hospital 734,Pune,Specialty,545,955,139,yes,NO,Yes,Yes,5,3.6,,79,148,96,,YES,IoT Healthcare
+H00735,Mumbai Care Hospital 735,Delhi,Specialty,1386,1144,62,No,NO,No,,2.7,4.7,3,54,164,54,3,No,Green Hospital
+H00736,Delhi Care Hospital 736,Pune,Government,893,1841,132,No,No,,Yes,3.5,4.8,4.6,49,77,50,4.5,YES,Digital Patient Care
+H00737,Delhi Care Hospital 737,Hyderabad,Private,267,219,67,,,Yes,Yes,2.2,4.7,3.5,99,21,69,4,yes,IoT Healthcare
+H00738,Bengaluru Care Hospital 738,Jaipur,Private,154,1521,119,YES,NO,Yes,No,3.4,2.3,4.9,33,180,88,3.3,yes,Contactless Healthcare
+H00739,Delhi Care Hospital 739,Pune,,219,1313,132,,No,Yes,Yes,4.6,3.4,2.1,59,52,93,4.1,Yes,Contactless Healthcare
+H00740,Jaipur Care Hospital 740,,Private,506,2173,80,yes,Yes,No,Yes,2.4,2.4,3.8,,197,51,4.3,yes,Green Hospital
+H00741,Delhi Care Hospital 741,,,471,245,49,,No,Yes,No,3.5,3.3,2.3,42,13,54,3.1,YES,
+H00742,Pune Care Hospital 742,Coimbatore,Private,834,404,32,Yes,Yes,Yes,No,4,4.5,2.9,,172,71,2.6,YES,
+H00743,Pune Care Hospital 743,Coimbatore,Multispeciality,951,1267,117,Yes,Yes,No,No,3.3,3.4,3.7,34,211,,2.4,No,
+H00744,Delhi Care Hospital 744,Chennai,Private,315,505,98,Yes,NO,Yes,Yes,2.6,2.6,2.2,,204,93,3.8,YES,
+H00745,Delhi Care Hospital 745,Jaipur,Private,958,828,,No,No,Yes,No,,2,4.4,99,176,83,2.6,YES,IoT Healthcare
+H00746,Pune Care Hospital 746,Hyderabad,Multispeciality,315,67,56,Yes,No,Yes,Yes,4.9,3.1,3.2,99,58,56,2.9,,Contactless Healthcare
+H00747,Pune Care Hospital 747,Bengaluru,,551,2085,47,,No,No,No,5,2.2,4.7,74,213,90,3.2,No,AI Healthcare
+H00748,Pune Care Hospital 748,Coimbatore,Multispeciality,1215,506,53,Yes,Yes,Yes,Yes,2.5,5,3.2,93,62,57,3.3,No,Green Hospital
+H00749,Bengaluru Care Hospital 749,Mumbai,Multispeciality,1223,2038,91,No,No,Yes,No,3.6,3.6,3.3,97,164,64,2.2,YES,Patient-Centric Care
+H00750,Coimbatore Care Hospital 750,Kochi,Multispeciality,656,683,28,YES,No,Yes,Yes,4.5,4,4.4,,174,79,4.9,Yes,Green Hospital
+H00751,Madurai Care Hospital 751,Pune,Private,718,1323,58,Yes,No,Yes,No,4.6,2.8,3.2,58,174,98,4.9,yes,Digital Patient Care
+H00752,Kochi Care Hospital 752,Hyderabad,,,561,38,Yes,Yes,No,Yes,4.4,,2.3,42,138,59,2.2,,Enhanced Security
+H00753,Pune Care Hospital 753,Hyderabad,Specialty,208,1041,105,No,No,Yes,Yes,3.3,2.7,2.5,85,112,,4.1,,Patient-Centric Care
+H00754,Delhi Care Hospital 754,Jaipur,,478,82,44,Yes,YES,Yes,No,4.8,4.5,3.2,84,163,,3.9,YES,Smart Hospital
+H00755,Madurai Care Hospital 755,Hyderabad,Multispeciality,1191,1103,12,No,YES,Yes,Yes,4.2,3.4,4.5,50,119,60,2.8,yes,
+H00756,Kochi Care Hospital 756,Madurai,Government,1008,1244,55,No,Yes,Yes,No,,2.1,4.1,34,27,90,3.2,yes,IoT Healthcare
+H00757,Chennai Care Hospital 757,,Specialty,414,1983,117,yes,Yes,Yes,No,4,4.6,2.2,44,220,,3.2,No,Patient-Centric Care
+H00758,Chennai Care Hospital 758,Chennai,Government,229,1511,68,yes,YES,Yes,Yes,4.2,2.4,4.8,38,126,55,3.2,yes,Green Hospital
+H00759,Hyderabad Care Hospital 759,Hyderabad,,419,,15,,Yes,No,Yes,3.5,4.1,4,81,154,,3.9,YES,AI Healthcare
+H00760,Madurai Care Hospital 760,Pune,Private,603,,29,No,Yes,No,No,3.7,3.9,2,99,,,,No,
+H00761,Coimbatore Care Hospital 761,Mumbai,Government,820,1231,77,No,Yes,No,Yes,3.5,4.4,5,66,41,73,2.1,YES,AI Healthcare
+H00762,Pune Care Hospital 762,Bengaluru,,793,426,23,No,YES,No,No,2,3.6,4.1,81,207,60,2.2,No,Patient-Centric Care
+H00763,Bengaluru Care Hospital 763,,Specialty,468,1944,86,YES,NO,Yes,Yes,4.7,3.7,2.4,32,67,73,2.6,No,IoT Healthcare
+H00764,Chennai Care Hospital 764,Madurai,Specialty,604,1180,58,,YES,No,Yes,2.9,4.8,4.3,38,107,79,3,Yes,IoT Healthcare
+H00765,Coimbatore Care Hospital 765,Jaipur,Private,804,934,143,No,,Yes,Yes,4.3,3.9,2,69,78,66,2.1,Yes,Enhanced Security
+H00766,Kochi Care Hospital 766,Chennai,Private,,1515,60,yes,Yes,No,,,,2,67,97,,4.3,yes,Green Hospital
+H00767,Madurai Care Hospital 767,Bengaluru,Multispeciality,901,872,103,No,,Yes,Yes,3.7,2.1,4.9,50,77,52,3.8,No,Green Hospital
+H00768,Madurai Care Hospital 768,Hyderabad,,659,1439,120,,YES,No,,2,2.9,4.7,51,176,97,3.4,No,Green Hospital
+H00769,Madurai Care Hospital 769,Delhi,Specialty,895,2132,102,,No,,No,2.8,2.6,4.1,44,132,72,3.7,Yes,Green Hospital
+H00770,Hyderabad Care Hospital 770,Bengaluru,Specialty,1275,,,YES,NO,Yes,No,2.8,3.5,4.7,95,,59,,No,Patient-Centric Care
+H00771,Coimbatore Care Hospital 771,Jaipur,Private,924,1013,17,Yes,YES,Yes,,4,2.3,2.2,78,154,91,2.4,YES,AI Healthcare
+H00772,Coimbatore Care Hospital 772,Madurai,Specialty,1399,,35,No,Yes,No,No,4.1,3.2,2.4,87,158,64,3.2,YES,Enhanced Security
+H00773,Kochi Care Hospital 773,Mumbai,Private,1372,1833,78,No,YES,Yes,No,4.5,2.7,3.9,96,,76,4.3,Yes,Digital Patient Care
+H00774,Chennai Care Hospital 774,Hyderabad,Specialty,149,1294,121,yes,No,No,Yes,,,3.8,77,84,98,4.7,No,Green Hospital
+H00775,Jaipur Care Hospital 775,Chennai,Specialty,,1864,98,No,No,No,Yes,2.3,3.7,3,98,,,2.4,No,Digital Patient Care
+H00776,Bengaluru Care Hospital 776,Hyderabad,Multispeciality,1445,1541,48,No,YES,No,Yes,4.8,4.3,3.5,79,,99,2.3,yes,Digital Patient Care
+H00777,Coimbatore Care Hospital 777,Jaipur,Multispeciality,,1253,18,No,No,No,No,4.8,4,3.6,49,120,61,2.3,No,Digital Patient Care
+H00778,Mumbai Care Hospital 778,Mumbai,Multispeciality,1057,,,YES,Yes,No,Yes,2.6,4.9,4,59,193,87,2.5,No,Green Hospital
+H00779,Chennai Care Hospital 779,Hyderabad,Private,1280,88,141,No,NO,Yes,Yes,2,3.5,2,63,71,89,3.7,YES,IoT Healthcare
+H00780,Delhi Care Hospital 780,Delhi,,831,1687,78,yes,YES,No,No,4.9,4.3,2.2,90,107,77,2,yes,Contactless Healthcare
+H00781,Chennai Care Hospital 781,Hyderabad,Specialty,1370,1572,127,Yes,NO,Yes,No,2.8,3.1,4.3,,114,78,2.7,yes,Contactless Healthcare
+H00782,Madurai Care Hospital 782,Delhi,Multispeciality,969,1549,45,,NO,Yes,,3.8,,4,59,,59,,Yes,Digital Patient Care
+H00783,Mumbai Care Hospital 783,Jaipur,Private,1350,1753,123,Yes,NO,Yes,Yes,4.8,2.9,3.2,83,77,59,4.1,YES,Digital Patient Care
+H00784,Madurai Care Hospital 784,Bengaluru,Private,406,1437,120,YES,No,No,No,,4.5,3,46,150,74,3.7,YES,Digital Patient Care
+H00785,Pune Care Hospital 785,,Government,1384,1325,,Yes,NO,Yes,Yes,4.1,,,76,134,94,2.7,Yes,Green Hospital
+H00786,Pune Care Hospital 786,Hyderabad,,975,126,19,Yes,NO,Yes,Yes,4.3,4.7,2.3,,77,72,4.1,,Contactless Healthcare
+H00787,Hyderabad Care Hospital 787,Hyderabad,Government,955,1524,83,YES,No,No,No,4.1,2.7,4.6,36,215,98,4.1,YES,AI Healthcare
+H00788,Jaipur Care Hospital 788,Pune,Specialty,524,754,31,yes,YES,No,Yes,3.2,,2.1,76,93,67,3.5,yes,Contactless Healthcare
+H00789,Pune Care Hospital 789,Bengaluru,Multispeciality,1175,2089,23,YES,No,Yes,Yes,2.8,4.4,3.5,85,172,100,4.4,Yes,Enhanced Security
+H00790,Mumbai Care Hospital 790,Kochi,Multispeciality,956,1331,,yes,NO,Yes,Yes,3.7,3.8,4.3,,24,88,4.8,Yes,Green Hospital
+H00791,Delhi Care Hospital 791,Coimbatore,Specialty,986,943,55,yes,,No,Yes,3,,2.8,62,159,,4.8,Yes,Green Hospital
+H00792,Bengaluru Care Hospital 792,Jaipur,Government,507,1473,5,No,NO,Yes,No,3.9,3.2,3.1,62,61,60,,yes,Patient-Centric Care
+H00793,Kochi Care Hospital 793,,Specialty,442,85,109,,Yes,No,No,2.9,3.9,,98,203,66,2.8,No,AI Healthcare
+H00794,Mumbai Care Hospital 794,Pune,Private,1500,1975,53,YES,YES,No,No,,3.5,4.8,63,215,75,2.7,No,Patient-Centric Care
+H00795,Mumbai Care Hospital 795,Coimbatore,Private,,1305,9,Yes,NO,No,Yes,3.3,4,4.7,93,91,,,YES,AI Healthcare
+H00796,Pune Care Hospital 796,Coimbatore,Private,766,1865,24,YES,NO,,Yes,3.5,,4.9,92,14,56,4.4,YES,AI Healthcare
+H00797,Jaipur Care Hospital 797,,Multispeciality,1253,91,74,yes,No,No,No,3.8,2.8,2.5,70,114,61,3.7,Yes,Smart Hospital
+H00798,Chennai Care Hospital 798,,Government,1232,100,30,Yes,Yes,Yes,No,2.3,4.3,3.5,49,26,52,2.7,,IoT Healthcare
+H00799,Pune Care Hospital 799,Pune,Specialty,,1930,150,,NO,,Yes,4.6,4.7,4.7,73,207,71,4.8,yes,Contactless Healthcare
+H00800,Delhi Care Hospital 800,,Government,1319,,107,No,Yes,Yes,,4.7,3.2,3.5,68,68,51,2.3,yes,IoT Healthcare
+H00801,Delhi Care Hospital 801,Kochi,Private,1024,318,36,No,NO,Yes,,,2.9,4.8,43,16,69,3.8,Yes,Enhanced Security
+H00802,Kochi Care Hospital 802,Madurai,Government,1403,2054,110,YES,Yes,No,Yes,2.5,4,2.5,59,137,84,4.1,No,Smart Hospital
+H00803,Bengaluru Care Hospital 803,Hyderabad,Multispeciality,282,,89,YES,,No,No,4,4.4,3.9,79,156,76,2.5,YES,Patient-Centric Care
+H00804,Delhi Care Hospital 804,Bengaluru,Multispeciality,1076,2183,26,yes,YES,,Yes,5,3.8,2,,35,95,2.7,YES,Green Hospital
+H00805,Pune Care Hospital 805,Mumbai,Private,490,609,113,YES,No,No,Yes,3.3,3.9,3.2,,65,,3.2,Yes,Contactless Healthcare
+H00806,Hyderabad Care Hospital 806,Bengaluru,Specialty,449,684,135,Yes,YES,No,Yes,3.4,4,,40,,,2.4,,Enhanced Security
+H00807,Jaipur Care Hospital 807,Mumbai,Specialty,443,,35,yes,,,Yes,2.3,,3.7,79,6,76,3.3,,AI Healthcare
+H00808,Bengaluru Care Hospital 808,Jaipur,Specialty,744,1081,,No,YES,No,No,3.1,3.6,3.3,81,90,83,,No,Digital Patient Care
+H00809,Mumbai Care Hospital 809,Madurai,Government,951,951,8,Yes,,No,Yes,4.3,,3.9,59,121,76,4.1,YES,Digital Patient Care
+H00810,Kochi Care Hospital 810,Kochi,Government,591,1632,99,YES,NO,Yes,Yes,3.3,2.2,4.7,58,155,81,3.1,No,Patient-Centric Care
+H00811,Kochi Care Hospital 811,Pune,Multispeciality,988,490,130,,Yes,Yes,Yes,2.5,3.4,2.1,55,31,84,3.4,Yes,AI Healthcare
+H00812,Hyderabad Care Hospital 812,Delhi,Government,253,641,25,No,NO,No,Yes,3.8,,2.4,89,59,96,3.8,No,AI Healthcare
+H00813,Mumbai Care Hospital 813,Kochi,Specialty,1229,1814,132,No,YES,Yes,,4.6,3.8,3.8,96,100,,3.9,YES,
+H00814,Hyderabad Care Hospital 814,Delhi,,1098,,128,,,No,No,3.4,4.2,3.8,87,173,91,3.9,Yes,Smart Hospital
+H00815,Bengaluru Care Hospital 815,Madurai,Government,385,1061,46,No,NO,Yes,No,2.2,4.5,4.4,49,180,66,,,Patient-Centric Care
+H00816,Bengaluru Care Hospital 816,Hyderabad,Multispeciality,650,2040,89,yes,No,No,Yes,2.6,4.2,3.9,45,60,57,3.1,yes,AI Healthcare
+H00817,Chennai Care Hospital 817,Pune,Government,357,1062,21,No,YES,Yes,Yes,,3.5,2.8,79,162,80,3.3,yes,Green Hospital
+H00818,Coimbatore Care Hospital 818,,Government,387,1582,23,YES,Yes,Yes,,2.5,3.4,,53,186,97,,,Enhanced Security
+H00819,Delhi Care Hospital 819,Hyderabad,Private,691,2125,8,No,No,No,No,3.1,5,2.5,30,143,57,3,Yes,Enhanced Security
+H00820,Bengaluru Care Hospital 820,Jaipur,Private,1332,1628,83,Yes,YES,Yes,No,2.1,,2.1,53,65,56,5,Yes,IoT Healthcare
+H00821,Mumbai Care Hospital 821,Delhi,Government,,80,86,YES,NO,No,No,4.9,3.3,3,88,27,,2.6,YES,IoT Healthcare
+H00822,Madurai Care Hospital 822,Hyderabad,Government,313,2195,39,Yes,No,Yes,No,2.1,,4,80,53,70,4,YES,Smart Hospital
+H00823,Madurai Care Hospital 823,Bengaluru,Government,546,618,71,,YES,No,No,3.3,4.3,2.6,81,192,71,2.3,No,Enhanced Security
+H00824,Jaipur Care Hospital 824,,Government,1255,,101,,Yes,No,Yes,3.2,4.2,4,75,38,69,4.1,yes,
+H00825,Pune Care Hospital 825,Pune,Specialty,182,225,18,,YES,Yes,No,4.6,2.6,3.9,94,47,50,4.6,YES,Enhanced Security
+H00826,Bengaluru Care Hospital 826,Chennai,Private,1467,303,97,YES,Yes,No,No,4.9,3.7,2.2,90,196,55,4.8,No,Contactless Healthcare
+H00827,Chennai Care Hospital 827,Chennai,Specialty,960,1637,,Yes,Yes,Yes,No,3.1,4.5,2.4,37,91,96,4.3,yes,Green Hospital
+H00828,Pune Care Hospital 828,Chennai,,801,545,33,YES,YES,Yes,No,4.1,2.1,2.2,73,161,89,,Yes,Enhanced Security
+H00829,Delhi Care Hospital 829,Delhi,Government,603,,9,,YES,Yes,No,3.2,3.4,3.2,92,149,91,2.9,Yes,IoT Healthcare
+H00830,Pune Care Hospital 830,Chennai,Government,1281,912,22,Yes,YES,Yes,No,4.1,3.2,4,47,80,94,,yes,Green Hospital
+H00831,Mumbai Care Hospital 831,Coimbatore,Multispeciality,727,663,140,,Yes,No,No,4.3,2.3,2.5,78,,52,3.5,yes,IoT Healthcare
+H00832,Hyderabad Care Hospital 832,Delhi,Government,1246,1257,112,YES,Yes,Yes,No,3.8,4.7,2.4,71,141,,5,YES,Patient-Centric Care
+H00833,Hyderabad Care Hospital 833,Madurai,Multispeciality,195,,,No,No,,,3.3,3.4,4.4,75,160,,2.1,No,Green Hospital
+H00834,Delhi Care Hospital 834,Pune,Government,613,735,96,yes,No,Yes,Yes,3.1,3,3.4,52,43,57,2.6,yes,IoT Healthcare
+H00835,Delhi Care Hospital 835,Coimbatore,Specialty,967,396,64,No,YES,Yes,Yes,4.1,3.9,,99,,58,3.6,No,Patient-Centric Care
+H00836,Bengaluru Care Hospital 836,,Government,1230,736,45,Yes,YES,No,Yes,3.8,,3,60,199,91,2.7,,Digital Patient Care
+H00837,Chennai Care Hospital 837,Madurai,Specialty,1130,1660,115,Yes,NO,No,,3.8,3.8,4.5,91,74,50,3.4,Yes,Patient-Centric Care
+H00838,Hyderabad Care Hospital 838,Hyderabad,Multispeciality,852,2136,134,Yes,,No,Yes,4.1,,4.7,99,26,67,4.4,,IoT Healthcare
+H00839,Bengaluru Care Hospital 839,Delhi,Multispeciality,1094,1218,40,YES,Yes,No,Yes,2.1,2.9,3.1,88,,65,2.8,Yes,Green Hospital
+H00840,Madurai Care Hospital 840,Chennai,Government,491,1954,110,YES,YES,Yes,No,3.3,2.7,2.7,68,89,,3.8,yes,IoT Healthcare
+H00841,Kochi Care Hospital 841,Hyderabad,Multispeciality,135,,41,No,No,Yes,,2.8,2.8,3.2,64,58,76,3.3,,Digital Patient Care
+H00842,Mumbai Care Hospital 842,Pune,Government,318,2111,116,Yes,Yes,No,,4.2,2.1,4.2,,114,55,3.4,yes,IoT Healthcare
+H00843,Kochi Care Hospital 843,,Government,990,685,108,,No,No,Yes,2.3,2.6,3.3,39,12,100,2.9,No,Contactless Healthcare
+H00844,Hyderabad Care Hospital 844,Mumbai,Multispeciality,993,1227,113,Yes,YES,Yes,Yes,2.4,4.4,4,66,77,74,3.5,Yes,Enhanced Security
+H00845,Jaipur Care Hospital 845,,Private,,658,51,yes,YES,Yes,No,2.9,4,,78,187,63,3.9,YES,Enhanced Security
+H00846,Delhi Care Hospital 846,,,733,1241,43,No,NO,Yes,Yes,2.1,2,,,,,2.9,No,IoT Healthcare
+H00847,Chennai Care Hospital 847,Delhi,Specialty,1094,,103,Yes,,Yes,,5,3.9,5,80,88,,2.4,YES,
+H00848,Hyderabad Care Hospital 848,Mumbai,Government,1159,172,11,yes,Yes,Yes,Yes,,,3.6,70,97,91,2.2,YES,Enhanced Security
+H00849,Jaipur Care Hospital 849,,Multispeciality,,432,49,,No,No,No,2.2,3.2,2,73,103,95,2.2,yes,Green Hospital
+H00850,Jaipur Care Hospital 850,Pune,Government,242,1792,58,Yes,YES,No,Yes,3.1,,4.5,44,30,98,3.3,yes,Green Hospital
+H00851,Bengaluru Care Hospital 851,Kochi,Specialty,1239,1450,147,yes,Yes,Yes,No,3.8,3.8,4.7,50,204,88,2.9,YES,Patient-Centric Care
+H00852,Madurai Care Hospital 852,Bengaluru,Government,1266,137,35,,NO,No,,3.8,2.7,2,76,,99,3.4,Yes,Green Hospital
+H00853,Jaipur Care Hospital 853,Pune,Multispeciality,1202,1925,59,Yes,YES,No,No,2.9,3.2,3.7,54,123,93,4,yes,IoT Healthcare
+H00854,Jaipur Care Hospital 854,Madurai,Multispeciality,324,1857,133,YES,YES,Yes,Yes,3.1,4.8,4.5,90,53,,4.2,yes,Patient-Centric Care
+H00855,Pune Care Hospital 855,Madurai,Multispeciality,,1820,11,Yes,,Yes,Yes,3.7,3,2.8,38,34,75,2.3,yes,AI Healthcare
+H00856,Madurai Care Hospital 856,Bengaluru,Specialty,82,2065,27,YES,Yes,No,Yes,3,4.7,,89,,92,3.3,No,
+H00857,Delhi Care Hospital 857,Jaipur,Private,599,2090,16,No,No,Yes,No,2.6,4.8,3.1,,122,90,4.7,Yes,Enhanced Security
+H00858,Delhi Care Hospital 858,Bengaluru,Multispeciality,844,1595,77,No,YES,No,Yes,,2.1,3.3,,59,99,4.1,yes,Patient-Centric Care
+H00859,Mumbai Care Hospital 859,Chennai,Private,232,,112,No,No,No,Yes,3.5,,3,33,137,93,2.4,,AI Healthcare
+H00860,Madurai Care Hospital 860,Jaipur,Specialty,1317,,60,No,YES,Yes,Yes,4.3,4.8,,93,24,92,4.4,,Green Hospital
+H00861,Hyderabad Care Hospital 861,Jaipur,Government,1259,298,100,yes,Yes,No,Yes,2.3,3.2,2.8,100,11,54,4.4,yes,IoT Healthcare
+H00862,Kochi Care Hospital 862,Madurai,Specialty,,,129,yes,Yes,No,,2.7,4.9,4.1,42,28,54,4.6,Yes,Contactless Healthcare
+H00863,Chennai Care Hospital 863,Jaipur,Government,420,844,35,yes,No,No,No,2.6,2.9,3,65,77,72,,Yes,Green Hospital
+H00864,Pune Care Hospital 864,Jaipur,Government,1410,2165,,Yes,YES,Yes,No,2.9,4,4,87,102,84,3.1,YES,Digital Patient Care
+H00865,Delhi Care Hospital 865,Hyderabad,Specialty,610,1841,117,No,No,Yes,Yes,3.2,4.3,4.9,79,,52,3.5,yes,Smart Hospital
+H00866,Hyderabad Care Hospital 866,Chennai,Government,1121,471,110,YES,NO,Yes,Yes,4.6,3.3,3,87,202,64,3.6,YES,Patient-Centric Care
+H00867,Madurai Care Hospital 867,Pune,Specialty,526,1301,86,,No,Yes,Yes,,4.5,3.3,,149,99,2.6,No,Digital Patient Care
+H00868,Kochi Care Hospital 868,Bengaluru,Government,712,1127,124,Yes,Yes,,Yes,4.2,3.2,,35,67,51,2,yes,IoT Healthcare
+H00869,Kochi Care Hospital 869,Delhi,Multispeciality,1330,1960,103,YES,Yes,Yes,Yes,4.9,4.8,3,54,,,2.2,No,
+H00870,Chennai Care Hospital 870,Kochi,Multispeciality,,192,35,YES,Yes,Yes,No,2.1,2.6,,30,65,90,4.4,yes,Green Hospital
+H00871,Coimbatore Care Hospital 871,Madurai,,,1817,85,yes,NO,No,No,3.6,3.5,4.6,93,167,79,2.4,yes,Contactless Healthcare
+H00872,Delhi Care Hospital 872,Delhi,Multispeciality,1002,186,76,No,YES,Yes,,3.4,3.1,2.3,46,155,56,3.5,,IoT Healthcare
+H00873,Chennai Care Hospital 873,,Specialty,176,900,136,YES,YES,No,Yes,4.2,4.8,3.1,55,91,,4.3,yes,Digital Patient Care
+H00874,Madurai Care Hospital 874,Mumbai,Specialty,1209,588,106,YES,Yes,Yes,No,,,2.5,,162,,3.5,YES,Enhanced Security
+H00875,Delhi Care Hospital 875,Coimbatore,Multispeciality,852,76,148,Yes,NO,No,No,4,4.1,2.1,48,52,57,3,YES,Green Hospital
+H00876,Mumbai Care Hospital 876,Madurai,Specialty,1177,249,22,YES,,Yes,No,2.5,4.8,3.5,74,141,76,3.1,Yes,IoT Healthcare
+H00877,Mumbai Care Hospital 877,Chennai,Government,1026,1556,49,YES,,No,Yes,3.5,4.4,2,73,,60,2.3,YES,Patient-Centric Care
+H00878,Pune Care Hospital 878,Madurai,Specialty,543,,139,Yes,Yes,No,Yes,4.9,3.4,4.8,62,197,56,4.9,yes,Contactless Healthcare
+H00879,Bengaluru Care Hospital 879,Bengaluru,Private,287,1999,,Yes,Yes,No,No,3.9,3,2.5,59,66,60,4.7,,IoT Healthcare
+H00880,Jaipur Care Hospital 880,,Multispeciality,552,502,76,Yes,NO,,No,3.7,4.3,3.8,76,33,100,2.7,Yes,
+H00881,Delhi Care Hospital 881,Jaipur,Private,514,544,83,YES,YES,No,Yes,4.9,4.6,3.4,78,39,58,3.1,No,IoT Healthcare
+H00882,Hyderabad Care Hospital 882,Mumbai,Government,1264,1637,64,Yes,Yes,No,Yes,4.5,4.2,2.7,,193,69,4.8,No,
+H00883,Madurai Care Hospital 883,Pune,Specialty,495,2029,,YES,Yes,Yes,No,2.6,4.7,3.7,,119,87,4.9,YES,Smart Hospital
+H00884,Hyderabad Care Hospital 884,,Private,,162,145,yes,No,Yes,No,3.6,4.6,,80,80,56,3.3,,Digital Patient Care
+H00885,Coimbatore Care Hospital 885,Jaipur,Government,974,1094,61,No,Yes,,No,2.9,2.7,3.3,99,,68,3.7,yes,AI Healthcare
+H00886,Coimbatore Care Hospital 886,Delhi,,680,,72,yes,Yes,Yes,Yes,3.3,3.8,,94,150,72,2.6,Yes,IoT Healthcare
+H00887,Coimbatore Care Hospital 887,Bengaluru,Government,,1491,18,yes,NO,Yes,No,,3.2,2.4,79,175,50,4.6,YES,Green Hospital
+H00888,Mumbai Care Hospital 888,Kochi,Private,308,314,95,yes,No,,No,3.6,2.9,,59,196,70,3,YES,Digital Patient Care
+H00889,Jaipur Care Hospital 889,Hyderabad,Government,177,1842,38,yes,YES,No,Yes,2.5,2.8,2.2,85,49,62,3.2,No,AI Healthcare
+H00890,Chennai Care Hospital 890,Pune,Government,287,471,96,No,NO,Yes,,4.7,,3.4,83,75,92,,YES,Green Hospital
+H00891,Mumbai Care Hospital 891,,Multispeciality,169,1308,39,Yes,No,No,Yes,4.6,4,,62,,86,2.6,Yes,
+H00892,Chennai Care Hospital 892,,Specialty,1329,782,126,Yes,NO,No,Yes,4.9,,,31,122,81,3.6,Yes,
+H00893,Chennai Care Hospital 893,Chennai,Private,1206,856,138,Yes,Yes,No,No,2.4,2.5,,43,42,92,2.4,,Enhanced Security
+H00894,Kochi Care Hospital 894,Mumbai,,376,1163,72,Yes,YES,Yes,No,4.5,,4.4,88,183,58,3.9,Yes,Smart Hospital
+H00895,Jaipur Care Hospital 895,Jaipur,Private,,2052,50,Yes,,No,No,5,4,3.4,92,169,88,2.7,No,Green Hospital
+H00896,Mumbai Care Hospital 896,Bengaluru,,1182,176,74,YES,NO,Yes,No,3.1,3.3,,43,198,,2.3,Yes,Patient-Centric Care
+H00897,Delhi Care Hospital 897,Madurai,Specialty,,1089,119,Yes,YES,Yes,No,2.3,2.3,4.2,38,88,51,2.6,Yes,
+H00898,Delhi Care Hospital 898,Bengaluru,Specialty,1334,296,94,yes,,,No,2.5,,,91,33,60,2,yes,Patient-Centric Care
+H00899,Delhi Care Hospital 899,Kochi,Specialty,1155,52,116,No,No,No,No,3.4,3.1,,54,145,57,5,YES,IoT Healthcare
+H00900,Jaipur Care Hospital 900,Bengaluru,Multispeciality,912,958,133,yes,NO,No,Yes,3.9,3.2,3,,64,69,2.8,YES,
+H00901,Jaipur Care Hospital 901,Coimbatore,Specialty,,603,110,yes,Yes,No,No,4.5,2.5,3.7,85,189,53,2.9,No,AI Healthcare
+H00902,Jaipur Care Hospital 902,Hyderabad,Multispeciality,239,1452,57,Yes,YES,Yes,Yes,,4.9,2.2,98,74,,2.8,Yes,Patient-Centric Care
+H00903,Kochi Care Hospital 903,Kochi,Private,257,1015,78,yes,No,Yes,No,3.8,4.5,4.2,,58,66,2.9,No,Contactless Healthcare
+H00904,Chennai Care Hospital 904,Chennai,Multispeciality,,1198,147,Yes,YES,No,No,3.9,3.7,4.3,88,67,94,,YES,Digital Patient Care
+H00905,Coimbatore Care Hospital 905,Jaipur,,1472,1083,25,YES,NO,No,Yes,2.5,3.9,4.1,71,,52,3.6,Yes,Smart Hospital
+H00906,Bengaluru Care Hospital 906,Delhi,Specialty,1139,2043,75,Yes,YES,No,No,2.4,3.6,3.5,38,125,82,,Yes,Contactless Healthcare
+H00907,Kochi Care Hospital 907,,Private,719,2143,54,No,YES,No,Yes,3,3.5,2.9,31,,85,4.5,Yes,Green Hospital
+H00908,Bengaluru Care Hospital 908,,Multispeciality,547,706,136,Yes,Yes,Yes,No,3.9,3.1,2.7,42,112,98,2.4,Yes,Smart Hospital
+H00909,Delhi Care Hospital 909,Jaipur,Multispeciality,1335,1131,18,Yes,Yes,Yes,Yes,2.7,3.8,2.4,63,214,,3.6,yes,Enhanced Security
+H00910,Mumbai Care Hospital 910,Chennai,Private,751,1864,138,Yes,NO,Yes,No,4.9,2.7,3.2,53,199,77,3.2,No,
+H00911,Kochi Care Hospital 911,Bengaluru,Government,893,798,127,YES,Yes,,No,2.7,4.8,3.7,91,20,72,3.2,yes,Smart Hospital
+H00912,Madurai Care Hospital 912,Mumbai,Private,775,,65,No,NO,No,No,3.7,,,86,177,86,3.5,,Contactless Healthcare
+H00913,Mumbai Care Hospital 913,Pune,Specialty,1257,1412,39,No,YES,No,No,4.9,2.2,3.4,36,89,95,2,No,
+H00914,Mumbai Care Hospital 914,Mumbai,Multispeciality,1407,125,60,yes,NO,,Yes,3.7,3.5,3.4,62,76,77,2.7,YES,Enhanced Security
+H00915,Mumbai Care Hospital 915,Hyderabad,Government,391,797,136,YES,,Yes,Yes,2.2,,4.8,90,60,85,4.1,YES,Contactless Healthcare
+H00916,Bengaluru Care Hospital 916,Bengaluru,Specialty,1363,1285,135,No,No,Yes,Yes,3.1,3.4,3.4,90,145,71,4.8,yes,Smart Hospital
+H00917,Delhi Care Hospital 917,Bengaluru,Government,817,2048,95,YES,Yes,No,Yes,2.8,3.5,4.3,35,12,70,,yes,Contactless Healthcare
+H00918,Delhi Care Hospital 918,Bengaluru,Government,,2019,77,,YES,Yes,Yes,4.4,4.3,2.3,46,141,,4.2,yes,Contactless Healthcare
+H00919,Delhi Care Hospital 919,Delhi,Specialty,609,320,53,,NO,Yes,Yes,3.6,4,2.3,79,132,55,2.9,No,Patient-Centric Care
+H00920,Delhi Care Hospital 920,Pune,Multispeciality,1348,1229,82,No,No,No,No,,3.6,2.7,73,193,57,2.7,YES,AI Healthcare
+H00921,Pune Care Hospital 921,Pune,,1118,2053,75,Yes,No,Yes,No,4.6,2.7,2.5,30,,85,4.2,No,AI Healthcare
+H00922,Bengaluru Care Hospital 922,Kochi,Private,,1841,,No,YES,No,Yes,,3,2.8,,76,96,2.9,Yes,Enhanced Security
+H00923,Bengaluru Care Hospital 923,Jaipur,Specialty,944,1707,38,No,Yes,No,No,4.3,4.2,4.3,43,59,52,3.9,YES,Patient-Centric Care
+H00924,Bengaluru Care Hospital 924,Hyderabad,Specialty,427,920,16,YES,Yes,Yes,Yes,2,2.4,2.3,65,81,50,2.1,,Contactless Healthcare
+H00925,Mumbai Care Hospital 925,Kochi,Government,,1111,58,No,NO,No,Yes,2.2,4.2,,45,,78,,YES,Contactless Healthcare
+H00926,Jaipur Care Hospital 926,Kochi,Multispeciality,354,329,56,Yes,YES,Yes,,,3.5,2.7,51,,56,2.1,,AI Healthcare
+H00927,Bengaluru Care Hospital 927,Kochi,Specialty,1468,1122,7,yes,Yes,No,No,5,3.3,4.4,57,200,95,3.7,yes,Green Hospital
+H00928,Chennai Care Hospital 928,Madurai,Government,1415,595,,Yes,Yes,Yes,,,4.2,4.7,31,,97,4.9,Yes,Smart Hospital
+H00929,Chennai Care Hospital 929,Pune,Government,1151,245,114,YES,NO,No,Yes,2.6,3.7,3,47,208,57,2.8,YES,AI Healthcare
+H00930,Madurai Care Hospital 930,Hyderabad,Multispeciality,1211,2077,,Yes,YES,No,Yes,2.3,,2.5,90,,55,2.8,YES,IoT Healthcare
+H00931,Kochi Care Hospital 931,Madurai,Government,,1648,109,YES,NO,Yes,,4.1,4.4,3.2,93,,86,3.5,yes,AI Healthcare
+H00932,Coimbatore Care Hospital 932,,Private,1328,1087,120,,NO,Yes,No,3.3,2.3,2.2,55,,,,yes,Patient-Centric Care
+H00933,Chennai Care Hospital 933,Jaipur,Specialty,1272,1466,5,Yes,YES,No,Yes,3.6,2.1,4.9,80,,69,2.6,,Patient-Centric Care
+H00934,Chennai Care Hospital 934,Mumbai,Government,1189,203,83,Yes,NO,Yes,Yes,4.6,3.8,3.9,44,174,92,2.3,No,Contactless Healthcare
+H00935,Hyderabad Care Hospital 935,Delhi,,1231,162,24,yes,No,Yes,Yes,2.3,3.4,2.8,72,5,94,4.1,Yes,Digital Patient Care
+H00936,Pune Care Hospital 936,Bengaluru,Private,224,379,90,YES,No,Yes,No,2.4,3,,99,142,93,2.1,No,Patient-Centric Care
+H00937,Hyderabad Care Hospital 937,Chennai,Specialty,154,1167,,yes,,No,Yes,3.3,4,4.9,68,169,52,2.6,No,AI Healthcare
+H00938,Jaipur Care Hospital 938,Hyderabad,Private,,,89,No,YES,No,No,4.4,4.7,4.4,59,107,53,4,Yes,AI Healthcare
+H00939,Kochi Care Hospital 939,Pune,Specialty,336,2135,92,Yes,YES,Yes,No,4.4,4.7,4.4,99,28,60,3.4,Yes,IoT Healthcare
+H00940,Mumbai Care Hospital 940,Bengaluru,Government,862,2161,,Yes,,No,No,,2.1,4.2,48,204,100,4.9,,Enhanced Security
+H00941,Jaipur Care Hospital 941,Madurai,Specialty,1086,1039,108,yes,NO,,Yes,3.9,3.6,,39,131,63,2.7,YES,Smart Hospital
+H00942,Madurai Care Hospital 942,Coimbatore,Government,561,718,146,YES,YES,Yes,Yes,4.9,3.8,4,39,94,58,3.3,No,AI Healthcare
+H00943,Kochi Care Hospital 943,Hyderabad,Multispeciality,1102,2173,29,YES,YES,,No,4.5,4.9,4,74,102,56,2.6,No,Smart Hospital
+H00944,Bengaluru Care Hospital 944,Jaipur,Specialty,321,1128,50,Yes,,No,No,3.3,2.6,2.6,90,188,93,3.5,Yes,AI Healthcare
+H00945,Pune Care Hospital 945,Chennai,Specialty,541,1711,107,Yes,NO,No,No,3.3,4.3,2.9,84,,55,3.5,Yes,Contactless Healthcare
+H00946,Mumbai Care Hospital 946,Mumbai,,,307,32,No,Yes,No,Yes,3.1,4.9,2.6,37,76,76,,No,Contactless Healthcare
+H00947,Hyderabad Care Hospital 947,Pune,Government,468,1794,142,yes,Yes,Yes,Yes,2.9,2.5,3.6,58,182,93,4.7,YES,AI Healthcare
+H00948,Hyderabad Care Hospital 948,Pune,Specialty,1303,2127,129,Yes,NO,No,Yes,2.3,3.1,3.2,,40,,4.9,Yes,Contactless Healthcare
+H00949,Coimbatore Care Hospital 949,Delhi,Multispeciality,1279,1976,126,YES,,Yes,No,,3.5,,82,19,89,3.9,YES,IoT Healthcare
+H00950,Coimbatore Care Hospital 950,Hyderabad,Government,712,2146,57,YES,YES,No,Yes,3.7,4.2,2,87,122,,3.6,Yes,Enhanced Security
+H00951,Kochi Care Hospital 951,Bengaluru,Multispeciality,,,24,YES,NO,Yes,Yes,2.1,2.4,3.9,37,111,76,5,No,Smart Hospital
+H00952,Jaipur Care Hospital 952,Jaipur,Government,564,1899,107,yes,,No,No,4.3,3.4,2.7,,209,50,4.2,yes,Digital Patient Care
+H00953,Hyderabad Care Hospital 953,Hyderabad,Multispeciality,1151,1284,106,YES,No,No,No,2.9,,4.2,44,171,89,4,YES,AI Healthcare
+H00954,Delhi Care Hospital 954,Delhi,Government,944,262,,Yes,No,Yes,No,4.4,,4.1,,89,90,4.9,No,Smart Hospital
+H00955,Delhi Care Hospital 955,Kochi,,526,1138,51,YES,YES,No,Yes,2.4,3.3,4.6,50,29,98,,No,Patient-Centric Care
+H00956,Madurai Care Hospital 956,Hyderabad,Multispeciality,484,369,,No,No,Yes,No,2.7,4.1,2.1,63,120,68,2.4,No,Green Hospital
+H00957,Pune Care Hospital 957,Jaipur,,580,1573,84,YES,NO,,Yes,5,3.4,4.9,35,,51,4.1,No,Patient-Centric Care
+H00958,Mumbai Care Hospital 958,,Private,859,495,101,YES,NO,Yes,Yes,4.4,3.5,2.2,84,51,91,2.7,No,Contactless Healthcare
+H00959,Coimbatore Care Hospital 959,Mumbai,Specialty,,515,61,YES,,No,No,4.4,2.4,4.6,63,,69,4,No,IoT Healthcare
+H00960,Pune Care Hospital 960,Jaipur,Specialty,890,,7,yes,Yes,Yes,Yes,4,3.5,4.2,95,205,84,3.1,Yes,Green Hospital
+H00961,Coimbatore Care Hospital 961,Madurai,Private,948,1688,79,Yes,NO,Yes,Yes,2,4.4,2.9,55,51,60,3.3,Yes,IoT Healthcare
+H00962,Mumbai Care Hospital 962,,Multispeciality,238,2078,11,No,Yes,Yes,Yes,3.8,3.4,2.7,,6,91,3.8,No,Digital Patient Care
+H00963,Madurai Care Hospital 963,Delhi,Private,,711,,Yes,YES,No,No,2.6,4.4,4.9,36,172,75,2.5,Yes,Digital Patient Care
+H00964,Madurai Care Hospital 964,Chennai,Private,693,1716,117,YES,Yes,No,Yes,4.2,2.7,3.8,74,210,62,4.1,yes,AI Healthcare
+H00965,Jaipur Care Hospital 965,Bengaluru,Specialty,996,1482,32,YES,,No,Yes,2.8,2.1,2.2,63,139,94,2.3,YES,AI Healthcare
+H00966,Chennai Care Hospital 966,Kochi,Government,234,1132,68,,YES,Yes,,2.2,4.9,3,95,19,,4.2,No,Green Hospital
+H00967,Bengaluru Care Hospital 967,Madurai,Multispeciality,1460,1869,103,YES,YES,Yes,Yes,5,2.3,,37,12,69,2.2,yes,Patient-Centric Care
+H00968,Madurai Care Hospital 968,Coimbatore,Private,1421,1080,100,Yes,No,,No,3,3.1,,56,200,95,2.9,Yes,Green Hospital
+H00969,Jaipur Care Hospital 969,Kochi,Specialty,1108,491,20,yes,Yes,,Yes,2.1,,4,33,83,86,4.9,yes,Smart Hospital
+H00970,Bengaluru Care Hospital 970,Chennai,Government,183,553,,No,YES,No,No,2.3,4.4,4.1,88,,93,2.8,Yes,Contactless Healthcare
+H00971,Bengaluru Care Hospital 971,Delhi,Government,537,1572,30,,,No,Yes,2.4,4,3,,,,3.3,No,Patient-Centric Care
+H00972,Pune Care Hospital 972,Jaipur,Specialty,1116,2168,46,Yes,No,,No,4.7,2.6,3,93,,75,,YES,Green Hospital
+H00973,Hyderabad Care Hospital 973,Bengaluru,Specialty,214,1479,21,No,YES,Yes,Yes,2,2.1,3.3,82,52,50,3.2,YES,Smart Hospital
+H00974,Hyderabad Care Hospital 974,,Specialty,655,317,69,Yes,NO,Yes,No,3.2,2.6,,,71,96,3,No,Smart Hospital
+H00975,Kochi Care Hospital 975,Chennai,,1324,1455,5,yes,No,No,No,3.8,4.8,,98,122,,2.2,YES,IoT Healthcare
+H00976,Madurai Care Hospital 976,Pune,Multispeciality,703,1802,,Yes,No,Yes,No,3.4,3.5,4.9,69,124,100,3.3,yes,Green Hospital
+H00977,Bengaluru Care Hospital 977,Delhi,Specialty,129,691,122,Yes,,Yes,No,3.4,4.6,2.4,62,82,81,4.6,No,Patient-Centric Care
+H00978,Chennai Care Hospital 978,Pune,Multispeciality,491,1405,41,Yes,NO,No,Yes,4.9,2.5,4.4,38,14,70,,yes,AI Healthcare
+H00979,Mumbai Care Hospital 979,Jaipur,Specialty,1203,1919,86,yes,NO,No,No,3.2,2.9,3.8,41,163,85,3.8,yes,Enhanced Security
+H00980,Pune Care Hospital 980,Delhi,,1296,1588,25,No,Yes,,Yes,4.6,,2.9,82,184,63,3.1,yes,Green Hospital
+H00981,Pune Care Hospital 981,Kochi,Specialty,296,439,31,yes,No,No,No,4.9,4.1,2.1,96,188,88,2.6,No,Contactless Healthcare
+H00982,Hyderabad Care Hospital 982,Pune,Government,724,205,21,YES,Yes,Yes,Yes,4.5,,4.8,79,26,83,4.2,yes,Digital Patient Care
+H00983,Mumbai Care Hospital 983,Chennai,Government,1496,,114,YES,No,Yes,No,5,4.2,3.7,74,143,57,3.1,Yes,Green Hospital
+H00984,Hyderabad Care Hospital 984,Kochi,Government,542,1490,132,YES,NO,No,No,4,3.8,4.5,81,68,63,3.1,YES,Green Hospital
+H00985,Hyderabad Care Hospital 985,Madurai,Specialty,359,1220,74,Yes,,No,Yes,3.2,4.1,4.5,72,70,,4.7,Yes,Contactless Healthcare
+H00986,Coimbatore Care Hospital 986,Kochi,Government,243,,133,No,No,No,Yes,2.1,2.3,3.6,54,214,58,3.6,No,Enhanced Security
+H00987,Mumbai Care Hospital 987,Pune,Specialty,1115,730,17,No,No,No,Yes,2.7,3.3,3,70,16,57,,No,Contactless Healthcare
+H00988,Delhi Care Hospital 988,,,385,378,,No,,Yes,Yes,3.4,3.1,,95,38,57,2.5,No,Patient-Centric Care
+H00989,Mumbai Care Hospital 989,Delhi,Multispeciality,997,1333,102,No,,No,No,3.2,3.9,4,79,148,,2,YES,IoT Healthcare
+H00990,Mumbai Care Hospital 990,,Specialty,1274,,142,yes,No,No,No,4.8,4.6,4.7,92,85,100,2.3,Yes,Enhanced Security
+H00991,Coimbatore Care Hospital 991,Madurai,Multispeciality,810,839,53,yes,Yes,No,,3.6,3.6,4,53,31,100,3.2,No,AI Healthcare
+H00992,Coimbatore Care Hospital 992,Pune,Specialty,1390,1192,64,Yes,Yes,No,No,4.9,2.7,,99,109,55,3.8,yes,AI Healthcare
+H00993,Kochi Care Hospital 993,,Private,1052,1415,9,Yes,Yes,Yes,No,4.9,3.4,,72,219,93,2,YES,Green Hospital
+H00994,Pune Care Hospital 994,Chennai,Government,472,1552,79,Yes,YES,Yes,Yes,3.4,4.8,4.1,98,41,94,,yes,IoT Healthcare
+H00995,Coimbatore Care Hospital 995,Mumbai,Private,876,674,,Yes,YES,Yes,Yes,2.6,2.1,2.8,50,191,50,3.6,Yes,Green Hospital
+H00996,Jaipur Care Hospital 996,Hyderabad,,739,489,150,,No,No,No,4.9,2.6,4.4,37,42,84,4.1,Yes,Enhanced Security
+H00997,Jaipur Care Hospital 997,Pune,Government,123,,100,No,YES,,Yes,2.4,,3.2,56,179,95,4.2,Yes,Green Hospital
+H00998,Coimbatore Care Hospital 998,Bengaluru,Specialty,1136,902,55,yes,YES,No,Yes,3.8,4.6,,54,32,68,2.5,yes,Green Hospital
+H00999,Hyderabad Care Hospital 999,Jaipur,Specialty,165,2026,66,,Yes,No,No,4.1,,3,,,79,3.3,No,AI Healthcare
+H01000,Delhi Care Hospital 1000,Jaipur,Private,1191,814,60,yes,YES,Yes,No,2.5,3.4,4.3,82,159,,4.9,YES,Contactless Healthcare
+H01001,Mumbai Care Hospital 1001,Mumbai,Multispeciality,276,865,47,No,NO,No,Yes,2.3,3.2,2.6,30,210,66,3.7,No,Contactless Healthcare
+H01002,Jaipur Care Hospital 1002,Coimbatore,Private,616,256,37,No,No,No,Yes,2.9,2.1,,85,68,94,,YES,
+H01003,Madurai Care Hospital 1003,Delhi,Government,346,1668,87,yes,YES,Yes,Yes,4.5,2.8,2.7,90,164,64,4.7,yes,Patient-Centric Care
+H01004,Delhi Care Hospital 1004,Jaipur,Specialty,808,1622,60,YES,NO,No,No,3,3.1,3.3,67,56,79,2.6,Yes,Patient-Centric Care
+H01005,Mumbai Care Hospital 1005,Delhi,Multispeciality,,1160,53,yes,Yes,,No,3.1,3,4.1,37,12,73,3.7,Yes,Smart Hospital
+H01006,Delhi Care Hospital 1006,Bengaluru,,661,1471,98,YES,No,Yes,No,3.1,3.4,2.9,61,210,74,,,Green Hospital
+H01007,Chennai Care Hospital 1007,,Multispeciality,1295,460,,No,Yes,No,Yes,3.4,2.6,4,67,72,58,3.4,No,Enhanced Security
+H01008,Pune Care Hospital 1008,Jaipur,Multispeciality,802,669,60,Yes,YES,Yes,Yes,3.3,4,2.2,46,144,99,2.4,Yes,Digital Patient Care
+H01009,Chennai Care Hospital 1009,Hyderabad,Multispeciality,1117,1465,108,No,Yes,No,No,3,2.4,3.6,56,147,,,,Green Hospital
+H01010,Coimbatore Care Hospital 1010,Jaipur,Specialty,632,1389,145,,NO,Yes,No,4.9,4.2,,37,,84,,,Patient-Centric Care
+H01011,Madurai Care Hospital 1011,Kochi,Government,376,1635,84,Yes,NO,Yes,No,4.2,2.7,4.8,43,121,65,3.5,Yes,
+H01012,Mumbai Care Hospital 1012,Kochi,,607,963,81,No,Yes,No,No,2.2,4.8,3.2,49,117,78,3.3,Yes,AI Healthcare
+H01013,Hyderabad Care Hospital 1013,Delhi,Specialty,,565,99,YES,NO,Yes,No,3.3,3.5,,70,203,81,,No,Digital Patient Care
+H01014,Madurai Care Hospital 1014,Pune,Specialty,675,175,139,YES,YES,Yes,Yes,4.6,2.8,4.8,52,,81,3.3,yes,Patient-Centric Care
+H01015,Hyderabad Care Hospital 1015,,Government,512,240,13,YES,Yes,No,Yes,3.1,,3.6,,112,78,3.5,Yes,Patient-Centric Care
+H01016,Pune Care Hospital 1016,Delhi,,,1247,68,yes,NO,,No,2.9,3.5,4.7,50,23,58,3.8,YES,IoT Healthcare
+H01017,Kochi Care Hospital 1017,Hyderabad,Private,546,1138,124,No,Yes,No,Yes,3.4,,4.7,78,8,58,3.7,,Patient-Centric Care
+H01018,Jaipur Care Hospital 1018,Delhi,Private,1089,420,78,No,YES,No,Yes,3,2.6,3.7,100,179,78,2.9,yes,
+H01019,Chennai Care Hospital 1019,Coimbatore,Multispeciality,1202,,135,yes,YES,Yes,Yes,2.1,3.8,,51,56,71,4.4,,Smart Hospital
+H01020,Pune Care Hospital 1020,Chennai,Private,116,1227,66,No,NO,No,Yes,,3.7,4.8,50,51,52,4.4,yes,Smart Hospital
+H01021,Hyderabad Care Hospital 1021,Kochi,Multispeciality,1435,1097,,,YES,No,No,3.2,2.7,,,42,53,2.7,No,Patient-Centric Care
+H01022,Hyderabad Care Hospital 1022,Coimbatore,Multispeciality,1208,1383,,No,Yes,,Yes,3.3,2.1,,77,,58,3,,Contactless Healthcare
+H01023,Mumbai Care Hospital 1023,Coimbatore,Private,304,538,144,,NO,No,Yes,4.6,4.3,3.4,,132,60,4.6,YES,AI Healthcare
+H01024,Coimbatore Care Hospital 1024,,Private,485,2168,,YES,YES,No,Yes,4.8,2.9,4.5,52,186,85,2.7,yes,IoT Healthcare
+H01025,Kochi Care Hospital 1025,Hyderabad,Government,412,132,22,No,No,No,No,4.4,3.3,3.1,33,,80,2.8,YES,Digital Patient Care
+H01026,Hyderabad Care Hospital 1026,Delhi,,569,,33,yes,NO,Yes,No,2.4,4.8,4.6,47,172,59,3.7,No,
+H01027,Kochi Care Hospital 1027,Hyderabad,,259,,144,,,Yes,Yes,3.9,3.6,,71,194,71,2.8,Yes,Patient-Centric Care
+H01028,Madurai Care Hospital 1028,Pune,Multispeciality,1187,1387,136,YES,Yes,Yes,,2.2,3,4.8,40,90,79,2.5,YES,
+H01029,Kochi Care Hospital 1029,Jaipur,Multispeciality,1166,515,85,YES,No,No,Yes,2.4,4.8,2.5,41,112,68,,Yes,
+H01030,Hyderabad Care Hospital 1030,Bengaluru,Private,874,1737,37,yes,No,Yes,Yes,2.2,4.7,2.7,96,84,51,4.5,YES,Enhanced Security
+H01031,Bengaluru Care Hospital 1031,Hyderabad,Multispeciality,1469,290,16,yes,Yes,No,Yes,4.1,3.6,,32,,62,4.4,No,Enhanced Security
+H01032,Mumbai Care Hospital 1032,Chennai,Multispeciality,153,1317,126,Yes,NO,Yes,Yes,3.9,3.3,2.7,92,26,69,3.4,YES,Enhanced Security
+H01033,Kochi Care Hospital 1033,Coimbatore,Private,224,737,,No,YES,No,Yes,3.6,,2.6,31,41,53,3.6,No,Smart Hospital
+H01034,Pune Care Hospital 1034,Hyderabad,Private,867,493,29,YES,No,Yes,No,,4.9,2.5,55,192,74,2.9,Yes,AI Healthcare
+H01035,Chennai Care Hospital 1035,Chennai,Government,,1975,137,No,,Yes,Yes,2.2,3,3.3,,201,87,4.7,YES,Smart Hospital
+H01036,Pune Care Hospital 1036,Madurai,Private,,1598,125,yes,,No,,3.3,3.5,3.3,75,173,88,2.1,,Contactless Healthcare
+H01037,Jaipur Care Hospital 1037,Coimbatore,Specialty,118,588,56,YES,,Yes,No,3,4.6,4.7,76,113,67,3.9,yes,IoT Healthcare
+H01038,Coimbatore Care Hospital 1038,Chennai,Multispeciality,1021,959,41,YES,No,No,Yes,,2.3,4.7,43,39,57,3.8,Yes,Patient-Centric Care
+H01039,Delhi Care Hospital 1039,Mumbai,Private,284,1266,78,YES,YES,No,Yes,,2.1,4.9,30,59,86,3.7,yes,Green Hospital
+H01040,Kochi Care Hospital 1040,Madurai,Private,414,,115,Yes,Yes,No,No,4,3.3,4.7,58,105,99,,YES,Patient-Centric Care
+H01041,Bengaluru Care Hospital 1041,Delhi,Government,460,,91,YES,Yes,Yes,No,2.8,4.2,2.3,62,6,75,4.2,yes,AI Healthcare
+H01042,Madurai Care Hospital 1042,Delhi,Specialty,825,351,20,YES,YES,No,,2.1,4.1,3.4,65,75,69,2.4,No,Patient-Centric Care
+H01043,Delhi Care Hospital 1043,Pune,Government,138,782,44,Yes,Yes,Yes,Yes,4.8,2.3,4.6,35,,76,4.2,No,Smart Hospital
+H01044,Pune Care Hospital 1044,Madurai,Specialty,670,2125,46,Yes,No,Yes,No,3.6,3.9,4.8,85,216,60,2.6,yes,Digital Patient Care
+H01045,Jaipur Care Hospital 1045,Chennai,Specialty,339,1075,87,YES,NO,No,No,4.4,2.8,4.6,71,201,59,4,Yes,Enhanced Security
+H01046,Coimbatore Care Hospital 1046,Coimbatore,Government,189,228,98,No,No,Yes,,4.4,4,4.8,38,161,71,3.3,yes,Digital Patient Care
+H01047,Pune Care Hospital 1047,Bengaluru,Government,1181,343,49,yes,Yes,Yes,No,3.7,3.2,2.2,46,186,73,4.9,YES,
+H01048,Hyderabad Care Hospital 1048,Hyderabad,Multispeciality,1150,1979,,yes,NO,No,Yes,4.1,2.6,5,39,128,52,2.5,,Green Hospital
+H01049,Delhi Care Hospital 1049,Mumbai,Specialty,,1722,58,yes,No,,Yes,4.2,2.4,4.9,66,166,79,2.2,yes,IoT Healthcare
+H01050,Mumbai Care Hospital 1050,Hyderabad,Multispeciality,1469,671,43,Yes,NO,Yes,Yes,4.2,2.6,4.7,76,,51,2.2,Yes,Green Hospital
+H01051,Coimbatore Care Hospital 1051,,Government,1294,400,13,YES,No,Yes,No,4.6,2.5,,33,5,81,3.3,YES,Contactless Healthcare
+H01052,Mumbai Care Hospital 1052,Mumbai,Multispeciality,921,104,23,yes,YES,No,Yes,4,3.6,4.8,47,103,89,4.5,Yes,Digital Patient Care
+H01053,Kochi Care Hospital 1053,Coimbatore,Multispeciality,1310,1548,50,No,NO,,No,,4.6,3.2,67,86,69,,No,
+H01054,Madurai Care Hospital 1054,Mumbai,Specialty,993,1320,63,No,YES,Yes,Yes,4.9,4,2.7,61,191,60,,No,Green Hospital
+H01055,Bengaluru Care Hospital 1055,Chennai,,299,471,82,yes,YES,Yes,No,2.9,2.9,3.1,67,211,97,2.1,yes,Green Hospital
+H01056,Chennai Care Hospital 1056,Madurai,,580,1526,42,No,No,Yes,Yes,2.5,3.8,2.9,54,159,95,3.2,yes,Patient-Centric Care
+H01057,Chennai Care Hospital 1057,,Specialty,404,188,92,Yes,,No,Yes,3.5,4.3,4.3,46,,94,2.3,No,Digital Patient Care
+H01058,Pune Care Hospital 1058,,Specialty,,904,82,No,No,Yes,Yes,4.6,4.2,4.3,49,166,60,2.3,Yes,Patient-Centric Care
+H01059,Pune Care Hospital 1059,Hyderabad,Specialty,1246,1900,111,No,Yes,Yes,,2.7,2,3.9,62,141,96,4.8,yes,Smart Hospital
+H01060,Madurai Care Hospital 1060,Pune,Private,1137,1538,117,No,NO,No,No,2.5,3.5,,47,188,61,3.2,Yes,IoT Healthcare
+H01061,Jaipur Care Hospital 1061,Coimbatore,,1267,1092,125,,YES,No,,2.9,3.6,,,39,64,4.3,No,IoT Healthcare
+H01062,Jaipur Care Hospital 1062,Delhi,Multispeciality,779,284,,YES,NO,No,No,4.2,4.5,3.4,92,,67,3.2,YES,Patient-Centric Care
+H01063,Coimbatore Care Hospital 1063,Jaipur,Private,278,137,70,No,No,No,Yes,3.9,3.5,3.5,79,31,52,4,yes,AI Healthcare
+H01064,Chennai Care Hospital 1064,Madurai,Government,1297,1917,89,yes,YES,No,No,3.7,4.3,4.7,83,,56,2.7,Yes,Patient-Centric Care
+H01065,Madurai Care Hospital 1065,Mumbai,Government,1362,,118,Yes,No,,Yes,2.5,4.8,,70,158,58,,No,Contactless Healthcare
+H01066,Jaipur Care Hospital 1066,Kochi,,,1476,147,YES,YES,Yes,No,3.1,3.7,2.2,39,62,82,4.9,YES,Contactless Healthcare
+H01067,Delhi Care Hospital 1067,Bengaluru,Multispeciality,485,265,45,yes,Yes,No,No,3.2,4.6,2.3,40,12,73,2.5,No,
+H01068,Mumbai Care Hospital 1068,Pune,,556,173,108,No,,Yes,,4.8,2.3,2.7,62,76,92,2.9,No,Digital Patient Care
+H01069,Pune Care Hospital 1069,Kochi,Private,1374,1966,149,YES,NO,Yes,No,2.9,2.9,2.7,42,207,,4.7,Yes,Smart Hospital
+H01070,Delhi Care Hospital 1070,,Specialty,,1241,13,No,Yes,,No,3.2,4.4,4.9,40,54,64,4.4,yes,AI Healthcare
+H01071,Madurai Care Hospital 1071,Jaipur,,1336,2145,96,,NO,Yes,No,3.1,3.8,2,57,14,97,3.6,YES,Patient-Centric Care
+H01072,Hyderabad Care Hospital 1072,Chennai,Multispeciality,586,1017,106,No,No,,No,2.8,,4.5,30,158,60,3.2,Yes,AI Healthcare
+H01073,Madurai Care Hospital 1073,Delhi,,187,1440,,YES,Yes,Yes,No,2.5,3.1,5,47,93,94,4.1,No,IoT Healthcare
+H01074,Chennai Care Hospital 1074,Mumbai,Specialty,580,1812,121,No,NO,Yes,No,4.2,,4.6,40,100,80,4,yes,AI Healthcare
+H01075,Madurai Care Hospital 1075,Pune,Multispeciality,855,1280,115,Yes,No,Yes,No,2.2,4.5,4.9,46,47,64,3.9,YES,Enhanced Security
+H01076,Delhi Care Hospital 1076,Pune,Specialty,848,764,114,yes,NO,No,No,4.6,4.4,2.4,91,12,70,2.1,yes,AI Healthcare
+H01077,Delhi Care Hospital 1077,Jaipur,Multispeciality,1450,829,40,Yes,,No,Yes,2.2,2.7,4.5,,85,,2.8,No,
+H01078,Chennai Care Hospital 1078,Kochi,Specialty,1045,1268,37,yes,No,Yes,Yes,2.7,2.2,4.8,42,,64,3.8,Yes,Digital Patient Care
+H01079,Kochi Care Hospital 1079,,Private,1390,2024,56,YES,,No,Yes,4.6,2.9,,55,,72,2.5,yes,Green Hospital
+H01080,Bengaluru Care Hospital 1080,Jaipur,,1392,70,150,,NO,Yes,,4.3,2.7,3.5,54,46,96,4,No,
+H01081,Mumbai Care Hospital 1081,Pune,Specialty,1369,534,83,YES,No,Yes,Yes,3.1,2.9,4.5,94,,85,,yes,Contactless Healthcare
+H01082,Bengaluru Care Hospital 1082,Kochi,,316,1422,82,YES,No,Yes,,4.7,3,4.2,53,134,98,4.5,YES,Green Hospital
+H01083,Mumbai Care Hospital 1083,Madurai,Government,984,1220,138,No,,Yes,Yes,3.8,2.5,4.3,75,,67,3.8,yes,AI Healthcare
+H01084,Kochi Care Hospital 1084,Madurai,Government,240,86,126,YES,NO,No,Yes,4.6,3.3,4.2,43,26,94,,,Smart Hospital
+H01085,Bengaluru Care Hospital 1085,Bengaluru,Specialty,93,72,127,Yes,No,Yes,No,2.5,2.2,2.5,46,143,66,3.5,YES,
+H01086,Madurai Care Hospital 1086,Delhi,Private,961,142,5,YES,YES,,No,2.6,4.7,3.9,44,152,68,2.4,YES,Contactless Healthcare
+H01087,Delhi Care Hospital 1087,Pune,Specialty,1196,764,57,Yes,YES,Yes,No,2.5,3.7,3.3,97,50,,2.4,No,Patient-Centric Care
+H01088,Madurai Care Hospital 1088,Pune,Specialty,140,1571,8,No,No,No,,5,3.5,2.4,92,75,,4.4,YES,AI Healthcare
+H01089,Delhi Care Hospital 1089,Mumbai,Private,,747,10,YES,Yes,No,Yes,3.8,3.7,2.7,35,80,,3,yes,IoT Healthcare
+H01090,Pune Care Hospital 1090,Chennai,Private,1360,670,,,No,Yes,,4.7,2.2,3.9,98,48,54,4.3,YES,Digital Patient Care
+H01091,Delhi Care Hospital 1091,Kochi,Government,311,764,6,YES,No,No,Yes,,3.3,4.2,96,168,61,2.2,No,Green Hospital
+H01092,Bengaluru Care Hospital 1092,Pune,Private,154,1471,10,Yes,Yes,No,No,3.1,2.3,3.3,48,95,86,3,Yes,Smart Hospital
+H01093,Jaipur Care Hospital 1093,,Multispeciality,559,612,47,yes,NO,No,Yes,3.2,3.9,4.4,32,207,100,,,Contactless Healthcare
+H01094,Kochi Care Hospital 1094,Chennai,Specialty,180,294,106,yes,No,Yes,,4.2,3,2.1,52,211,71,4.4,yes,Digital Patient Care
+H01095,Pune Care Hospital 1095,Pune,Government,272,787,61,yes,YES,No,Yes,3.6,,3.1,51,54,80,4.8,yes,Digital Patient Care
+H01096,Coimbatore Care Hospital 1096,Kochi,Specialty,288,1948,103,Yes,YES,Yes,Yes,2.5,2.5,2.3,90,17,89,3.2,Yes,
+H01097,Pune Care Hospital 1097,Jaipur,Multispeciality,667,133,54,No,Yes,No,Yes,4.9,2,2.9,78,210,75,3.1,,
+H01098,Madurai Care Hospital 1098,Kochi,Private,1459,411,136,,Yes,Yes,Yes,3,4.7,2.2,83,191,81,,yes,Green Hospital
+H01099,Pune Care Hospital 1099,,Multispeciality,1450,1715,91,,No,Yes,,4.6,4.4,2.5,50,31,100,3,,AI Healthcare
+H01100,Kochi Care Hospital 1100,,Specialty,787,609,30,No,YES,,No,4.9,2.4,2.8,51,179,72,3.8,Yes,IoT Healthcare
+H01101,Hyderabad Care Hospital 1101,Kochi,Specialty,356,336,64,yes,Yes,Yes,Yes,2.1,4.4,2.9,46,61,,2.5,No,Contactless Healthcare
+H01102,Madurai Care Hospital 1102,Kochi,Multispeciality,,1098,14,Yes,Yes,No,No,2.9,4,4.4,33,150,62,3.8,yes,Enhanced Security
+H01103,Chennai Care Hospital 1103,Coimbatore,Government,1438,,67,YES,,No,No,2.2,3.7,3.7,54,183,74,4.2,,Patient-Centric Care
+H01104,Jaipur Care Hospital 1104,Kochi,Specialty,1230,1383,18,yes,Yes,Yes,Yes,,4.4,4.1,80,,98,4.4,Yes,Smart Hospital
+H01105,Jaipur Care Hospital 1105,Mumbai,Government,293,1771,24,yes,Yes,Yes,No,4.2,2.1,4.6,88,126,92,3.8,yes,Enhanced Security
+H01106,Kochi Care Hospital 1106,Jaipur,Multispeciality,,1709,6,,NO,,Yes,4.2,4.6,3.6,69,79,81,4.7,YES,Green Hospital
+H01107,Coimbatore Care Hospital 1107,Madurai,Multispeciality,139,1166,92,YES,No,Yes,Yes,4.3,,3,83,103,71,4.1,YES,Contactless Healthcare
+H01108,Chennai Care Hospital 1108,Delhi,Government,148,656,115,YES,NO,,Yes,4.8,3,4.2,33,215,63,3.7,yes,AI Healthcare
+H01109,Coimbatore Care Hospital 1109,Coimbatore,Private,380,1941,129,yes,NO,Yes,No,,3.1,3.2,,103,72,4.5,Yes,Green Hospital
+H01110,Madurai Care Hospital 1110,Jaipur,Private,660,1275,75,No,Yes,No,Yes,2.6,3.7,4.4,78,159,82,4.1,,Smart Hospital
+H01111,Chennai Care Hospital 1111,,Specialty,127,499,114,,NO,Yes,Yes,2.9,3.3,2.9,93,207,81,3.1,yes,IoT Healthcare
+H01112,Hyderabad Care Hospital 1112,Bengaluru,Multispeciality,1052,1895,100,YES,NO,Yes,,4.3,4.1,2.6,85,125,86,3.9,No,IoT Healthcare
+H01113,Delhi Care Hospital 1113,,Government,958,957,134,No,Yes,No,,3.4,2.2,3.2,64,143,98,2.1,YES,Green Hospital
+H01114,Bengaluru Care Hospital 1114,Hyderabad,Private,297,,23,,No,No,Yes,3.4,3.6,2.5,38,99,80,2.2,yes,
+H01115,Mumbai Care Hospital 1115,Bengaluru,Private,1421,1790,11,YES,Yes,No,Yes,4.5,2.4,4.7,85,,90,3.2,yes,IoT Healthcare
+H01116,Coimbatore Care Hospital 1116,Coimbatore,Specialty,367,1978,,yes,Yes,No,No,3.5,3.6,4.1,39,215,78,2.9,YES,
+H01117,Pune Care Hospital 1117,Delhi,Specialty,165,704,133,Yes,,,Yes,2,3.9,4.3,41,16,83,4.8,,AI Healthcare
+H01118,Hyderabad Care Hospital 1118,,Specialty,1229,,113,No,,Yes,Yes,2.9,3.2,3.1,39,,100,,Yes,Digital Patient Care
+H01119,Bengaluru Care Hospital 1119,Delhi,Private,679,475,79,yes,NO,Yes,Yes,3.6,,3.2,83,29,68,4.7,Yes,Patient-Centric Care
+H01120,Madurai Care Hospital 1120,Bengaluru,Specialty,,744,,YES,YES,Yes,No,2.4,4.3,3.6,58,43,75,4,Yes,Digital Patient Care
+H01121,Pune Care Hospital 1121,Bengaluru,Private,80,1927,115,yes,No,No,,3,3.9,4.2,77,107,87,2.4,Yes,Green Hospital
+H01122,Pune Care Hospital 1122,Kochi,Specialty,,1676,,,No,No,No,4.6,,4.9,93,163,52,3.2,No,AI Healthcare
+H01123,Hyderabad Care Hospital 1123,,,1227,672,73,yes,,No,No,3,4.5,4,93,135,85,2.2,yes,Contactless Healthcare
+H01124,Bengaluru Care Hospital 1124,Madurai,Private,479,1144,104,Yes,NO,No,No,4.4,2.8,3.9,99,201,63,3.3,YES,Enhanced Security
+H01125,Chennai Care Hospital 1125,Mumbai,Specialty,774,1267,111,yes,Yes,Yes,Yes,3.9,3.9,,,169,88,4.5,yes,Green Hospital
+H01126,Bengaluru Care Hospital 1126,,Multispeciality,524,1071,44,Yes,NO,Yes,No,3.9,3.8,3.7,54,,100,,yes,Digital Patient Care
+H01127,Hyderabad Care Hospital 1127,Kochi,,1241,1825,72,yes,YES,No,Yes,2.1,4.9,4.5,92,104,65,3.1,Yes,Enhanced Security
+H01128,Chennai Care Hospital 1128,Hyderabad,Multispeciality,164,1090,12,YES,YES,No,Yes,3.8,3.1,4,46,187,55,4,YES,Green Hospital
+H01129,Mumbai Care Hospital 1129,Pune,Specialty,983,129,,yes,,,Yes,4.5,2.9,4.4,69,113,66,4.4,No,Green Hospital
+H01130,Mumbai Care Hospital 1130,Bengaluru,,,,42,No,YES,No,Yes,3.5,,4.6,77,62,93,2.3,Yes,Enhanced Security
+H01131,Madurai Care Hospital 1131,Hyderabad,Specialty,363,1559,35,No,No,No,No,3.9,3.3,3.2,95,121,65,2.7,yes,Contactless Healthcare
+H01132,Jaipur Care Hospital 1132,Hyderabad,Government,970,459,,yes,NO,Yes,No,3.7,4.8,,44,146,98,2.6,yes,Enhanced Security
+H01133,Chennai Care Hospital 1133,,,1212,169,63,YES,No,Yes,Yes,,2.5,3.3,74,83,50,4.8,yes,Contactless Healthcare
+H01134,Delhi Care Hospital 1134,,Specialty,684,513,101,Yes,NO,No,Yes,4.5,2.3,3.3,65,102,78,4.6,YES,AI Healthcare
+H01135,Mumbai Care Hospital 1135,Pune,Specialty,302,812,140,,Yes,Yes,,4.3,2.2,,70,212,84,2.2,No,AI Healthcare
+H01136,Chennai Care Hospital 1136,Mumbai,Private,283,64,127,,NO,No,No,3.8,2.8,3,31,192,90,3.7,No,Patient-Centric Care
+H01137,Coimbatore Care Hospital 1137,Kochi,Private,485,445,118,No,Yes,No,Yes,2.3,2.2,4.7,83,109,85,4.9,,AI Healthcare
+H01138,Madurai Care Hospital 1138,Coimbatore,Private,847,1118,121,yes,YES,Yes,No,2.1,4.8,2,95,132,59,3.7,yes,Enhanced Security
+H01139,Delhi Care Hospital 1139,Coimbatore,Private,179,265,45,Yes,No,No,Yes,2.7,2.3,3.3,49,7,96,3.4,yes,Patient-Centric Care
+H01140,Bengaluru Care Hospital 1140,Chennai,Private,931,,116,Yes,NO,Yes,Yes,3.1,2.8,3.3,81,59,87,2.6,Yes,Contactless Healthcare
+H01141,Kochi Care Hospital 1141,Mumbai,Multispeciality,1216,,60,Yes,YES,Yes,Yes,3.2,4.6,3,60,205,80,4.2,yes,IoT Healthcare
+H01142,Delhi Care Hospital 1142,Bengaluru,Private,675,1919,147,No,Yes,,,4.6,2.2,3.8,43,139,94,2.4,YES,AI Healthcare
+H01143,Kochi Care Hospital 1143,Chennai,Government,767,1335,122,,YES,Yes,Yes,4.7,4.9,5,66,89,77,2.2,Yes,AI Healthcare
+H01144,Madurai Care Hospital 1144,Coimbatore,Multispeciality,1256,953,119,yes,Yes,Yes,No,3.3,4.2,3.9,44,17,61,2.8,No,Green Hospital
+H01145,Bengaluru Care Hospital 1145,Hyderabad,Multispeciality,1434,1035,,Yes,No,No,Yes,,4.7,2.5,93,203,94,5,YES,Contactless Healthcare
+H01146,Coimbatore Care Hospital 1146,Chennai,Specialty,,1535,8,Yes,NO,Yes,No,,3.9,3,45,210,99,3.7,,AI Healthcare
+H01147,Kochi Care Hospital 1147,,Government,660,271,24,yes,NO,Yes,Yes,2.3,2.7,2.8,94,151,56,3.3,Yes,Contactless Healthcare
+H01148,Madurai Care Hospital 1148,,Multispeciality,620,556,148,Yes,,,Yes,3.6,4.8,4,,21,58,3.4,YES,Patient-Centric Care
+H01149,Kochi Care Hospital 1149,Delhi,Private,617,1703,68,yes,,No,Yes,2.7,3.3,2.9,92,172,81,3.5,Yes,Digital Patient Care
+H01150,Chennai Care Hospital 1150,Madurai,,514,779,28,YES,,Yes,No,4.8,,4.7,90,5,69,3.5,,Contactless Healthcare
+H01151,Chennai Care Hospital 1151,Delhi,Government,855,1018,79,No,NO,No,No,,,3,36,68,88,2.5,yes,Enhanced Security
+H01152,Chennai Care Hospital 1152,Kochi,,952,1463,85,No,NO,No,No,3.3,4.6,3.6,80,71,80,4.1,Yes,Digital Patient Care
+H01153,Bengaluru Care Hospital 1153,Chennai,Government,975,1511,145,yes,No,Yes,Yes,4.2,4.3,,71,43,58,3,Yes,Enhanced Security
+H01154,Bengaluru Care Hospital 1154,Madurai,Specialty,106,1296,149,Yes,No,No,Yes,3,4.2,2.9,33,209,76,4.6,No,
+H01155,Bengaluru Care Hospital 1155,Chennai,Private,1385,1840,83,No,,No,Yes,2.2,2.7,2.6,53,19,63,,YES,Smart Hospital
+H01156,Chennai Care Hospital 1156,Pune,Private,1072,2168,20,YES,Yes,,No,4.5,4.6,,37,,98,3.1,No,Contactless Healthcare
+H01157,Chennai Care Hospital 1157,Coimbatore,Multispeciality,186,578,42,YES,Yes,No,No,4.3,3.7,4.4,88,74,66,2.6,YES,Contactless Healthcare
+H01158,Chennai Care Hospital 1158,Delhi,Specialty,298,1117,104,yes,,No,,3.7,3.2,2.5,82,200,63,4.8,Yes,Green Hospital
+H01159,Madurai Care Hospital 1159,Bengaluru,Multispeciality,116,,71,YES,Yes,Yes,No,4.1,4.8,,76,173,89,4.1,No,Enhanced Security
+H01160,Hyderabad Care Hospital 1160,Jaipur,Private,709,1879,46,yes,NO,No,Yes,4.1,4.3,3.4,,183,,3.9,No,IoT Healthcare
+H01161,Coimbatore Care Hospital 1161,Madurai,Multispeciality,1020,223,19,YES,Yes,,Yes,4,4.4,3.4,53,182,77,3.2,No,Digital Patient Care
+H01162,Kochi Care Hospital 1162,Mumbai,Government,,1045,70,,NO,No,No,2.8,2.3,3.4,86,191,52,3.6,No,Green Hospital
+H01163,Chennai Care Hospital 1163,Pune,Multispeciality,810,,91,No,Yes,No,Yes,2.1,4.3,3.6,,206,73,4,yes,IoT Healthcare
+H01164,Madurai Care Hospital 1164,Delhi,Government,707,1062,112,YES,YES,Yes,Yes,3.4,2.8,,77,151,91,4.5,Yes,Enhanced Security
+H01165,Hyderabad Care Hospital 1165,Jaipur,Specialty,346,328,150,No,NO,No,No,4.5,4.9,4.9,67,132,78,3.3,yes,AI Healthcare
+H01166,Pune Care Hospital 1166,Hyderabad,Specialty,1179,995,75,,NO,No,Yes,2.7,2.4,3.3,81,106,64,4.8,No,Green Hospital
+H01167,Mumbai Care Hospital 1167,Chennai,Specialty,1162,,13,No,,No,Yes,4.4,3.9,,,78,89,3.8,No,Green Hospital
+H01168,Chennai Care Hospital 1168,Mumbai,Specialty,603,50,56,No,Yes,Yes,No,2.5,3.3,4.9,35,106,,2.8,,Patient-Centric Care
+H01169,Coimbatore Care Hospital 1169,,Multispeciality,1410,1865,88,No,NO,Yes,No,4.7,3.6,4.8,75,99,92,3.2,yes,Enhanced Security
+H01170,Madurai Care Hospital 1170,Hyderabad,,513,731,131,No,Yes,No,No,4.4,4.6,3.5,76,110,86,2,No,AI Healthcare
+H01171,Chennai Care Hospital 1171,Hyderabad,Private,,491,65,yes,YES,No,No,2.5,3.8,3.1,73,201,,5,Yes,Contactless Healthcare
+H01172,Jaipur Care Hospital 1172,,Multispeciality,,1986,137,yes,YES,Yes,Yes,3,4.7,3.2,81,58,63,4,No,Smart Hospital
+H01173,Pune Care Hospital 1173,Pune,Specialty,1252,1083,92,Yes,Yes,No,No,4.5,3.3,3.7,97,215,83,4.8,yes,Contactless Healthcare
+H01174,Madurai Care Hospital 1174,Hyderabad,Private,832,1235,105,Yes,YES,No,No,4.9,3.1,3.3,37,214,77,3,yes,IoT Healthcare
+H01175,Chennai Care Hospital 1175,,Multispeciality,373,258,76,YES,Yes,No,Yes,3.6,,4.1,42,190,80,,yes,Patient-Centric Care
+H01176,Pune Care Hospital 1176,Jaipur,Multispeciality,149,1831,103,YES,YES,Yes,Yes,3.2,2.1,4.3,60,55,58,3,yes,Enhanced Security
+H01177,Coimbatore Care Hospital 1177,Kochi,Specialty,1160,1295,127,No,YES,No,Yes,3.4,3,2.4,77,181,78,3.4,No,Green Hospital
+H01178,Pune Care Hospital 1178,Jaipur,Private,699,736,139,Yes,YES,No,Yes,3.3,2.5,3.8,56,189,99,2.3,No,Smart Hospital
+H01179,Hyderabad Care Hospital 1179,Hyderabad,,654,489,20,Yes,No,,Yes,4.4,2.3,2.5,77,176,,2.4,yes,Smart Hospital
+H01180,Kochi Care Hospital 1180,,Multispeciality,290,1149,41,Yes,NO,No,No,2.2,2.7,3.2,96,57,66,2.3,,Contactless Healthcare
+H01181,Delhi Care Hospital 1181,Jaipur,Government,1396,729,99,No,NO,Yes,Yes,2.4,4.2,4.6,32,44,85,4,yes,AI Healthcare
+H01182,Hyderabad Care Hospital 1182,Hyderabad,Private,392,2011,103,yes,No,Yes,No,4.9,,2.1,40,115,70,4,No,Patient-Centric Care
+H01183,Coimbatore Care Hospital 1183,Bengaluru,,610,350,136,,NO,No,No,,3,4.1,39,169,81,4.4,YES,AI Healthcare
+H01184,Hyderabad Care Hospital 1184,Pune,Private,629,190,90,Yes,,Yes,,4.6,2.4,4,60,212,78,3.4,YES,Smart Hospital
+H01185,Mumbai Care Hospital 1185,Jaipur,Government,876,203,,Yes,Yes,No,Yes,2.8,,2.9,65,184,81,2.1,YES,Patient-Centric Care
+H01186,Mumbai Care Hospital 1186,Pune,Specialty,812,2122,27,yes,NO,No,Yes,3.6,,4.3,,21,55,,Yes,Contactless Healthcare
+H01187,Chennai Care Hospital 1187,Hyderabad,Private,1212,1173,66,Yes,NO,,,3.5,,4.7,,125,82,2.2,No,Contactless Healthcare
+H01188,Hyderabad Care Hospital 1188,Coimbatore,Multispeciality,571,776,109,Yes,No,,Yes,3.6,3.8,,97,73,64,2.5,YES,
+H01189,Coimbatore Care Hospital 1189,Delhi,,1367,1228,,YES,No,Yes,No,2.4,3,4.2,56,71,63,3.3,YES,Digital Patient Care
+H01190,Jaipur Care Hospital 1190,Chennai,Multispeciality,1008,1610,59,No,No,Yes,No,2.9,3.5,5,37,,70,2.1,Yes,AI Healthcare
+H01191,Hyderabad Care Hospital 1191,Coimbatore,Multispeciality,,867,,Yes,No,Yes,Yes,3.4,5,2.3,30,158,58,2.1,No,Contactless Healthcare
+H01192,Hyderabad Care Hospital 1192,Madurai,Specialty,853,1423,87,No,Yes,Yes,Yes,5,3.1,3.5,63,117,55,4,,Enhanced Security
+H01193,Coimbatore Care Hospital 1193,,,871,1537,,Yes,No,No,,2.3,,,52,92,58,,YES,Green Hospital
+H01194,Mumbai Care Hospital 1194,Mumbai,,221,410,89,,YES,No,Yes,3,2.4,3.4,92,13,67,2.5,YES,Green Hospital
+H01195,Madurai Care Hospital 1195,Pune,,634,1631,74,No,Yes,Yes,,2.9,4,3.4,,166,64,2.6,Yes,Smart Hospital
+H01196,Kochi Care Hospital 1196,Hyderabad,,,859,104,No,No,Yes,Yes,4.9,,4.2,65,117,,2.6,Yes,IoT Healthcare
+H01197,Mumbai Care Hospital 1197,,,183,627,42,No,NO,Yes,No,4.6,3.1,2.4,57,96,81,,Yes,Contactless Healthcare
+H01198,Madurai Care Hospital 1198,Jaipur,Multispeciality,,1741,97,Yes,YES,Yes,,3.9,3.3,,73,114,68,3.9,YES,Patient-Centric Care
+H01199,Jaipur Care Hospital 1199,,Private,87,823,127,Yes,NO,Yes,Yes,,3.3,4.6,44,149,99,3.3,yes,Smart Hospital
+H01200,Madurai Care Hospital 1200,Kochi,Multispeciality,1104,2057,90,,NO,No,No,2.8,,,77,89,60,3,YES,Smart Hospital
+H01201,Mumbai Care Hospital 1201,Delhi,Specialty,128,1035,25,YES,NO,No,No,4.4,2.7,4.6,42,13,96,4.8,,Digital Patient Care
+H01202,Mumbai Care Hospital 1202,,Private,994,2189,76,YES,Yes,No,No,3.1,2.7,2.6,81,186,80,2.6,YES,IoT Healthcare
+H01203,Madurai Care Hospital 1203,Coimbatore,Specialty,285,1813,62,,No,No,No,2.9,,,59,,55,3.3,yes,IoT Healthcare
+H01204,Jaipur Care Hospital 1204,Pune,Government,433,,82,Yes,YES,Yes,No,3.1,,4.5,83,194,55,,YES,Contactless Healthcare
+H01205,Bengaluru Care Hospital 1205,Bengaluru,Private,1019,130,58,,YES,Yes,No,2.8,4,4.6,66,159,,3.7,Yes,Digital Patient Care
+H01206,Chennai Care Hospital 1206,Mumbai,Private,1217,2186,35,yes,YES,No,Yes,3.5,3,3,80,155,69,4.7,yes,Green Hospital
+H01207,Mumbai Care Hospital 1207,Chennai,Specialty,,1214,,YES,YES,No,No,3.5,3.4,4.9,68,26,,3.1,YES,IoT Healthcare
+H01208,Kochi Care Hospital 1208,Chennai,Private,898,830,71,YES,No,No,No,4.8,2.6,2.4,53,175,78,2.7,Yes,Enhanced Security
+H01209,Pune Care Hospital 1209,Coimbatore,,933,1887,74,Yes,Yes,Yes,Yes,3.8,2.5,4.7,50,209,,2.2,yes,Digital Patient Care
+H01210,Jaipur Care Hospital 1210,Kochi,Specialty,1167,302,37,YES,YES,,No,3,3.1,4.9,56,99,77,2.1,YES,Digital Patient Care
+H01211,Bengaluru Care Hospital 1211,Hyderabad,Private,158,,131,No,NO,No,Yes,3.3,3.3,3.7,38,154,93,4.9,Yes,AI Healthcare
+H01212,Delhi Care Hospital 1212,Jaipur,Private,1210,1174,15,Yes,NO,Yes,No,4.8,,2.4,58,169,97,4.8,YES,AI Healthcare
+H01213,Bengaluru Care Hospital 1213,Bengaluru,Specialty,496,1618,64,No,NO,Yes,Yes,2.3,3.2,4.2,87,24,,2.8,YES,IoT Healthcare
+H01214,Mumbai Care Hospital 1214,Chennai,Multispeciality,1309,549,,Yes,Yes,No,Yes,4.8,3.1,2.5,32,11,98,3.2,Yes,AI Healthcare
+H01215,Bengaluru Care Hospital 1215,Pune,Specialty,881,,121,,No,Yes,No,2.2,3,4.8,80,68,91,2.4,No,Digital Patient Care
+H01216,Kochi Care Hospital 1216,Coimbatore,Private,1100,,93,yes,NO,Yes,Yes,3,4.8,3.6,59,54,55,4.9,yes,
+H01217,Pune Care Hospital 1217,Bengaluru,Specialty,,203,40,Yes,Yes,No,Yes,4.4,2.3,4.5,85,68,81,2.5,YES,Green Hospital
+H01218,Coimbatore Care Hospital 1218,Pune,Multispeciality,512,1211,75,yes,NO,No,No,3,2.3,4.8,89,159,63,2.4,No,Patient-Centric Care
+H01219,Hyderabad Care Hospital 1219,Jaipur,Private,1365,1819,146,yes,,No,Yes,3.9,3.3,3.8,91,156,67,3.1,yes,Smart Hospital
+H01220,Mumbai Care Hospital 1220,Madurai,Multispeciality,372,657,100,yes,No,No,No,3.8,2.1,3,77,142,,3.2,,Green Hospital
+H01221,Madurai Care Hospital 1221,Bengaluru,Private,1323,1894,142,YES,Yes,Yes,No,,3.8,3.2,93,207,79,4.6,,Green Hospital
+H01222,Chennai Care Hospital 1222,Mumbai,Government,304,998,116,yes,NO,No,Yes,3,2.7,3.8,72,96,50,,YES,Green Hospital
+H01223,Hyderabad Care Hospital 1223,Madurai,Government,1380,859,95,YES,YES,No,No,4,3.4,3.1,82,169,75,4.9,YES,AI Healthcare
+H01224,Hyderabad Care Hospital 1224,Hyderabad,Government,295,461,5,Yes,NO,No,No,,3.2,3.2,93,155,82,2.5,Yes,Enhanced Security
+H01225,Kochi Care Hospital 1225,Kochi,Multispeciality,548,771,122,No,Yes,No,,3.7,3.7,3.9,71,56,85,3.5,yes,Contactless Healthcare
+H01226,Kochi Care Hospital 1226,Pune,Specialty,989,615,131,YES,YES,Yes,No,2.5,2.1,4.6,43,208,,3.5,Yes,Patient-Centric Care
+H01227,Madurai Care Hospital 1227,,Government,388,1768,33,yes,No,No,No,4.3,2.5,3.2,,105,57,3.9,No,Contactless Healthcare
+H01228,Mumbai Care Hospital 1228,Hyderabad,Private,1433,1690,113,YES,NO,,No,,3.3,3.7,67,137,,3.9,Yes,Smart Hospital
+H01229,Kochi Care Hospital 1229,Kochi,Multispeciality,364,864,85,yes,YES,No,No,2.6,4.6,2.6,72,116,88,4.1,No,IoT Healthcare
+H01230,Jaipur Care Hospital 1230,Delhi,Government,579,1098,112,Yes,NO,Yes,Yes,4.1,3.2,2.7,,35,88,2.8,No,Patient-Centric Care
+H01231,Pune Care Hospital 1231,Mumbai,Private,496,1688,71,YES,No,Yes,Yes,3.6,4.4,4.3,54,79,69,4.6,Yes,Smart Hospital
+H01232,Delhi Care Hospital 1232,Chennai,Specialty,381,1757,,YES,No,No,No,2.2,2.8,2.6,66,86,57,4.6,YES,Patient-Centric Care
+H01233,Mumbai Care Hospital 1233,,Government,948,1557,145,No,Yes,Yes,No,4.1,4.1,2.4,72,19,99,4.5,yes,Green Hospital
+H01234,Mumbai Care Hospital 1234,Delhi,Government,849,1628,,YES,Yes,,Yes,2.3,2.6,3.3,86,66,92,3,Yes,Digital Patient Care
+H01235,Coimbatore Care Hospital 1235,,Specialty,1473,,,,No,No,,5,2.7,4.1,44,153,70,2.7,,Patient-Centric Care
+H01236,Coimbatore Care Hospital 1236,Pune,Multispeciality,1149,393,128,yes,No,Yes,No,2.7,3.2,3,77,23,,4,No,IoT Healthcare
+H01237,Kochi Care Hospital 1237,Madurai,Private,310,274,60,No,,,No,3.8,2.5,4.2,71,181,69,2.7,No,Contactless Healthcare
+H01238,Coimbatore Care Hospital 1238,Madurai,Multispeciality,746,1530,112,No,Yes,No,Yes,3.7,3.8,4.1,90,50,98,2.5,yes,AI Healthcare
+H01239,Kochi Care Hospital 1239,,Private,832,2198,13,yes,Yes,No,No,3.3,3.5,3,76,122,69,2.9,No,Smart Hospital
+H01240,Pune Care Hospital 1240,Hyderabad,Specialty,,1395,139,No,No,No,No,4.7,3.9,,88,49,87,4.2,yes,Smart Hospital
+H01241,Mumbai Care Hospital 1241,Pune,Government,248,2017,50,Yes,Yes,Yes,No,2.8,4.4,2.3,47,124,61,3.2,yes,Digital Patient Care
+H01242,Delhi Care Hospital 1242,Coimbatore,Private,894,193,23,yes,No,Yes,No,4.6,2.1,5,78,96,50,2.5,,
+H01243,Hyderabad Care Hospital 1243,Hyderabad,Private,663,2026,14,No,NO,No,No,3.4,4.8,3.5,51,109,,2.4,Yes,Contactless Healthcare
+H01244,Pune Care Hospital 1244,Hyderabad,Specialty,597,1495,52,YES,Yes,Yes,No,3.6,2.5,4.4,73,144,76,3.1,yes,AI Healthcare
+H01245,Delhi Care Hospital 1245,Madurai,Government,741,698,75,YES,No,Yes,Yes,2.9,4.7,4,62,139,73,,No,AI Healthcare
+H01246,Chennai Care Hospital 1246,Delhi,Government,846,623,101,,NO,Yes,Yes,4.7,3.5,5,60,80,57,4.5,No,Smart Hospital
+H01247,Delhi Care Hospital 1247,Bengaluru,Government,622,791,,yes,NO,No,No,2.9,3.7,4.3,98,68,66,4.2,YES,IoT Healthcare
+H01248,Hyderabad Care Hospital 1248,Hyderabad,Private,1500,206,120,yes,,No,Yes,2.3,2.2,4.9,96,69,68,2.3,yes,Digital Patient Care
+H01249,Coimbatore Care Hospital 1249,Pune,Specialty,,219,138,YES,No,No,No,2.5,2.7,4.6,,48,62,4.7,Yes,Digital Patient Care
+H01250,Coimbatore Care Hospital 1250,,Government,1021,2025,52,YES,NO,No,Yes,4.3,2.5,2.4,73,166,69,,,Contactless Healthcare
+H01251,Coimbatore Care Hospital 1251,,Specialty,473,1857,41,,No,Yes,Yes,,4.2,2.8,100,206,,3.8,Yes,IoT Healthcare
+H01252,Bengaluru Care Hospital 1252,,Specialty,1016,2154,100,No,NO,Yes,Yes,3.3,2.9,3.4,81,86,94,2.4,Yes,Contactless Healthcare
+H01253,Bengaluru Care Hospital 1253,Coimbatore,,630,767,37,Yes,Yes,Yes,No,2.3,4.8,2.7,88,104,72,4.6,Yes,Smart Hospital
+H01254,Coimbatore Care Hospital 1254,Coimbatore,Private,1217,940,,YES,YES,Yes,No,3.6,3.6,3.6,100,95,84,3.5,No,Contactless Healthcare
+H01255,Kochi Care Hospital 1255,Chennai,Government,1381,,105,YES,NO,Yes,No,2.6,3.7,2.1,79,119,84,,No,AI Healthcare
+H01256,Mumbai Care Hospital 1256,Hyderabad,Private,212,,132,,Yes,No,Yes,2.6,4.4,4.8,50,121,95,2.7,yes,Contactless Healthcare
+H01257,Kochi Care Hospital 1257,Coimbatore,Multispeciality,211,,100,No,NO,No,No,,2,,68,87,65,4.5,yes,Contactless Healthcare
+H01258,Kochi Care Hospital 1258,Hyderabad,Government,,,125,No,,No,No,3.9,,2.1,,18,79,3.6,Yes,IoT Healthcare
+H01259,Coimbatore Care Hospital 1259,Hyderabad,Private,1410,2030,142,No,NO,No,Yes,2.8,2.9,4.2,,14,89,3.9,Yes,
+H01260,Kochi Care Hospital 1260,,Multispeciality,450,2023,107,,NO,No,No,2,2.4,3.2,,142,84,4.4,No,AI Healthcare
+H01261,Delhi Care Hospital 1261,Chennai,Government,1356,838,135,YES,No,No,Yes,,2.4,2.4,54,130,66,3.4,YES,IoT Healthcare
+H01262,Bengaluru Care Hospital 1262,Pune,Private,591,497,142,Yes,Yes,No,Yes,3.2,4.2,3,30,207,78,3.8,Yes,Contactless Healthcare
+H01263,Chennai Care Hospital 1263,Coimbatore,Specialty,949,1255,84,yes,No,Yes,Yes,2.9,3.8,4.1,30,92,75,2.8,Yes,Digital Patient Care
+H01264,Chennai Care Hospital 1264,,Specialty,802,306,139,Yes,NO,Yes,No,3,4,3.4,84,185,74,3.6,Yes,Enhanced Security
+H01265,Jaipur Care Hospital 1265,Hyderabad,Specialty,771,746,128,No,No,Yes,,4.5,3,2.3,87,178,54,2.1,,AI Healthcare
+H01266,Delhi Care Hospital 1266,Coimbatore,Government,1458,200,91,Yes,,Yes,No,3.1,3.9,4,32,81,50,4.7,yes,Digital Patient Care
+H01267,Madurai Care Hospital 1267,,Private,715,968,87,yes,,Yes,Yes,4,2.1,4.3,96,162,73,2.6,,IoT Healthcare
+H01268,Mumbai Care Hospital 1268,Jaipur,Government,1095,1228,12,Yes,NO,No,No,2.5,4,4.4,39,200,93,2.5,No,Digital Patient Care
+H01269,Madurai Care Hospital 1269,Jaipur,Specialty,1272,,99,YES,Yes,No,Yes,3.5,4.9,4.9,64,,95,3.6,YES,Patient-Centric Care
+H01270,Chennai Care Hospital 1270,Delhi,Multispeciality,613,487,95,yes,,Yes,Yes,4.1,3.4,4.9,89,95,75,2.5,YES,Smart Hospital
+H01271,Coimbatore Care Hospital 1271,Mumbai,Government,797,1670,,No,,Yes,Yes,3.4,3.5,5,,205,52,4.8,No,
+H01272,Madurai Care Hospital 1272,Kochi,Private,,1726,26,No,Yes,Yes,Yes,3.2,2.2,,56,194,60,4.7,No,Green Hospital
+H01273,Chennai Care Hospital 1273,Madurai,Specialty,580,1682,148,yes,YES,Yes,Yes,2.7,3,,72,145,73,2.2,,Digital Patient Care
+H01274,Chennai Care Hospital 1274,Mumbai,Multispeciality,436,1426,68,,Yes,No,,4.1,3.2,4.6,90,218,63,3.7,Yes,Green Hospital
+H01275,Hyderabad Care Hospital 1275,Bengaluru,Specialty,1099,1742,40,,Yes,No,No,3.3,4.9,4.9,37,122,,2.9,YES,Enhanced Security
+H01276,Mumbai Care Hospital 1276,,Specialty,95,790,143,Yes,NO,No,Yes,3.4,4.3,3.7,32,39,63,2.6,yes,Smart Hospital
+H01277,Hyderabad Care Hospital 1277,Coimbatore,Private,200,1129,51,Yes,,No,,2.5,3.4,2.3,55,180,,3.9,No,Patient-Centric Care
+H01278,Madurai Care Hospital 1278,Mumbai,Multispeciality,,2122,82,Yes,YES,Yes,No,,2.4,4.3,49,98,69,4.8,Yes,Enhanced Security
+H01279,Hyderabad Care Hospital 1279,Coimbatore,Government,364,1193,117,yes,NO,Yes,No,3.8,3.1,,61,123,82,,No,Digital Patient Care
+H01280,Kochi Care Hospital 1280,Delhi,,242,698,38,YES,Yes,No,Yes,3.1,3,,,93,76,4.8,Yes,
+H01281,Chennai Care Hospital 1281,Jaipur,Private,591,624,82,yes,No,Yes,No,3.8,3.4,2.1,36,69,89,4.2,,IoT Healthcare
+H01282,Delhi Care Hospital 1282,Pune,Specialty,364,1671,95,Yes,Yes,No,No,3.6,3.4,3.3,92,35,50,4.4,yes,AI Healthcare
+H01283,Bengaluru Care Hospital 1283,Coimbatore,Private,1441,553,82,YES,YES,Yes,No,4.3,2.4,2.3,98,12,98,,No,IoT Healthcare
+H01284,Jaipur Care Hospital 1284,Mumbai,Specialty,228,1963,43,YES,YES,Yes,No,,3.1,2.8,39,162,,4.8,Yes,AI Healthcare
+H01285,Coimbatore Care Hospital 1285,Pune,Private,1189,526,144,No,Yes,No,,3.6,2.1,3.5,,168,56,,YES,IoT Healthcare
+H01286,Delhi Care Hospital 1286,Pune,Government,373,981,37,YES,YES,No,No,3.6,4.4,3.3,72,31,51,3.1,yes,Contactless Healthcare
+H01287,Bengaluru Care Hospital 1287,Kochi,Multispeciality,1207,429,79,yes,YES,No,No,2.3,2.1,3.4,45,114,59,4.6,No,AI Healthcare
+H01288,Madurai Care Hospital 1288,,Government,774,244,,YES,YES,,,2.6,3.9,2.4,99,,98,4.6,,Enhanced Security
+H01289,Mumbai Care Hospital 1289,Madurai,Government,629,2084,75,YES,No,No,Yes,3.7,4.8,2.1,87,111,52,4.1,YES,AI Healthcare
+H01290,Kochi Care Hospital 1290,,Multispeciality,839,1967,73,YES,YES,No,,4.4,3.4,3,70,45,71,3.6,No,
+H01291,Mumbai Care Hospital 1291,Hyderabad,,642,2110,141,Yes,No,Yes,No,2.7,,4.5,76,97,89,2.5,YES,IoT Healthcare
+H01292,Pune Care Hospital 1292,Madurai,Private,932,1547,85,No,NO,,Yes,,4,4.7,69,145,76,3.2,yes,AI Healthcare
+H01293,Coimbatore Care Hospital 1293,Jaipur,Multispeciality,598,1120,,Yes,Yes,Yes,Yes,3.6,3.5,4.4,87,137,56,4.7,YES,
+H01294,Kochi Care Hospital 1294,Kochi,Specialty,602,868,76,,YES,Yes,No,2.8,,4.1,57,219,61,4.2,YES,Patient-Centric Care
+H01295,Hyderabad Care Hospital 1295,Mumbai,Government,,1273,127,YES,,No,No,3.4,3.5,4.4,74,135,72,3.3,YES,Digital Patient Care
+H01296,Mumbai Care Hospital 1296,Delhi,Multispeciality,134,,62,Yes,No,Yes,No,4.4,4.2,3.7,87,181,58,3.4,YES,Digital Patient Care
+H01297,Coimbatore Care Hospital 1297,,Multispeciality,673,1620,148,,NO,,No,4.8,3.9,,49,116,,4,yes,Patient-Centric Care
+H01298,Jaipur Care Hospital 1298,Jaipur,Government,1377,1737,75,No,YES,Yes,No,3.9,4.5,2.6,93,140,92,4.5,Yes,Digital Patient Care
+H01299,Mumbai Care Hospital 1299,Kochi,,218,377,110,Yes,No,No,Yes,2.8,,3.7,77,151,54,4,YES,AI Healthcare
+H01300,Madurai Care Hospital 1300,Madurai,Multispeciality,983,1693,15,yes,,Yes,Yes,3.3,,2.9,62,166,52,2.4,Yes,Patient-Centric Care
+H01301,Bengaluru Care Hospital 1301,Jaipur,,1167,1207,103,No,NO,,Yes,3.5,4.8,3.1,37,71,72,4.5,Yes,IoT Healthcare
+H01302,Pune Care Hospital 1302,Coimbatore,Specialty,1422,979,118,No,YES,No,No,3.1,,3.9,42,153,65,2.1,No,
+H01303,Delhi Care Hospital 1303,Madurai,,650,1101,144,,NO,No,Yes,3.5,2.3,3.7,,109,90,4.8,No,Enhanced Security
+H01304,Hyderabad Care Hospital 1304,Mumbai,Private,1099,1722,45,YES,YES,,Yes,4.1,4.4,2.4,72,32,82,4.5,Yes,
+H01305,Bengaluru Care Hospital 1305,Jaipur,Private,487,1294,52,yes,YES,No,No,3.3,4.4,4,70,6,98,3.9,No,Green Hospital
+H01306,Mumbai Care Hospital 1306,Bengaluru,Private,907,1678,,Yes,NO,No,No,4.7,4.2,2,34,7,96,2.7,yes,
+H01307,Jaipur Care Hospital 1307,Coimbatore,Government,1114,,77,YES,YES,Yes,Yes,4.6,2.2,4,75,52,57,5,Yes,Enhanced Security
+H01308,Kochi Care Hospital 1308,Pune,Government,136,470,15,yes,Yes,No,No,2.3,,4.1,95,81,87,4.1,No,IoT Healthcare
+H01309,Chennai Care Hospital 1309,Bengaluru,Specialty,1077,1101,107,YES,No,No,Yes,4.3,4.9,3.2,86,154,78,2.1,,
+H01310,Coimbatore Care Hospital 1310,Chennai,Government,1010,1464,46,Yes,,No,No,4.4,4.1,5,33,177,50,3.3,yes,Smart Hospital
+H01311,Delhi Care Hospital 1311,Chennai,Government,915,1741,98,yes,Yes,No,Yes,4,2.7,4.1,39,152,93,4.6,Yes,Digital Patient Care
+H01312,Madurai Care Hospital 1312,Delhi,Specialty,,1161,110,No,Yes,No,,2.5,3.3,,86,144,99,2.8,Yes,AI Healthcare
+H01313,Delhi Care Hospital 1313,Coimbatore,Specialty,1009,,123,No,YES,No,Yes,3.7,3.7,2.7,48,202,97,2.5,,Contactless Healthcare
+H01314,Jaipur Care Hospital 1314,Coimbatore,Specialty,114,1606,37,,YES,No,No,5,4.2,3.2,45,10,62,,No,Green Hospital
+H01315,Kochi Care Hospital 1315,Delhi,Specialty,699,817,122,,NO,Yes,Yes,3,4.3,2.3,55,82,84,4.7,yes,IoT Healthcare
+H01316,Bengaluru Care Hospital 1316,Hyderabad,Multispeciality,821,783,21,No,Yes,Yes,No,3.3,4.8,4.7,57,218,91,2.8,Yes,IoT Healthcare
+H01317,Kochi Care Hospital 1317,Chennai,Specialty,1145,189,,YES,No,Yes,Yes,3.2,,,71,115,86,4.2,YES,Enhanced Security
+H01318,Coimbatore Care Hospital 1318,Hyderabad,Specialty,591,,12,,Yes,Yes,Yes,,2.1,2.8,,,72,3.2,No,Contactless Healthcare
+H01319,Delhi Care Hospital 1319,Coimbatore,Multispeciality,1349,1043,,Yes,YES,No,No,4.2,2.4,,39,125,64,2.8,YES,Smart Hospital
+H01320,Pune Care Hospital 1320,,Specialty,1282,1582,105,YES,,No,No,2.8,3,3.1,81,42,63,4.9,Yes,Enhanced Security
+H01321,Bengaluru Care Hospital 1321,Coimbatore,Government,844,584,75,yes,YES,Yes,Yes,3,4.4,3.5,49,30,82,2.3,YES,
+H01322,Jaipur Care Hospital 1322,Pune,,,714,79,yes,NO,No,Yes,,2.9,2.3,49,58,79,4.9,No,AI Healthcare
+H01323,Delhi Care Hospital 1323,,Specialty,,1058,143,YES,No,No,Yes,4.1,4.9,4.9,90,130,62,2.3,Yes,Smart Hospital
+H01324,Coimbatore Care Hospital 1324,Bengaluru,Private,103,553,,Yes,Yes,Yes,Yes,4.3,4.9,3.7,62,156,57,,YES,Green Hospital
+H01325,Hyderabad Care Hospital 1325,,Government,1326,1042,134,No,Yes,No,No,4,4.8,4,69,,84,3.8,Yes,AI Healthcare
+H01326,Madurai Care Hospital 1326,Madurai,Specialty,559,1843,81,yes,YES,,Yes,4.6,4.1,4.8,48,47,94,2.1,Yes,Smart Hospital
+H01327,Bengaluru Care Hospital 1327,Bengaluru,Private,455,1268,64,,No,No,No,4.6,2.4,4.1,40,74,71,2.5,yes,AI Healthcare
+H01328,Bengaluru Care Hospital 1328,Mumbai,Private,899,1782,104,Yes,Yes,No,Yes,2.6,3.6,3.4,45,114,58,,YES,Enhanced Security
+H01329,Chennai Care Hospital 1329,Mumbai,Specialty,279,1878,86,YES,No,Yes,No,2.5,4.8,2.9,33,43,,3.6,YES,Green Hospital
+H01330,Kochi Care Hospital 1330,Madurai,Specialty,1020,,80,No,NO,No,Yes,4.4,2.8,4.3,41,102,64,3,yes,AI Healthcare
+H01331,Madurai Care Hospital 1331,Madurai,Multispeciality,122,2029,60,yes,Yes,No,Yes,2.7,4.7,,,17,69,4.1,No,Patient-Centric Care
+H01332,Jaipur Care Hospital 1332,Chennai,Multispeciality,1194,1590,116,yes,YES,Yes,,2.2,4.3,4.4,54,156,53,2,YES,AI Healthcare
+H01333,Kochi Care Hospital 1333,Hyderabad,Private,,1155,23,Yes,Yes,,Yes,4.7,4.4,3.5,59,90,92,4.7,Yes,Green Hospital
+H01334,Mumbai Care Hospital 1334,Mumbai,Specialty,513,1415,51,yes,YES,,Yes,4.6,,4.1,34,215,86,4.5,yes,Contactless Healthcare
+H01335,Kochi Care Hospital 1335,,Private,490,2033,50,No,Yes,No,No,4.5,4.9,4.6,50,145,61,3,No,Smart Hospital
+H01336,Mumbai Care Hospital 1336,Coimbatore,Specialty,752,1025,73,YES,Yes,Yes,No,2.4,4.3,2.5,33,7,54,2,YES,Green Hospital
+H01337,Delhi Care Hospital 1337,Bengaluru,Multispeciality,575,726,11,YES,No,No,Yes,2.7,3.7,2.4,71,14,84,3.1,yes,
+H01338,Mumbai Care Hospital 1338,Delhi,Specialty,,1110,14,yes,NO,Yes,No,2.3,3.6,4.5,56,198,52,2.7,Yes,Digital Patient Care
+H01339,Jaipur Care Hospital 1339,Jaipur,Private,1428,1190,48,YES,No,No,Yes,3.2,2.8,4.3,51,71,66,2.9,,Green Hospital
+H01340,Jaipur Care Hospital 1340,,Specialty,1347,1442,62,,NO,No,Yes,3,2.3,,61,169,60,,Yes,IoT Healthcare
+H01341,Madurai Care Hospital 1341,Chennai,Multispeciality,,2055,70,YES,NO,No,No,2.2,4.8,3.9,63,190,59,,No,Smart Hospital
+H01342,Delhi Care Hospital 1342,Kochi,Multispeciality,901,1511,6,YES,Yes,Yes,Yes,2.4,4.3,2.9,87,198,65,2.8,YES,Patient-Centric Care
+H01343,Delhi Care Hospital 1343,Mumbai,Multispeciality,608,,100,Yes,No,No,No,4.9,3.6,2.3,68,63,62,2.9,Yes,IoT Healthcare
+H01344,Madurai Care Hospital 1344,,Multispeciality,1289,195,37,No,YES,Yes,Yes,2.2,3.3,4.1,35,210,50,3.8,Yes,AI Healthcare
+H01345,Hyderabad Care Hospital 1345,,Multispeciality,1095,,91,Yes,NO,Yes,No,2.6,4.8,2.6,61,88,63,3.1,Yes,
+H01346,Pune Care Hospital 1346,,Private,1135,1685,64,YES,,No,,,3.2,2.5,81,163,75,,Yes,Enhanced Security
+H01347,Mumbai Care Hospital 1347,Coimbatore,Government,671,,147,Yes,YES,Yes,Yes,4.8,4.6,4.8,,196,91,4.8,YES,Enhanced Security
+H01348,Hyderabad Care Hospital 1348,,Multispeciality,517,,88,No,No,No,No,3.4,4,4.6,98,,83,2.3,YES,Digital Patient Care
+H01349,Delhi Care Hospital 1349,Chennai,Specialty,858,,75,yes,No,Yes,No,3.5,3.4,3.3,85,102,77,3.9,YES,IoT Healthcare
+H01350,Kochi Care Hospital 1350,Chennai,Government,1199,338,113,,No,Yes,Yes,2.3,4,4.1,38,117,93,2.8,yes,Enhanced Security
+H01351,Hyderabad Care Hospital 1351,,Government,486,1001,75,Yes,,No,No,2.2,4.5,2.6,62,145,62,3.9,No,
+H01352,Bengaluru Care Hospital 1352,Coimbatore,Specialty,1062,246,55,YES,YES,Yes,No,3.9,3.1,3.9,69,54,,3,YES,Enhanced Security
+H01353,Kochi Care Hospital 1353,Coimbatore,,1144,716,88,yes,Yes,Yes,No,3.9,4.7,3.5,31,,60,2.2,No,IoT Healthcare
+H01354,Mumbai Care Hospital 1354,Mumbai,Multispeciality,506,1811,119,YES,Yes,No,No,4.1,4.6,3.7,100,,52,2.4,YES,Patient-Centric Care
+H01355,Hyderabad Care Hospital 1355,Bengaluru,,,,67,No,No,No,No,3.5,4.3,2.8,42,114,66,4.6,yes,Digital Patient Care
+H01356,Coimbatore Care Hospital 1356,Jaipur,Specialty,458,,49,YES,Yes,,No,2.1,2.8,,78,7,,,No,Green Hospital
+H01357,Delhi Care Hospital 1357,Pune,,732,1776,19,No,No,Yes,No,,4.4,4.7,86,21,69,3.7,Yes,AI Healthcare
+H01358,Madurai Care Hospital 1358,Kochi,Multispeciality,1057,929,13,yes,Yes,No,,3.7,,4.7,34,141,62,4.1,yes,Contactless Healthcare
+H01359,Madurai Care Hospital 1359,Coimbatore,Multispeciality,346,,141,yes,YES,Yes,No,3.1,4.7,2.2,39,190,57,4.4,No,IoT Healthcare
+H01360,Coimbatore Care Hospital 1360,Hyderabad,Private,534,247,104,yes,No,No,No,2.3,3.1,,66,171,95,3.6,No,Enhanced Security
+H01361,Bengaluru Care Hospital 1361,Chennai,Multispeciality,671,1482,143,yes,NO,,No,4.2,3.3,2.6,35,65,72,3.4,Yes,Patient-Centric Care
+H01362,Bengaluru Care Hospital 1362,Hyderabad,,1000,934,116,Yes,NO,Yes,No,3.9,4.9,4.2,61,68,73,3.8,No,
+H01363,Kochi Care Hospital 1363,Chennai,Government,977,348,99,YES,NO,Yes,No,3.7,3.9,2.1,,144,82,3.9,YES,AI Healthcare
+H01364,Mumbai Care Hospital 1364,Pune,Government,921,,44,yes,Yes,Yes,,,2.5,,,,91,3,yes,
+H01365,Kochi Care Hospital 1365,Chennai,Specialty,294,291,,Yes,Yes,,Yes,4.8,2.3,2.1,48,203,71,4.7,yes,Digital Patient Care
+H01366,Kochi Care Hospital 1366,Madurai,Multispeciality,719,1913,6,Yes,Yes,Yes,No,2.5,4.8,3.5,96,203,87,4.7,No,Digital Patient Care
+H01367,Mumbai Care Hospital 1367,Hyderabad,Specialty,200,622,,No,Yes,,No,3.6,2.6,3.3,88,184,74,2.6,yes,Enhanced Security
+H01368,Hyderabad Care Hospital 1368,Bengaluru,Specialty,1494,1202,,No,Yes,No,No,4.2,4.1,,51,23,70,3.1,No,Green Hospital
+H01369,Madurai Care Hospital 1369,Madurai,,,1074,131,No,Yes,Yes,Yes,3.9,2.8,4.5,81,119,83,3.5,No,Digital Patient Care
+H01370,Pune Care Hospital 1370,Pune,Government,,431,6,yes,Yes,,Yes,4.8,2.7,,83,216,78,4,Yes,Patient-Centric Care
+H01371,Chennai Care Hospital 1371,Madurai,Private,772,276,47,yes,,Yes,No,4.6,3.9,4.4,,191,98,2.5,No,Digital Patient Care
+H01372,Jaipur Care Hospital 1372,Delhi,Multispeciality,1453,522,121,YES,,Yes,No,2.7,3.5,4.4,76,,,3.3,YES,Enhanced Security
+H01373,Hyderabad Care Hospital 1373,Mumbai,Private,899,2157,134,Yes,Yes,Yes,Yes,,4.2,,37,119,57,4.8,YES,Smart Hospital
+H01374,Pune Care Hospital 1374,,,212,1524,52,Yes,Yes,No,Yes,3.2,,2.3,,58,52,2.1,yes,Smart Hospital
+H01375,Pune Care Hospital 1375,Kochi,,222,608,49,YES,NO,Yes,Yes,3.9,3.5,,82,20,59,3.1,YES,Enhanced Security
+H01376,Madurai Care Hospital 1376,Chennai,Specialty,197,514,8,,NO,No,Yes,4.3,2.9,4.2,86,124,77,4.2,No,IoT Healthcare
+H01377,Madurai Care Hospital 1377,Delhi,Government,983,1313,13,Yes,No,Yes,Yes,4.7,2.3,2.3,34,,94,3.3,No,Patient-Centric Care
+H01378,Chennai Care Hospital 1378,Jaipur,Multispeciality,495,552,7,No,YES,Yes,No,4.8,2.7,4.3,34,110,94,4.5,yes,Digital Patient Care
+H01379,Bengaluru Care Hospital 1379,Kochi,Government,733,1796,62,,NO,Yes,No,3.8,2.1,3.5,,16,,3.2,YES,Enhanced Security
+H01380,Bengaluru Care Hospital 1380,Hyderabad,,,1743,56,YES,No,Yes,,2.9,2.6,4.2,91,36,88,3,yes,
+H01381,Madurai Care Hospital 1381,Kochi,Specialty,1457,279,59,No,YES,Yes,Yes,2.8,2.6,2.6,82,47,72,3.9,No,Green Hospital
+H01382,Jaipur Care Hospital 1382,Chennai,Specialty,1056,218,55,No,YES,Yes,Yes,2.4,4.4,4.5,70,81,68,2.5,YES,Patient-Centric Care
+H01383,Coimbatore Care Hospital 1383,Madurai,Specialty,,1962,29,yes,No,Yes,No,2.7,,3.9,96,75,74,4.2,No,Smart Hospital
+H01384,Chennai Care Hospital 1384,Pune,Specialty,1116,2090,113,Yes,YES,Yes,No,3.8,4.7,4.1,,129,51,4.8,Yes,Smart Hospital
+H01385,Chennai Care Hospital 1385,Bengaluru,Government,1126,663,,YES,,No,Yes,2.3,3.7,4.7,51,169,71,3.2,Yes,AI Healthcare
+H01386,Madurai Care Hospital 1386,Pune,Multispeciality,887,956,5,No,YES,No,Yes,2.8,2.8,2.4,94,154,,4.7,Yes,Patient-Centric Care
+H01387,Chennai Care Hospital 1387,Kochi,Multispeciality,1264,1240,12,Yes,No,,No,2.6,4.7,2,70,48,83,,Yes,Contactless Healthcare
+H01388,Jaipur Care Hospital 1388,Coimbatore,Government,158,1601,51,No,YES,No,Yes,4.6,4.7,3.9,38,110,,2.7,yes,IoT Healthcare
+H01389,Bengaluru Care Hospital 1389,Hyderabad,Government,1461,1239,149,YES,NO,No,Yes,2.1,3.7,2.9,45,120,51,4.5,No,Patient-Centric Care
+H01390,Pune Care Hospital 1390,Coimbatore,Private,672,956,81,yes,,Yes,No,4.5,,3.7,31,151,70,3.4,No,Digital Patient Care
+H01391,Coimbatore Care Hospital 1391,Mumbai,Specialty,590,940,20,No,NO,Yes,No,3.6,3.3,2.3,96,57,72,4.7,No,Patient-Centric Care
+H01392,Jaipur Care Hospital 1392,Hyderabad,Multispeciality,193,454,71,YES,YES,No,No,4.6,3.3,,73,121,67,,No,AI Healthcare
+H01393,Jaipur Care Hospital 1393,Coimbatore,Specialty,83,868,17,No,YES,Yes,Yes,2,3.3,3.2,52,107,54,3,Yes,Digital Patient Care
+H01394,Pune Care Hospital 1394,Pune,Government,1334,1306,37,Yes,No,No,No,4.8,2.2,4.7,44,167,86,2.2,yes,Smart Hospital
+H01395,Jaipur Care Hospital 1395,Hyderabad,Private,290,1023,43,No,,Yes,No,,4.2,2.7,51,163,89,4.6,YES,Smart Hospital
+H01396,Pune Care Hospital 1396,Chennai,Specialty,406,1156,49,Yes,Yes,Yes,No,3.6,4.7,4.8,87,211,80,2.4,No,AI Healthcare
+H01397,Madurai Care Hospital 1397,,Multispeciality,565,1047,150,Yes,YES,Yes,No,4.9,3.3,3.3,67,134,,2.9,,IoT Healthcare
+H01398,Coimbatore Care Hospital 1398,Bengaluru,Specialty,1367,286,12,yes,YES,No,Yes,4,3,3,92,117,64,,No,AI Healthcare
+H01399,Chennai Care Hospital 1399,Kochi,Specialty,1466,622,,Yes,NO,No,Yes,4.2,4.5,2,,28,76,2.9,Yes,Contactless Healthcare
+H01400,Mumbai Care Hospital 1400,Chennai,Specialty,,899,128,No,YES,,Yes,3.6,3.6,3.8,97,158,96,3.9,,IoT Healthcare
+H01401,Hyderabad Care Hospital 1401,,Government,968,1354,,yes,YES,Yes,Yes,3.2,,3.3,53,156,96,4,yes,Digital Patient Care
+H01402,Delhi Care Hospital 1402,Coimbatore,Private,995,1356,,yes,No,Yes,Yes,4.8,4,4.5,47,191,98,4.6,,Enhanced Security
+H01403,Jaipur Care Hospital 1403,Jaipur,Specialty,1326,1001,71,yes,No,Yes,No,2.4,4.7,4.8,39,91,64,4.2,YES,Contactless Healthcare
+H01404,Jaipur Care Hospital 1404,,Specialty,1041,1430,,yes,YES,Yes,Yes,4.6,4.8,2.8,56,124,55,5,Yes,AI Healthcare
+H01405,Hyderabad Care Hospital 1405,,,730,1798,64,No,YES,Yes,No,5,2.4,3,40,,91,3.1,No,Patient-Centric Care
+H01406,Bengaluru Care Hospital 1406,Jaipur,Multispeciality,1485,1189,41,yes,Yes,Yes,No,4.4,4.7,4.1,58,191,93,2,No,AI Healthcare
+H01407,Bengaluru Care Hospital 1407,Madurai,Government,,1653,,No,Yes,Yes,Yes,3.6,2.3,4.6,33,190,50,3,,Patient-Centric Care
+H01408,Mumbai Care Hospital 1408,Kochi,Private,502,1554,15,YES,No,Yes,,3,,4.1,30,210,83,3.6,No,Smart Hospital
+H01409,Pune Care Hospital 1409,,Specialty,,451,37,yes,NO,No,Yes,2.2,4.9,3.2,85,192,,,No,Contactless Healthcare
+H01410,Bengaluru Care Hospital 1410,Bengaluru,Specialty,1376,1200,150,,Yes,Yes,Yes,4.2,3.8,3.2,47,149,50,4.4,yes,Digital Patient Care
+H01411,Chennai Care Hospital 1411,Madurai,Specialty,1246,1608,136,Yes,NO,No,Yes,,3.8,4.6,41,94,81,3.8,No,Patient-Centric Care
+H01412,Pune Care Hospital 1412,Coimbatore,Specialty,1195,563,88,No,NO,No,Yes,2.8,2.2,3.3,55,188,,4.1,Yes,IoT Healthcare
+H01413,Madurai Care Hospital 1413,Bengaluru,Multispeciality,1386,625,98,No,,Yes,No,4.7,4.2,2.9,97,127,81,4.3,No,
+H01414,Chennai Care Hospital 1414,Madurai,Multispeciality,551,2127,117,YES,YES,Yes,Yes,2.2,3.9,,62,75,94,3.8,,Patient-Centric Care
+H01415,Chennai Care Hospital 1415,Pune,Government,1351,847,99,YES,No,No,No,,4.9,3,,112,68,4.8,,Smart Hospital
+H01416,Chennai Care Hospital 1416,Coimbatore,Multispeciality,637,181,,Yes,YES,No,Yes,4,2.8,4.8,62,152,92,4.6,YES,IoT Healthcare
+H01417,Jaipur Care Hospital 1417,Hyderabad,Government,631,570,113,No,YES,No,,4.5,4.7,,49,118,70,2.5,Yes,
+H01418,Bengaluru Care Hospital 1418,Pune,Multispeciality,1163,753,98,yes,NO,No,Yes,2.8,4.3,,77,201,100,,No,Smart Hospital
+H01419,Mumbai Care Hospital 1419,Pune,Private,159,256,68,No,No,,Yes,2.9,,5,84,208,,3.3,No,Digital Patient Care
+H01420,Bengaluru Care Hospital 1420,Kochi,,1283,166,,yes,YES,Yes,No,2.1,4.2,,83,212,76,2.4,No,Contactless Healthcare
+H01421,Hyderabad Care Hospital 1421,Hyderabad,,730,1678,27,No,No,No,Yes,2.5,2.1,3.6,87,62,73,2.1,No,Smart Hospital
+H01422,Bengaluru Care Hospital 1422,Madurai,Multispeciality,441,1451,108,,YES,No,No,3.7,4.2,4.2,88,76,94,2.5,No,
+H01423,Pune Care Hospital 1423,Delhi,Private,1441,1770,17,No,NO,,No,3.2,3.9,2.3,,28,98,2,No,Smart Hospital
+H01424,Mumbai Care Hospital 1424,Madurai,Private,1106,,116,Yes,No,,,4.2,3.4,2.7,32,134,68,,yes,
+H01425,Coimbatore Care Hospital 1425,Pune,Government,711,1409,97,yes,No,Yes,Yes,,2.7,3.4,,189,96,2.6,YES,
+H01426,Madurai Care Hospital 1426,Bengaluru,,754,,115,,Yes,Yes,No,2.3,2.8,,35,182,69,4.1,Yes,IoT Healthcare
+H01427,Madurai Care Hospital 1427,,Private,1358,264,50,No,NO,No,Yes,4.4,3.3,,42,200,,2.6,Yes,Digital Patient Care
+H01428,Hyderabad Care Hospital 1428,Coimbatore,Specialty,831,,,No,Yes,,No,3.5,,4.3,45,12,67,2.5,Yes,Patient-Centric Care
+H01429,Coimbatore Care Hospital 1429,Hyderabad,Multispeciality,212,933,76,YES,Yes,Yes,Yes,4.5,4.6,3.4,51,153,98,2.1,yes,IoT Healthcare
+H01430,Mumbai Care Hospital 1430,Hyderabad,Multispeciality,509,,60,No,,No,Yes,,4.7,,58,168,62,3.1,No,Contactless Healthcare
+H01431,Pune Care Hospital 1431,Kochi,Private,1266,715,42,YES,YES,No,Yes,3.9,2,,86,,95,4.1,YES,Contactless Healthcare
+H01432,Bengaluru Care Hospital 1432,Delhi,Multispeciality,,,23,yes,,Yes,,4.2,2.8,,45,115,,4.6,No,Patient-Centric Care
+H01433,Chennai Care Hospital 1433,Delhi,Multispeciality,97,1681,24,YES,Yes,Yes,Yes,3.4,2.1,3,76,,56,3.6,No,AI Healthcare
+H01434,Hyderabad Care Hospital 1434,,Government,1354,460,148,YES,No,No,No,4.3,3.1,4.6,76,47,83,2.3,yes,Green Hospital
+H01435,Madurai Care Hospital 1435,Mumbai,Private,,719,142,Yes,No,No,No,4.2,2.6,4.1,30,141,87,4.2,YES,Patient-Centric Care
+H01436,Madurai Care Hospital 1436,Kochi,Specialty,586,,29,No,YES,Yes,No,3.3,2.8,3.9,42,199,78,4.2,No,Enhanced Security
+H01437,Madurai Care Hospital 1437,Coimbatore,Private,1373,990,78,Yes,No,No,No,4.5,4.4,2.4,63,78,83,3.3,No,Enhanced Security
+H01438,Chennai Care Hospital 1438,Bengaluru,Specialty,452,2081,64,yes,YES,No,Yes,2.2,2.3,3.3,91,61,70,2,Yes,AI Healthcare
+H01439,Jaipur Care Hospital 1439,Coimbatore,Private,1124,1552,139,YES,YES,Yes,Yes,4.8,3.6,3.1,61,51,50,2.9,YES,IoT Healthcare
+H01440,Madurai Care Hospital 1440,Mumbai,Private,953,1439,,,Yes,Yes,Yes,3.8,2.4,5,53,204,65,2.7,Yes,
+H01441,Madurai Care Hospital 1441,Hyderabad,,1343,1945,66,Yes,YES,Yes,No,3.7,3.1,4.4,90,115,78,4.4,yes,Smart Hospital
+H01442,Pune Care Hospital 1442,Coimbatore,Government,588,2195,48,,,No,Yes,3.4,2.5,4.5,,131,50,,No,IoT Healthcare
+H01443,Bengaluru Care Hospital 1443,Delhi,Government,292,1706,98,Yes,No,No,Yes,2.2,2.3,,61,47,60,2.1,No,Digital Patient Care
+H01444,Mumbai Care Hospital 1444,Coimbatore,Multispeciality,,,59,yes,No,No,No,4.6,2.5,3.7,74,151,62,4.7,,AI Healthcare
+H01445,Hyderabad Care Hospital 1445,Pune,Multispeciality,943,1355,126,No,No,No,No,4.8,2.5,3.6,64,69,93,4.8,YES,Contactless Healthcare
+H01446,Chennai Care Hospital 1446,Jaipur,Government,871,1668,,No,YES,Yes,Yes,2.4,,2.7,89,,63,3.9,Yes,Patient-Centric Care
+H01447,Coimbatore Care Hospital 1447,Kochi,Government,,720,15,yes,No,Yes,No,2.8,3.4,3,,131,,5,No,Smart Hospital
+H01448,Delhi Care Hospital 1448,Coimbatore,Government,646,,139,yes,No,Yes,No,3.2,2.5,,37,132,89,3.1,,IoT Healthcare
+H01449,Coimbatore Care Hospital 1449,Hyderabad,Specialty,,1101,,YES,NO,No,Yes,3.6,3.3,4,95,105,68,2.5,No,IoT Healthcare
+H01450,Chennai Care Hospital 1450,Hyderabad,Specialty,436,392,130,Yes,NO,No,Yes,4.4,2,3.8,97,38,53,3.1,YES,Smart Hospital
+H01451,Hyderabad Care Hospital 1451,Chennai,Government,1468,588,,Yes,Yes,No,No,2.4,3.6,2.7,34,47,87,2.9,YES,
+H01452,Chennai Care Hospital 1452,Hyderabad,Specialty,1337,,29,YES,No,No,Yes,3.1,3.8,4.6,63,208,81,3.6,YES,Enhanced Security
+H01453,Madurai Care Hospital 1453,Delhi,,1266,1521,34,,YES,No,Yes,2.7,2.4,2.8,82,36,100,,Yes,IoT Healthcare
+H01454,Madurai Care Hospital 1454,Bengaluru,Private,1435,1642,51,No,,,No,2,4.6,2.3,86,146,54,2.7,YES,IoT Healthcare
+H01455,Chennai Care Hospital 1455,Hyderabad,Multispeciality,560,1087,79,,No,,,2,,2.4,,216,84,4.5,No,
+H01456,Chennai Care Hospital 1456,Coimbatore,Specialty,1140,763,68,yes,NO,,No,2.1,3.8,2.4,,110,76,2.6,No,AI Healthcare
+H01457,Hyderabad Care Hospital 1457,Delhi,Government,771,603,60,YES,NO,No,No,3.4,2.8,2.2,38,115,73,,Yes,Patient-Centric Care
+H01458,Kochi Care Hospital 1458,Pune,Private,1290,1225,,No,NO,Yes,No,3.2,3,3.7,37,153,95,3.1,No,Digital Patient Care
+H01459,Mumbai Care Hospital 1459,Coimbatore,Specialty,317,144,70,Yes,YES,Yes,No,2.7,2.7,4.5,90,170,86,,No,Digital Patient Care
+H01460,Bengaluru Care Hospital 1460,Jaipur,Government,1447,1376,88,No,NO,No,Yes,,4.6,2.3,39,58,91,2.8,YES,IoT Healthcare
+H01461,Pune Care Hospital 1461,Hyderabad,Specialty,196,1182,14,No,YES,Yes,Yes,4.1,4.5,3.5,52,52,87,3.9,No,Patient-Centric Care
+H01462,Pune Care Hospital 1462,Coimbatore,Multispeciality,519,2188,144,Yes,Yes,No,Yes,3.6,4.9,4.7,82,169,,4.5,Yes,Contactless Healthcare
+H01463,Hyderabad Care Hospital 1463,,Private,1403,1706,106,yes,NO,Yes,Yes,4.4,4.5,,67,215,79,2.5,yes,Enhanced Security
+H01464,Chennai Care Hospital 1464,Coimbatore,Government,486,353,114,Yes,NO,No,No,2.3,3.7,,55,13,54,4.6,Yes,Enhanced Security
+H01465,Delhi Care Hospital 1465,Bengaluru,Specialty,134,1933,118,Yes,Yes,,No,3.2,4.1,4.2,79,11,98,,yes,Digital Patient Care
+H01466,Delhi Care Hospital 1466,Delhi,Specialty,922,,79,Yes,No,No,No,2.9,,2.5,70,86,96,2.1,YES,Green Hospital
+H01467,Madurai Care Hospital 1467,Pune,,1340,1669,67,YES,No,No,Yes,3.4,3,3.4,56,10,,4,yes,Smart Hospital
+H01468,Mumbai Care Hospital 1468,Kochi,Government,1046,,114,Yes,,Yes,No,2.2,4.9,2.5,68,143,81,2.3,Yes,Smart Hospital
+H01469,Mumbai Care Hospital 1469,Pune,Specialty,645,381,77,Yes,Yes,Yes,No,2.9,4,2.7,76,166,89,4.2,YES,Smart Hospital
+H01470,Bengaluru Care Hospital 1470,Mumbai,Multispeciality,335,200,18,yes,NO,No,Yes,2.4,2.6,2.1,80,215,85,4.1,YES,AI Healthcare
+H01471,Bengaluru Care Hospital 1471,Bengaluru,,211,2113,75,YES,NO,Yes,No,4,2.6,3.2,78,44,53,2.5,YES,Green Hospital
+H01472,Hyderabad Care Hospital 1472,Pune,Private,685,1574,,yes,Yes,,No,4.2,3.3,3.8,83,125,66,3.1,Yes,AI Healthcare
+H01473,Kochi Care Hospital 1473,Mumbai,Government,324,,,yes,,No,Yes,3.6,3.7,4,69,132,90,3.5,No,IoT Healthcare
+H01474,Coimbatore Care Hospital 1474,Delhi,Multispeciality,,937,,yes,,No,Yes,2.3,3,3.3,32,180,82,4.1,Yes,IoT Healthcare
+H01475,Chennai Care Hospital 1475,Hyderabad,Private,1300,1685,23,,No,Yes,No,2.2,3,2.9,98,73,57,3.3,yes,AI Healthcare
+H01476,Coimbatore Care Hospital 1476,Mumbai,Private,,462,122,YES,YES,,No,3,,3,79,96,77,3.6,No,Contactless Healthcare
+H01477,Bengaluru Care Hospital 1477,Pune,Government,1067,120,26,Yes,NO,No,Yes,,2.5,4.1,54,192,93,4.2,,Green Hospital
+H01478,Mumbai Care Hospital 1478,Bengaluru,Specialty,899,1087,33,Yes,NO,Yes,No,4.2,4.7,3.9,80,65,55,4.1,No,Digital Patient Care
+H01479,Hyderabad Care Hospital 1479,,Specialty,1015,970,39,yes,No,No,Yes,2.2,3.5,3.4,81,114,,4.6,yes,Contactless Healthcare
+H01480,Bengaluru Care Hospital 1480,Coimbatore,Private,,860,90,Yes,,No,Yes,4,4.2,4.1,64,130,50,4.6,No,Contactless Healthcare
+H01481,Delhi Care Hospital 1481,Bengaluru,Government,1274,2083,68,Yes,No,No,No,4.6,3.5,3.5,42,181,97,4.7,No,Patient-Centric Care
+H01482,Bengaluru Care Hospital 1482,,Specialty,983,1199,119,YES,,No,Yes,3.3,,,31,136,,3,YES,Green Hospital
+H01483,Chennai Care Hospital 1483,Coimbatore,Multispeciality,339,234,110,yes,YES,Yes,Yes,4.7,4.9,3.5,38,58,,4.7,Yes,
+H01484,Pune Care Hospital 1484,Madurai,Private,530,884,144,No,YES,,Yes,3.5,,,83,209,,3.9,,IoT Healthcare
+H01485,Madurai Care Hospital 1485,Madurai,Government,243,541,113,YES,No,Yes,Yes,4.5,4.8,2.4,79,157,65,2.8,yes,Enhanced Security
+H01486,Madurai Care Hospital 1486,Kochi,,499,,141,YES,YES,No,Yes,4.1,,2.8,,180,68,4.9,yes,
+H01487,Jaipur Care Hospital 1487,Madurai,Government,1495,,13,Yes,Yes,No,Yes,4,2.6,2.8,50,105,96,3.8,YES,
+H01488,Jaipur Care Hospital 1488,Jaipur,Government,,857,117,YES,YES,Yes,No,,3.4,4.1,40,94,59,4.9,yes,Smart Hospital
+H01489,Pune Care Hospital 1489,Chennai,Government,1262,2071,34,No,Yes,Yes,Yes,2.6,4.4,2.8,77,173,91,3.2,No,Patient-Centric Care
+H01490,Mumbai Care Hospital 1490,Chennai,Multispeciality,195,,27,yes,Yes,Yes,No,4.5,2.7,3.8,,129,51,4.3,Yes,Digital Patient Care
+H01491,Hyderabad Care Hospital 1491,Mumbai,Specialty,411,218,93,YES,No,Yes,No,4.7,4.9,3.3,,109,87,2.9,No,Enhanced Security
+H01492,Chennai Care Hospital 1492,Hyderabad,Government,1261,389,85,No,NO,Yes,,2.2,3.4,,96,106,52,4.4,,Patient-Centric Care
+H01493,Mumbai Care Hospital 1493,Chennai,Multispeciality,968,2117,93,No,,Yes,Yes,2.2,2.5,4.5,90,123,62,3.8,yes,Enhanced Security
+H01494,Kochi Care Hospital 1494,Madurai,Multispeciality,1017,671,135,Yes,YES,Yes,No,3.6,2.1,4.8,49,,75,3.4,YES,Patient-Centric Care
+H01495,Mumbai Care Hospital 1495,Coimbatore,Government,370,962,,Yes,Yes,No,No,3,3.7,2.2,37,108,92,2.6,yes,Enhanced Security
+H01496,Bengaluru Care Hospital 1496,Madurai,Private,365,222,140,Yes,NO,No,Yes,2.1,2.3,3.3,93,,63,2.8,No,Contactless Healthcare
+H01497,Hyderabad Care Hospital 1497,Madurai,Government,1079,484,91,No,No,No,No,4.7,3.7,4.5,91,,77,2.9,,Digital Patient Care
+H01498,Kochi Care Hospital 1498,Pune,Multispeciality,1101,1045,,Yes,No,No,No,2.2,2.3,2.5,88,16,69,2.9,No,Contactless Healthcare
+H01499,Coimbatore Care Hospital 1499,Bengaluru,Multispeciality,,1268,112,YES,Yes,No,Yes,4.1,,3.6,86,37,59,4.7,YES,Patient-Centric Care
+H01500,Jaipur Care Hospital 1500,Mumbai,Specialty,1085,1325,21,yes,NO,Yes,Yes,4.7,3,4.5,62,182,99,4.9,YES,Green Hospital
+H01501,Mumbai Care Hospital 1501,Delhi,Private,,,120,Yes,Yes,Yes,No,4.6,,2,80,216,75,4.3,YES,Green Hospital
+H01502,Coimbatore Care Hospital 1502,Chennai,Multispeciality,829,1473,42,,No,No,Yes,2.2,2.9,3.7,,49,58,3.8,No,Contactless Healthcare
+H01503,Delhi Care Hospital 1503,Pune,Multispeciality,1188,222,106,yes,Yes,No,Yes,2.6,2.4,2.4,69,103,100,2.9,Yes,Green Hospital
+H01504,Coimbatore Care Hospital 1504,Jaipur,,389,754,59,YES,Yes,Yes,Yes,5,2.7,3,54,,57,3.5,yes,IoT Healthcare
+H01505,Mumbai Care Hospital 1505,Mumbai,Multispeciality,144,700,17,Yes,NO,Yes,Yes,2.6,4.4,3.8,,194,56,5,YES,Green Hospital
+H01506,Pune Care Hospital 1506,Chennai,Multispeciality,716,541,149,yes,YES,Yes,No,3.7,2.6,2.9,95,91,90,4.4,YES,Digital Patient Care
+H01507,Mumbai Care Hospital 1507,Delhi,Government,1492,355,50,No,,No,Yes,4.6,4.6,2.5,33,,69,4.7,YES,Smart Hospital
+H01508,Kochi Care Hospital 1508,Hyderabad,Specialty,666,1286,77,,Yes,No,No,2.7,3.7,3.9,45,131,67,2.1,No,Patient-Centric Care
+H01509,Delhi Care Hospital 1509,Kochi,Private,445,399,,No,NO,No,No,4.8,3.4,4.5,75,128,60,2.7,YES,IoT Healthcare
+H01510,Bengaluru Care Hospital 1510,Bengaluru,Government,793,1511,79,Yes,No,Yes,No,4.1,3.1,2.7,37,32,81,3,yes,Digital Patient Care
+H01511,Hyderabad Care Hospital 1511,Coimbatore,Specialty,,328,133,YES,Yes,Yes,Yes,3,4.4,4.8,35,24,65,4,No,Contactless Healthcare
+H01512,Bengaluru Care Hospital 1512,,Government,1367,833,,YES,YES,Yes,No,2.7,3.7,,53,159,90,,YES,
+H01513,Jaipur Care Hospital 1513,Delhi,,559,421,82,YES,NO,Yes,Yes,4.8,4.1,3.3,49,123,70,3.4,,AI Healthcare
+H01514,Kochi Care Hospital 1514,Bengaluru,Multispeciality,,2189,24,Yes,NO,,Yes,,2.5,4.8,67,37,94,2.1,Yes,Green Hospital
+H01515,Hyderabad Care Hospital 1515,Jaipur,Private,211,1289,93,YES,No,Yes,No,,4.8,3.5,64,,83,4.4,No,Patient-Centric Care
+H01516,Mumbai Care Hospital 1516,Hyderabad,,566,837,71,yes,NO,Yes,Yes,3.4,3.1,,56,152,56,3.3,yes,Smart Hospital
+H01517,Jaipur Care Hospital 1517,Delhi,Government,1313,1165,49,yes,YES,Yes,No,3.8,3.5,,66,93,83,3.5,No,AI Healthcare
+H01518,Chennai Care Hospital 1518,Mumbai,Government,1253,321,79,No,No,No,No,4.2,2.1,2.1,83,60,,2.7,YES,AI Healthcare
+H01519,Mumbai Care Hospital 1519,,Multispeciality,973,1550,67,yes,No,No,,2.9,2,4.6,52,46,94,3.9,No,Contactless Healthcare
+H01520,Pune Care Hospital 1520,,Private,631,1705,38,YES,NO,No,No,4.6,4.2,3.4,86,9,96,2.5,No,AI Healthcare
+H01521,Mumbai Care Hospital 1521,Jaipur,Multispeciality,1230,862,17,Yes,No,,,3.3,,3.3,80,112,63,3.8,,Green Hospital
+H01522,Delhi Care Hospital 1522,Jaipur,Specialty,,1109,58,YES,No,No,No,3.8,4.2,3.3,41,91,68,2.6,Yes,AI Healthcare
+H01523,Madurai Care Hospital 1523,Madurai,Specialty,1152,105,110,Yes,YES,Yes,No,3.2,4,3.7,,87,80,4.2,Yes,
+H01524,Madurai Care Hospital 1524,Madurai,Multispeciality,1268,399,150,YES,Yes,Yes,,2.6,,2.5,,21,82,2.3,No,Patient-Centric Care
+H01525,Chennai Care Hospital 1525,Coimbatore,Specialty,376,1355,97,Yes,Yes,Yes,No,3.4,4.7,4.9,41,31,66,2.1,,Smart Hospital
+H01526,Chennai Care Hospital 1526,Delhi,Government,834,769,,No,Yes,No,Yes,2.5,2.4,4.6,87,200,93,,No,Patient-Centric Care
+H01527,Coimbatore Care Hospital 1527,Hyderabad,Specialty,665,1932,100,No,,,No,3.8,4.3,3.2,92,137,56,2.1,No,Digital Patient Care
+H01528,Bengaluru Care Hospital 1528,Bengaluru,Multispeciality,467,1932,105,YES,No,No,Yes,4.6,3,2.3,30,168,100,4.5,yes,
+H01529,Madurai Care Hospital 1529,Delhi,Multispeciality,628,,31,YES,NO,Yes,Yes,4.7,4.7,4.2,56,,97,4.2,Yes,Patient-Centric Care
+H01530,Jaipur Care Hospital 1530,Pune,Specialty,,968,131,No,No,No,Yes,4.2,3.5,,89,37,,,Yes,AI Healthcare
+H01531,Coimbatore Care Hospital 1531,Jaipur,Multispeciality,,1942,55,yes,No,Yes,Yes,2.6,4.7,2.3,68,12,81,3.6,Yes,
+H01532,Pune Care Hospital 1532,Madurai,Private,467,1445,118,,YES,No,No,5,2.3,4.2,34,153,90,4.5,yes,AI Healthcare
+H01533,Pune Care Hospital 1533,Jaipur,Specialty,543,,137,YES,No,Yes,,4.9,2.4,3.7,92,146,51,3.7,Yes,Patient-Centric Care
+H01534,Chennai Care Hospital 1534,Madurai,Specialty,895,59,90,No,YES,No,No,3.2,3.2,2.7,45,188,,2.8,yes,IoT Healthcare
+H01535,Chennai Care Hospital 1535,Hyderabad,Specialty,978,461,111,YES,No,Yes,Yes,2.5,3.1,5,89,106,60,3.9,yes,Green Hospital
+H01536,Pune Care Hospital 1536,Coimbatore,Multispeciality,111,1666,10,Yes,Yes,Yes,Yes,2.1,3,3.3,82,161,74,4.7,YES,Enhanced Security
+H01537,Chennai Care Hospital 1537,Madurai,Government,1350,646,92,YES,NO,Yes,Yes,4.6,,3.7,42,66,90,4.5,,Green Hospital
+H01538,Hyderabad Care Hospital 1538,Bengaluru,Multispeciality,1368,1107,117,YES,YES,No,Yes,4.9,4.7,3.3,94,48,65,4.9,YES,
+H01539,Mumbai Care Hospital 1539,Madurai,Government,172,973,78,yes,No,No,No,3.2,2.7,2,40,191,59,4.2,Yes,Contactless Healthcare
+H01540,Kochi Care Hospital 1540,Madurai,Private,938,159,150,No,No,Yes,No,4.3,2.1,,87,196,77,2.4,yes,Digital Patient Care
+H01541,Kochi Care Hospital 1541,Mumbai,Private,,1821,12,No,YES,No,No,4.2,3.7,2.3,81,165,,3.6,No,Digital Patient Care
+H01542,Delhi Care Hospital 1542,Jaipur,Multispeciality,815,1169,72,No,No,Yes,Yes,4.5,3.9,4.6,81,214,68,5,No,IoT Healthcare
+H01543,Pune Care Hospital 1543,,Government,1160,831,31,YES,No,No,Yes,2.4,3.9,3.3,80,45,,3.4,Yes,Enhanced Security
+H01544,Hyderabad Care Hospital 1544,Kochi,Specialty,232,391,24,No,NO,No,No,4.8,2.7,2.4,39,37,89,4.9,,Contactless Healthcare
+H01545,Mumbai Care Hospital 1545,Chennai,Multispeciality,1260,1664,38,,No,No,No,4.9,2.8,,97,62,98,4.1,No,IoT Healthcare
+H01546,Pune Care Hospital 1546,Chennai,Multispeciality,,1989,100,YES,Yes,No,No,,4.6,2.6,88,57,61,2.3,Yes,Smart Hospital
+H01547,Jaipur Care Hospital 1547,Madurai,Specialty,364,1697,,Yes,YES,No,Yes,4.9,4.1,2.9,54,161,78,3,Yes,Smart Hospital
+H01548,Bengaluru Care Hospital 1548,Jaipur,,,118,59,Yes,No,Yes,No,4.9,2.2,2.5,74,202,97,2.8,Yes,Digital Patient Care
+H01549,Madurai Care Hospital 1549,Jaipur,Specialty,1459,826,67,Yes,No,No,No,2.7,3.4,4.6,33,219,76,4.7,No,Smart Hospital
+H01550,Delhi Care Hospital 1550,Coimbatore,Specialty,147,,128,yes,Yes,Yes,No,4.8,3.9,5,43,48,,2.7,YES,
+H01551,Mumbai Care Hospital 1551,Hyderabad,Private,1009,1209,126,YES,No,No,No,2.5,,4.3,53,132,67,4.1,Yes,Enhanced Security
+H01552,Chennai Care Hospital 1552,Jaipur,Multispeciality,968,1979,98,YES,Yes,Yes,Yes,4.6,2.1,3.6,52,101,53,3.4,Yes,Patient-Centric Care
+H01553,Kochi Care Hospital 1553,Hyderabad,Private,927,1915,,Yes,Yes,Yes,No,,2.2,2.4,86,181,51,4.5,YES,Patient-Centric Care
+H01554,Delhi Care Hospital 1554,Madurai,Specialty,1377,119,44,Yes,NO,Yes,,2.3,3.3,2.7,65,207,,,yes,Green Hospital
+H01555,Hyderabad Care Hospital 1555,Hyderabad,,961,1868,34,yes,NO,No,No,3.9,4.4,4.4,75,12,93,4.5,Yes,Enhanced Security
+H01556,Jaipur Care Hospital 1556,Pune,Private,1214,207,10,yes,No,No,No,4,3.6,,91,219,,3.7,yes,Contactless Healthcare
+H01557,Mumbai Care Hospital 1557,Chennai,Multispeciality,1198,509,119,Yes,Yes,No,Yes,4.7,4.2,3.7,43,105,50,2.9,yes,Smart Hospital
+H01558,Pune Care Hospital 1558,Jaipur,Multispeciality,741,,59,YES,,Yes,,4.9,,3.2,43,127,74,2.4,YES,Smart Hospital
+H01559,Chennai Care Hospital 1559,Madurai,Multispeciality,810,1918,10,No,NO,No,Yes,2,,5,69,73,76,3.1,YES,Green Hospital
+H01560,Delhi Care Hospital 1560,Madurai,Specialty,539,474,131,yes,No,No,,3.8,2.2,2.5,70,203,68,4.8,yes,Patient-Centric Care
+H01561,Mumbai Care Hospital 1561,Mumbai,Specialty,398,2169,52,,YES,Yes,No,2.8,2.8,,60,26,95,2.1,yes,IoT Healthcare
+H01562,Coimbatore Care Hospital 1562,Mumbai,Specialty,924,2169,124,YES,NO,Yes,Yes,,3.7,3.1,74,70,57,,YES,Digital Patient Care
+H01563,Delhi Care Hospital 1563,Bengaluru,Specialty,1345,2188,35,yes,Yes,No,No,,4.5,2.6,,,93,3.8,yes,
+H01564,Chennai Care Hospital 1564,Mumbai,Government,1418,1292,110,Yes,NO,No,,4.9,3.2,2.7,57,165,65,4.4,yes,Contactless Healthcare
+H01565,Kochi Care Hospital 1565,Kochi,Government,552,220,14,,,Yes,,,2.3,3.4,58,54,60,3.5,yes,
+H01566,Mumbai Care Hospital 1566,Coimbatore,Government,646,1208,147,yes,No,Yes,Yes,4.2,2.6,3.3,90,175,62,3.6,YES,Contactless Healthcare
+H01567,Madurai Care Hospital 1567,Chennai,Government,,2060,82,yes,NO,Yes,Yes,2.8,4.5,3.6,32,92,95,4.2,Yes,Enhanced Security
+H01568,Madurai Care Hospital 1568,Jaipur,Specialty,1217,125,15,Yes,,No,No,3.1,,4.3,85,36,95,2.2,YES,Green Hospital
+H01569,Jaipur Care Hospital 1569,Bengaluru,Specialty,1041,1937,35,No,No,Yes,No,3.5,2.4,4.3,99,209,65,4.4,Yes,Smart Hospital
+H01570,Hyderabad Care Hospital 1570,Coimbatore,Multispeciality,1354,1993,,No,,No,,2.4,2,3.5,67,116,,2.7,yes,Contactless Healthcare
+H01571,Kochi Care Hospital 1571,Mumbai,Multispeciality,184,789,46,yes,YES,Yes,Yes,2.8,,4.2,53,61,83,3.1,yes,Green Hospital
+H01572,Jaipur Care Hospital 1572,Chennai,Multispeciality,1433,478,94,YES,No,No,Yes,4.3,4.6,4.2,69,164,55,4,yes,Enhanced Security
+H01573,Chennai Care Hospital 1573,Delhi,Specialty,212,714,111,yes,NO,No,Yes,3.8,,3.6,83,106,95,3,Yes,IoT Healthcare
+H01574,Coimbatore Care Hospital 1574,Madurai,Government,789,555,17,Yes,No,No,Yes,4,3.4,,91,99,83,,YES,Green Hospital
+H01575,Chennai Care Hospital 1575,Coimbatore,Government,1295,1156,97,YES,,No,No,3.4,4.5,3.9,80,214,51,2.3,No,Patient-Centric Care
+H01576,Jaipur Care Hospital 1576,Coimbatore,Private,,,75,YES,Yes,No,Yes,2.5,,,50,135,65,4.7,YES,Enhanced Security
+H01577,Delhi Care Hospital 1577,Mumbai,Private,319,1007,36,Yes,No,No,Yes,4.8,4.8,2.7,66,159,66,4.2,No,Patient-Centric Care
+H01578,Kochi Care Hospital 1578,Delhi,Private,405,,44,yes,YES,Yes,Yes,3.8,,3.8,34,33,90,2.3,No,AI Healthcare
+H01579,Chennai Care Hospital 1579,Delhi,Private,416,,34,No,Yes,Yes,Yes,2.9,3.3,2.6,91,116,,4.4,yes,Green Hospital
+H01580,Delhi Care Hospital 1580,Madurai,Specialty,1219,2128,,No,No,Yes,Yes,2.9,3.2,,33,161,77,3.5,No,Patient-Centric Care
+H01581,Pune Care Hospital 1581,Mumbai,Multispeciality,1275,,69,,Yes,Yes,No,3.5,3,3.4,98,7,,4.4,yes,AI Healthcare
+H01582,Jaipur Care Hospital 1582,Hyderabad,Multispeciality,466,1500,90,YES,Yes,No,Yes,3,4.5,,78,162,,3.8,Yes,IoT Healthcare
+H01583,Kochi Care Hospital 1583,Delhi,Private,423,1479,150,No,NO,No,No,3.2,4,2.5,,212,100,,,Digital Patient Care
+H01584,Pune Care Hospital 1584,Coimbatore,Multispeciality,335,2182,16,yes,No,No,Yes,2.2,3.3,4.5,33,55,76,3.3,yes,AI Healthcare
+H01585,Pune Care Hospital 1585,,Multispeciality,229,653,59,Yes,No,Yes,Yes,2.9,3.6,2.9,87,111,86,3.3,YES,AI Healthcare
+H01586,Hyderabad Care Hospital 1586,Bengaluru,Specialty,965,1349,6,Yes,NO,,Yes,,3.2,2.5,77,167,50,2.3,No,Contactless Healthcare
+H01587,Coimbatore Care Hospital 1587,Madurai,,758,856,110,YES,YES,No,Yes,,3.9,2,40,144,76,3.1,No,Contactless Healthcare
+H01588,Chennai Care Hospital 1588,Chennai,Government,1321,,144,yes,Yes,No,,3.4,2.3,2.4,70,191,,2.7,Yes,Enhanced Security
+H01589,Madurai Care Hospital 1589,Pune,Multispeciality,1013,1347,52,Yes,NO,Yes,No,,3.5,3.5,,202,81,2.4,No,AI Healthcare
+H01590,Madurai Care Hospital 1590,Pune,Specialty,1069,682,17,,,Yes,Yes,4.7,4.8,3.9,35,171,50,3.8,,Digital Patient Care
+H01591,Pune Care Hospital 1591,,Government,801,1863,61,No,No,Yes,Yes,3.8,2.8,2.6,35,126,59,2.2,No,Enhanced Security
+H01592,Delhi Care Hospital 1592,,Multispeciality,1330,960,55,No,,No,No,,3.4,,99,,58,,yes,Patient-Centric Care
+H01593,Mumbai Care Hospital 1593,Coimbatore,Private,1484,2024,98,,YES,No,Yes,4.4,4.5,,88,120,81,3.5,No,AI Healthcare
+H01594,Delhi Care Hospital 1594,Hyderabad,,771,1290,36,Yes,NO,No,Yes,4,2,4.7,65,203,81,4,Yes,Patient-Centric Care
+H01595,Madurai Care Hospital 1595,Hyderabad,Government,596,696,10,,No,No,Yes,3.5,,2.6,42,18,,2.4,No,AI Healthcare
+H01596,Mumbai Care Hospital 1596,Madurai,Private,787,150,46,yes,Yes,Yes,No,2.8,2.9,4.1,52,172,,2.6,YES,Digital Patient Care
+H01597,Chennai Care Hospital 1597,Coimbatore,Multispeciality,740,498,117,YES,Yes,Yes,Yes,3.7,3.3,3.9,,105,78,4.4,YES,AI Healthcare
+H01598,Mumbai Care Hospital 1598,Pune,Specialty,,1034,74,yes,NO,No,,2.2,2.3,4.3,77,,100,3.9,,Digital Patient Care
+H01599,Jaipur Care Hospital 1599,Delhi,Multispeciality,414,256,77,yes,No,,Yes,4.8,2.1,3,59,126,85,2.1,yes,Enhanced Security
+H01600,Chennai Care Hospital 1600,,Government,798,1125,13,yes,Yes,No,No,4.7,3.8,4.1,84,75,50,,,Patient-Centric Care
